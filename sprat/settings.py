@@ -26,7 +26,13 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['*', '.sprat']
+# ALLOWED_HOSTS = ['127.0.0.1', '.sprat']
+
+ALLOWED_HOSTS = [
+    # '127.0.0.1',  # Localhost
+    '.vercel.app' , # Localhost
+    '0.0.0.0',    # 
+]
 
 
 # Application definition
