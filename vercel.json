@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "sprat/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "sprat/wsgi.py"
+      }
+    ]
+  }
