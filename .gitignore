@@ -1,0 +1,14 @@
+# macOS system file
+.DS_Store
+
+# Python virtual environment
+venv/
+
+# secret
+.env
+
+# BFG Repo-Cleaner jar file
+bfg-1.14.0.jar
+
+# BFG Repo-Cleaner report directory
+sprat.git.bfg-report/
