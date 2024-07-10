@@ -12,3 +12,6 @@ bfg-1.14.0.jar
 
 # BFG Repo-Cleaner report directory
 sprat.git.bfg-report/
+
+# Git mirror repository
+sprat.git/
