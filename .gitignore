@@ -15,3 +15,10 @@ sprat.git.bfg-report/
 
 # Git mirror repository
 sprat.git/
+
+
+# Django SQLite database
+db.sqlite3
+
+# Python bytecode cache
+sprat/__pycache__/
