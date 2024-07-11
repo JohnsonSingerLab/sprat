@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',  # Localhost
     '.vercel.app',  # Vercel deployment
     '0.0.0.0',    # Allows access from any IP address
+    'www.sprat.com'
 ]
 
 
