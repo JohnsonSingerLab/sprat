@@ -29,8 +29,8 @@ DEBUG = config('DEBUG', cast=bool)
 # ALLOWED_HOSTS = ['127.0.0.1', '.sprat']
 
 ALLOWED_HOSTS = [
-    # '127.0.0.1',  # Localhost
-    '.vercel.app' , # Localhost
+    '127.0.0.1',  # Localhost
+    '.vercel.app'  # Localhost
     '0.0.0.0',    # 
 ]
 
