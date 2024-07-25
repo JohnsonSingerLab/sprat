@@ -8,3 +8,4 @@ urlpatterns = [
     # path('', index),
      path('', views.index, name='index'),
 ]
+
