@@ -443,7 +443,7 @@
 	<!-- modified for loading files on the server side -->
 	$("#select-files").change(async function(e) {
 		let nwkFileName = this.value.concat(".nwk");
-		let txtFileName = this.value.concat(".txt");
+		let txtFileName = this.value.concat(".tsv");
 		await loadServerFiles(nwkFileName);
 		await loadServerFiles(txtFileName);
 		
