@@ -1,11 +1,8 @@
-# example/urls.py
+# tool/urls.py
 from django.urls import path
-# from tool.views import index
-from . import views
-
+from .views import grapetree_view
 
 urlpatterns = [
-    # path('', index),
-     path('', views.index, name='index'),
+    path('', grapetree_view, name='grapetree'),
+    # Add other tool-specific views here
 ]
-

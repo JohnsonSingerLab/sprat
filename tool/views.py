@@ -1,8 +1,16 @@
-# example/views.py
-from django.http import HttpResponse
+# tool/views.py
+from django.shortcuts import render
 
-def index(request):
-    return HttpResponse("Hello, World!")
+def grapetree_view(request):
+    return render(request, 'grapetree.html')
+
+
+
+# from django.http import HttpResponse
+
+# def index(request):
+#     return HttpResponse("Hello, World!")
+    
 
 
 # from datetime import datetime
