@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Exit on error
+# Exit on error: the script will terminate if any command exits with a non-zero status
 set -o errexit
 
-# Modify this line as needed for your package manager (pip, poetry, etc.)
+# Install the necessary dependencies listed in requirements.txt using pip.
 pip install -r requirements.txt
 
 # Convert static asset files
