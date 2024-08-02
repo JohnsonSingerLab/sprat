@@ -22,3 +22,9 @@ db.sqlite3
 
 # Python bytecode cache
 sprat/__pycache__/
+
+
+env/
+staticfiles/
+tool/__pycache__/
+tool/migrations/__pycache__/
