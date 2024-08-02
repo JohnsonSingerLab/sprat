@@ -113,9 +113,32 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-# ================
+
 
 # Static files settings
+# STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# if not DEBUG:
+#     STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+# else:
+#     STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
+# # Directory where static files are located
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),
+# ]
+
+# # Media files settings (moved to static directory)
+# MEDIA_URL = '/static/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
+
+
+
+
+# ================
+
+# # Static files settings
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
@@ -126,8 +149,8 @@ else:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Media files settings
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_URL = '/static/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
 
 
 # ===========
