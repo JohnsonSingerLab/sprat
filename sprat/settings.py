@@ -122,7 +122,8 @@ STATICFILES_DIRS = [
 # This production code might break development mode, so we check whether we're in DEBUG mode
 if not DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 else:
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
