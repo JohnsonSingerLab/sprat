@@ -451,7 +451,7 @@
 	
 	// New function for loading the files
 	async function loadServerFiles(filename){               
-		let filesPath = 'media/'+filename;
+		let filesPath = '/static/media/'+filename;
 		let response = await fetch(filesPath);
 
  		if(response.status != 200) {
