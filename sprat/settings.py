@@ -137,10 +137,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # # https://docs.djangoproject.com/en/5.0/howto/static-files/
 # STATIC_URL = '/static/'
 
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'tool/static'),
-#     # Other directories if necessary
-# ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'tool/static'),
+    # Other directories if necessary
+]
 
 # # This production code might break development mode, so we check whether we're in DEBUG mode
 # if not DEBUG:
