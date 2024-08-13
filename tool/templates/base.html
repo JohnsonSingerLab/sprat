@@ -36,56 +36,64 @@
 <link rel="stylesheet" href="{% static 'js/spectrum/spectrum.css' %}" type="text/css"/>
 
 
-<!-- <div id ='information-div' class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content modal-sm">
-      <div id ="modal-header" class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <p align='center'><img id ='waiting-image'style = 'display:none' src= 'static/js/img/ms_failed_1.png'></img></p>
-	<span id = 'modal-title'></span>
-      </div>
-      <div class="modal-body">
-        <p id ='waiting-information'></p>
-		<div  id ='param-panel' style = 'display:none'>
-		   <label>Method</label>
-		   <select id ='method-select'>
-                           <option class='show-tooltip' title='NINJA is a scalable alternative to Neighbor-Joining algorithm' value='ninja'>NINJA NJ</option>
-			   <option class='show-tooltip' title='MSTreeV2 uses a directed graph to handle missing data' value='MSTreeV2'>MSTreeV2</option>
-			   <option class='show-tooltip' title='A traditional Minimum spanning tree + eBurst weighting' value='MSTree'>MSTree</option>
-			   <option class='show-tooltip' title='A standard Neighbor-Joining algorithm implemented in FastME V2.0' value='NJ'>Standard Neighbour Joining</option>
-			   <option class='show-tooltip' title='Rapid Neighbour Joining for very large datasets' value='RapidNJ'>RapidNJ</option>
-		   </select>
-		   <label><input id ='check-memory' type="checkbox" checked /> Check memory usage</label>
-	   </div>
-      </div>
-      <div class="modal-footer">
-        <button id ="modal-ok-button" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div><!-- /.modal-content -->
-  <!-- </div>/.modal-dialog -->
-  <script charset="utf-8">
-  	$("#modal-ok-button").click(function(e){
-		var profile_file =  $(this).data("profile_file")
-		if (profile_file){
-			processProfileFile(profile_file);
-			$(this).data("profile_file",null);
-			$("#modal-ok-button").html("Close");
-			$("#param-panel").hide();
-			e.stopImmediatePropagation();
-			$("#modal-title").hide();
-			showWaitingDialog("Processing Profiles");
-		}
-	});
+<!-- information divs  -->
+<div id = 'welcome-div' style='background:white;padding:10px'>
+	<span id= 'welcome-div-close' class="glyphicon glyphicon-remove" style="float:right;margin-right:5px;zoom:1.5;display:none" onclick="$('#welcome-div').hide()"></span>
+	<div id='welcome-div-text'>
+	</div>
+	</div>
+	
+	<div id ='information-div' class="modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content modal-sm">
+		  <div id ="modal-header" class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<p align='center'><img id ='waiting-image'style = 'display:none' src= 'static/js/img/ms_failed_1.png'></img></p>
+		<span id = 'modal-title'></span>
+		  </div>
+		  <div class="modal-body">
+			<p id ='waiting-information'></p>
+			<div  id ='param-panel' style = 'display:none'>
+			   <label>Method</label>
+			   <select id ='method-select'>
+							   <option class='show-tooltip' title='NINJA is a scalable alternative to Neighbor-Joining algorithm' value='ninja'>NINJA NJ</option>
+				   <option class='show-tooltip' title='MSTreeV2 uses a directed graph to handle missing data' value='MSTreeV2'>MSTreeV2</option>
+				   <option class='show-tooltip' title='A traditional Minimum spanning tree + eBurst weighting' value='MSTree'>MSTree</option>
+				   <option class='show-tooltip' title='A standard Neighbor-Joining algorithm implemented in FastME V2.0' value='NJ'>Standard Neighbour Joining</option>
+				   <option class='show-tooltip' title='Rapid Neighbour Joining for very large datasets' value='RapidNJ'>RapidNJ</option>
+			   </select>
+			   <label><input id ='check-memory' type="checkbox" checked /> Check memory usage</label>
+		   </div>
+		  </div>
+		  <div class="modal-footer">
+			<button id ="modal-ok-button" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
 
-	$("#method-select").change(function(e) {
-		if ($(this).val() == "MSTree") $("#MST-option").show();
-		else $("#MST-option").hide();
-	});
+    <script charset="utf-8">
+        $("#modal-ok-button").click(function(e){
+            var profile_file =  $(this).data("profile_file")
+            if (profile_file){
+                processProfileFile(profile_file);
+                $(this).data("profile_file",null);
+                $("#modal-ok-button").html("Close");
+                $("#param-panel").hide();
+                e.stopImmediatePropagation();
+                $("#modal-title").hide();
+                showWaitingDialog("Processing Profiles");
+            }
+        });
 
-	$("#matrix-select").change(function(e) {
-		if ($(this).val() == "symmetric") $("#symmetric-option").show();
-		else $("#symmetric-option").hide();
-	});
+        $("#method-select").change(function(e) {
+            if ($(this).val() == "MSTree") $("#MST-option").show();
+            else $("#MST-option").hide();
+        });
+
+        $("#matrix-select").change(function(e) {
+            if ($(this).val() == "symmetric") $("#symmetric-option").show();
+            else $("#symmetric-option").hide();
+        });
   </script>
 </div><!-- /.modal -->
 
