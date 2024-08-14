@@ -4,6 +4,9 @@ from django.shortcuts import render
 def grapetree_view(request):
     return render(request, 'grapetree.html')
 
+def index_view(request):
+    return render(request, 'index.html')
+
 
 
 # from django.http import HttpResponse
