@@ -4,121 +4,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="{% static 'js/jquery-ui-1.11.4/jquery-ui.min.css' %}">
-
-
-
-	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-	<link rel="stylesheet" href="{% static 'css/grapetree.css' %}">
-
-</head> 
+	<link rel="stylesheet" href='static/js/jquery-ui-1.11.4/jquery-ui.min.css'>
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/grapetree.css">
+</head>
 <body>
-<!--metadata div--><link rel="stylesheet" href="{% static 'js/SlickGrid/slick.grid.css' %}" type="text/css"/>
-<link rel="stylesheet" href="{% static 'js/SlickGrid/examples/examples.css' %}" type="text/css"/>
+<!--metadata div-->
+<link rel="stylesheet" href="static/js/SlickGrid/slick.grid.css" type="text/css"/>
+<link rel="stylesheet" href="static/js/SlickGrid/examples/examples.css" type="text/css"/>
 
-<script src="{% static 'js/SlickGrid/lib/firebugx.js' %}"></script>
-<script src="{% static 'js/SlickGrid/lib/jquery-1.11.2.min.js' %}"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="{% static 'js/SlickGrid/lib/jquery-ui-1.11.3.min.js' %}"></script>
-<script src="{% static 'js/SlickGrid/lib/jquery.event.drag-2.3.0.js' %}"></script>
-<script src="{% static 'js/SlickGrid/slick.core.js' %}"></script>
-<script src="{% static 'js/SlickGrid/plugins/slick.cellrangedecorator.js' %}"></script>
-<script src="{% static 'js/SlickGrid/plugins/slick.cellrangeselector.js' %}"></script>
-<script src="{% static 'js/SlickGrid/plugins/slick.cellselectionmodel.js' %}"></script>
-<script src="{% static 'js/SlickGrid/slick.formatters.js' %}"></script>
-<script src="{% static 'js/SlickGrid/slick.editors.js' %}"></script>
-<script src="{% static 'js/SlickGrid/slick.grid.js' %}"></script>
-<script src="{% static 'js/SlickGrid/slick.dataview.js' %}"></script>
-<script src="{% static 'js/tree/context.js' %}?version=0.1.8"></script>
-<script src="{% static 'js/tree/grid.js' %}?version=0.1.8"></script>
-<script src="{% static 'js/tree/help.js' %}?version=0.1.8"></script>
-<script src="{% static 'js/spectrum/spectrum.min.js' %}"></script>
-<link rel="stylesheet" href="{% static 'js/spectrum/spectrum.css' %}" type="text/css"/>
-
-
-<!-- information divs  -->
-<div id = 'welcome-div' style='background:white;padding:10px'>
-	<span id= 'welcome-div-close' class="glyphicon glyphicon-remove" style="float:right;margin-right:5px;zoom:1.5;display:none" onclick="$('#welcome-div').hide()"></span>
-	<div id='welcome-div-text'>
-	</div>
-	</div>
-	
-	<div id ='information-div' class="modal fade" tabindex="-1" role="dialog">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content modal-sm">
-		  <div id ="modal-header" class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<p align='center'><img id ='waiting-image'style = 'display:none' src= 'static/js/img/ms_failed_1.png'></img></p>
-		<span id = 'modal-title'></span>
-		  </div>
-		  <div class="modal-body">
-			<p id ='waiting-information'></p>
-			<div  id ='param-panel' style = 'display:none'>
-			   <label>Method</label>
-			   <select id ='method-select'>
-							   <option class='show-tooltip' title='NINJA is a scalable alternative to Neighbor-Joining algorithm' value='ninja'>NINJA NJ</option>
-				   <option class='show-tooltip' title='MSTreeV2 uses a directed graph to handle missing data' value='MSTreeV2'>MSTreeV2</option>
-				   <option class='show-tooltip' title='A traditional Minimum spanning tree + eBurst weighting' value='MSTree'>MSTree</option>
-				   <option class='show-tooltip' title='A standard Neighbor-Joining algorithm implemented in FastME V2.0' value='NJ'>Standard Neighbour Joining</option>
-				   <option class='show-tooltip' title='Rapid Neighbour Joining for very large datasets' value='RapidNJ'>RapidNJ</option>
-			   </select>
-			   <label><input id ='check-memory' type="checkbox" checked /> Check memory usage</label>
-		   </div>
-		  </div>
-		  <div class="modal-footer">
-			<button id ="modal-ok-button" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		  </div>
-		</div><!-- /.modal-content -->
-	  </div><!-- /.modal-dialog -->
-
-    <script charset="utf-8">
-        $("#modal-ok-button").click(function(e){
-            var profile_file =  $(this).data("profile_file")
-            if (profile_file){
-                processProfileFile(profile_file);
-                $(this).data("profile_file",null);
-                $("#modal-ok-button").html("Close");
-                $("#param-panel").hide();
-                e.stopImmediatePropagation();
-                $("#modal-title").hide();
-                showWaitingDialog("Processing Profiles");
-            }
-        });
-
-        $("#method-select").change(function(e) {
-            if ($(this).val() == "MSTree") $("#MST-option").show();
-            else $("#MST-option").hide();
-        });
-
-        $("#matrix-select").change(function(e) {
-            if ($(this).val() == "symmetric") $("#symmetric-option").show();
-            else $("#symmetric-option").hide();
-        });
-  </script>
-</div><!-- /.modal -->
-
-
-<!-- START OF HEADER -->
-<!-- <div id="header" class="container-fluid">
-    <div class="row align-items-center">
-        <div id="logo" class="col-auto">
-            <a title="salmonella typhi icons" href="https://www.flaticon.com/free-icons/salmonella-typhi" target='_blank'>
-                <img src="{% static 'js/img/logo2.png' %}" alt="SPRAT" style="width:153px;height:135px;transform: rotate(45deg);">
-            </a>
-        </div>
-        <div id="SPRAT" class="col">
-            <h1 id="h1-header"><a href="{% url 'index' %}"> SPRAT </a></h1>
-            <h3 class="d-inline"><i>Salmonella</i> Predictive Risk Assessment Tool</h3>
-        </div>
-        <div id="menu" class="col-auto">
-            <a href="#">About</a>
-            <a href="#">Help</a>
-            <a href="#">Cite Us</a>
-            <p>Hosted by University of Minnesota</p>
-        </div>
-    </div>
-</div> -->
-<!-- END OF HEADER -->
+<script src="static/js/SlickGrid/lib/firebugx.js"></script>
+<script src="static/js/SlickGrid/lib/jquery-1.11.2.min.js"></script>
+<script src="static/js/SlickGrid/lib/jquery-ui-1.11.3.min.js"></script>
+<script src="static/js/SlickGrid/lib/jquery.event.drag-2.3.0.js"></script>
+<script src="static/js/SlickGrid/slick.core.js"></script>
+<script src="static/js/SlickGrid/plugins/slick.cellrangedecorator.js"></script>
+<script src="static/js/SlickGrid/plugins/slick.cellrangeselector.js"></script>
+<script src="static/js/SlickGrid/plugins/slick.cellselectionmodel.js"></script>
+<script src="static/js/SlickGrid/slick.formatters.js"></script>
+<script src="static/js/SlickGrid/slick.editors.js"></script>
+<script src="static/js/SlickGrid/slick.grid.js"></script>
+<script src="static/js/SlickGrid/slick.dataview.js"></script>
+<script src= "static/js/tree/context.js?version=0.1.8"></script>
+<script src="static/js/tree/grid.js?version=0.1.8"></script>
+<script src="static/js/tree/help.js?version=0.1.8"></script>
+<script src="static/js/spectrum/spectrum.min.js"></script>
+<link rel="stylesheet" href="static/js/spectrum/spectrum.css" type="text/css"/>
 
 
 <!-- START OF HEADER -->
@@ -128,7 +39,7 @@
 			<img src="{% static 'js/img/logo2.png' %}" alt="SPRAT" style="width:153px;height:135px;transform: rotate(45deg);"></a>
 	</div>
 	<div id="SPRAT">
-		<h1 id="h1-header"><a href="{% url 'index' %}"> SPRAT </a></h1>
+		<h1 id="h1-header"> SPRAT </a></h1>
 		<h3><i> Salmonella</i> Predictive Risk Assessment Tool</h3>
 	</div>	
 	<div id="menu" class="col-auto"> 
@@ -143,26 +54,16 @@
 <!-- START OF MENU LINE -->
 <div id="menu-line">
     <nav>
-        <a href="{% url 'feature_Summary' %}"> Genetic Feature Prevalence </a>
-        <a href="{% url 'isolates_Summary' %}">Isolate Search</a>
-		<a href="{% url 'grapetree_view' %}"> Grapetree</a>
-		<a href="{% url 'dashboard' %}"> dashboard_view</a>
+       
     </nav>
 </div>
 <!-- END OF MENU LINE -->
 
 <div>
     <!-- Content block, to be overridden by child templates -->
-    {% block content %}{% endblock %}
+    {% block content %}
+    {% endblock %}
 </div>
-
-<script src="{% static 'js/main/bootstrap.min.js' %}"></script>
-<script charset="utf-8" src="{% static 'js/main/d3.min.js' %}"></script>
-<script charset="utf-8" src="{% static 'js/main/spin.min.js' %}"></script>
-<script charset="utf-8" src="{% static 'js/tree/base_tree.js' %}?version=0.1.8"></script>
-<script charset="utf-8" src="{% static 'js/tree/d3_m_tree.js' %}?version=0.1.8"></script>
-<script charset="utf-8" src="{% static 'js/tree/grapetree_fileHandler.js' %}?version=0.1.8"></script>
-<script> var tree_id = null</script>
 
 
 </body>
