@@ -4,32 +4,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href='static/js/jquery-ui-1.11.4/jquery-ui.min.css'>
-	<link rel="stylesheet" href="static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="static/css/grapetree.css">
+	<!-- <link rel="stylesheet" href='static/js/jquery-ui-1.11.4/jquery-ui.min.css'> -->
+	<!-- <link rel="stylesheet" href="static/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="static/css/grapetree.css"> -->
+	<link rel="stylesheet" href="{% static 'js/jquery-ui-1.11.4/jquery-ui.min.css' %}">
+
+
+
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/grapetree.css' %}">
+
+
 </head>
 <body>
 <!--metadata div-->
-<link rel="stylesheet" href="static/js/SlickGrid/slick.grid.css" type="text/css"/>
-<link rel="stylesheet" href="static/js/SlickGrid/examples/examples.css" type="text/css"/>
+<!-- <link rel="stylesheet" href="static/js/SlickGrid/slick.grid.css" type="text/css"/> -->
+<!-- <link rel="stylesheet" href="static/js/SlickGrid/examples/examples.css" type="text/css"/> -->
+<link rel="stylesheet" href="{% static 'js/SlickGrid/slick.grid.css' %}" type="text/css"/>
+<link rel="stylesheet" href="{% static 'js/SlickGrid/examples/examples.css' %}" type="text/css"/>
 
-<script src="static/js/SlickGrid/lib/firebugx.js"></script>
-<script src="static/js/SlickGrid/lib/jquery-1.11.2.min.js"></script>
-<script src="static/js/SlickGrid/lib/jquery-ui-1.11.3.min.js"></script>
-<script src="static/js/SlickGrid/lib/jquery.event.drag-2.3.0.js"></script>
-<script src="static/js/SlickGrid/slick.core.js"></script>
-<script src="static/js/SlickGrid/plugins/slick.cellrangedecorator.js"></script>
-<script src="static/js/SlickGrid/plugins/slick.cellrangeselector.js"></script>
-<script src="static/js/SlickGrid/plugins/slick.cellselectionmodel.js"></script>
-<script src="static/js/SlickGrid/slick.formatters.js"></script>
-<script src="static/js/SlickGrid/slick.editors.js"></script>
-<script src="static/js/SlickGrid/slick.grid.js"></script>
-<script src="static/js/SlickGrid/slick.dataview.js"></script>
-<script src= "static/js/tree/context.js?version=0.1.8"></script>
-<script src="static/js/tree/grid.js?version=0.1.8"></script>
-<script src="static/js/tree/help.js?version=0.1.8"></script>
-<script src="static/js/spectrum/spectrum.min.js"></script>
-<link rel="stylesheet" href="static/js/spectrum/spectrum.css" type="text/css"/>
+
+<!-- <script src="static/js/SlickGrid/lib/firebugx.js"></script> -->
+<!-- <script src="static/js/SlickGrid/lib/jquery-1.11.2.min.js"></script> -->
+<!-- <script src="static/js/SlickGrid/lib/jquery-ui-1.11.3.min.js"></script> -->
+<!-- <script src="static/js/SlickGrid/lib/jquery.event.drag-2.3.0.js"></script> -->
+<!-- <script src="static/js/SlickGrid/slick.core.js"></script> -->
+<!-- <script src="static/js/SlickGrid/plugins/slick.cellrangedecorator.js"></script> -->
+<!-- <script src="static/js/SlickGrid/plugins/slick.cellrangeselector.js"></script> -->
+<!-- <script src="static/js/SlickGrid/plugins/slick.cellselectionmodel.js"></script> -->
+<!-- <script src="static/js/SlickGrid/slick.formatters.js"></script> -->
+<!-- <script src="static/js/SlickGrid/slick.editors.js"></script> -->
+<!-- <script src="static/js/SlickGrid/slick.grid.js"></script> -->
+<!-- <script src="static/js/SlickGrid/slick.dataview.js"></script> -->
+<!-- <script src="static/js/tree/context.js?version=0.1.8"></script> -->
+<!-- <script src="static/js/tree/grid.js?version=0.1.8"></script> -->
+<!-- <script src="static/js/tree/help.js?version=0.1.8"></script> -->
+<!-- <script src="static/js/spectrum/spectrum.min.js"></script> -->
+<!-- <link rel="stylesheet" href="static/js/spectrum/spectrum.css" type="text/css"/> -->
+
+
+
+<script src="{% static 'js/SlickGrid/lib/firebugx.js' %}"></script>
+<script src="{% static 'js/SlickGrid/lib/jquery-1.11.2.min.js' %}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="{% static 'js/SlickGrid/lib/jquery-ui-1.11.3.min.js' %}"></script>
+<script src="{% static 'js/SlickGrid/lib/jquery.event.drag-2.3.0.js' %}"></script>
+<script src="{% static 'js/SlickGrid/slick.core.js' %}"></script>
+<script src="{% static 'js/SlickGrid/plugins/slick.cellrangedecorator.js' %}"></script>
+<script src="{% static 'js/SlickGrid/plugins/slick.cellrangeselector.js' %}"></script>
+<script src="{% static 'js/SlickGrid/plugins/slick.cellselectionmodel.js' %}"></script>
+<script src="{% static 'js/SlickGrid/slick.formatters.js' %}"></script>
+<script src="{% static 'js/SlickGrid/slick.editors.js' %}"></script>
+<script src="{% static 'js/SlickGrid/slick.grid.js' %}"></script>
+<script src="{% static 'js/SlickGrid/slick.dataview.js' %}"></script>
+<script src="{% static 'js/tree/context.js' %}?version=0.1.8"></script>
+<script src="{% static 'js/tree/grid.js' %}?version=0.1.8"></script>
+<script src="{% static 'js/tree/help.js' %}?version=0.1.8"></script>
+<script src="{% static 'js/spectrum/spectrum.min.js' %}"></script>
+<link rel="stylesheet" href="{% static 'js/spectrum/spectrum.css' %}" type="text/css"/>
+
+
 
 
 <!-- START OF HEADER -->
