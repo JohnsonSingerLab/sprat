@@ -1,5 +1,6 @@
 # tool/views.py
 from django.shortcuts import render
+# from .views import index_view
 
 def grapetree_view(request):
     return render(request, 'grapetree.html')
