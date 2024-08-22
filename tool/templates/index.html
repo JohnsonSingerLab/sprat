@@ -4,4 +4,481 @@
 
 {% block content %}
 
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col">
+      <div id="wrapper-top">
+        <p> SPRAT (<i>Salmonella</i> Predictive Risk Assessment Tool) is an interactive tool for surveillance of the top food animal-associated <i>Salmonella</i> serovars using publicly available sequence data from USDA-FSIS and CDC. SPRAT allows for visualizing the genomic landscape of each serovar, identification of emerging clusters of interest, and comparison of traits of interest including antimicrobial resistance and virulence.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div id="wrapper">
+        <h1 id="h1-index"> Data Summary </h1>
+        <h2 id="h2-index">Total Isolates: 235,617 </h2>
+        <h2 id="h2-index">Total New Isolates (Last added March 27, 2024): 6,737 </h2>
+        <div class="table-responsive">
+          <table id="keywords" class="table table-bordered table-striped mt-3">
+            <thead>
+              <tr>
+                <th colspan="3">Breakdown by Serovar:</th>
+                <th colspan="6">Breakdown by host source:</th>
+              </tr>
+              <tr>
+                <th class="sort" data-order="asc">Serovar </th>
+                <th class="sort" data-order="asc">Total Isolates <img src="{% static 'js/img/desc.png' %}" style="width:10px;height:13px;"></th>
+                <th class="sort" data-order="asc">Total New Isolates <img src="{% static 'js/img/desc.png' %}" style="width:10px;height:13px;"></th>
+                <th class="sort" data-order="asc">Human <img src="{% static 'js/img/desc.png' %}" style="width:10px;height:13px;"></th>
+                <th class="sort" data-order="asc">Chicken <img src="{% static 'js/img/desc.png' %}" style="width:10px;height:13px;"></th>
+                <th class="sort" data-order="asc">Turkey <img src="{% static 'js/img/desc.png' %}" style="width:10px;height:13px;"></th>
+                <th class="sort" data-order="asc">Bovine <img src="{% static 'js/img/desc.png' %}" style="width:10px;height:13px;"></th>
+                <th class="sort" data-order="asc">Swine <img src="{% static 'js/img/desc.png' %}" style="width:10px;height:13px;"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="lalign"><a href="/grapetree?selectedOption=Agona">Agona</a></td>
+                <td>3319 (1.45%)</td>
+                <td>630 (18.98%)</td>
+                <td>2508 (75.56%)</td>
+                <td>38 (1.14%)</td>
+                <td>196 (5.91%)</td>
+                <td>183 (5.51%)</td>
+                <td>350 (10.55%)</td>
+              </tr>
+              <!-- Add other rows as per your original HTML -->
+
+              <tr> 
+                <td class="lalign"> <a href="/grapetree?selectedOption=Alachua">Alachua</a></td>
+                <td>2317 (0.14%)</td>
+                <td>321 (101.26%)</td>
+                <td>108 (34.07%)</td>
+                <td>127 (40.06%)</td>
+                <td>9 (2.84%)</td>
+                <td>2 (0.63%)</td>
+                <td>49 (15.46%)</td>
+              </tr>
+              <tr>  
+                <td class="lalign"> <a href="/grapetree?selectedOption=Albany">Albany</a></td>
+                <td>240 (0.10%)</td>  
+                <td>40 (16.67%)</td>
+                <td>160 (66.67%)</td>
+                <td>3 (1.25%)</td>
+                <td>69 (28.75%)</td>
+                <td>3 (1.25%)</td>
+                <td>1 (0.42%)</td>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Anatum"> Anatum </a></td>  
+                <td>5099  (2.23%) </td>
+                <td>626 (12.28%)</td>
+                <td>2211 (43.36%)</td>
+                <td>62 (1.22%)</td>
+                <td>82 (1.61%)</td>
+                <td>880 (17.26%)</td>
+                <td>1687 (33.08%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"><a href="/grapetree?selectedOption=Berta">Berta</a></td> 
+                <td>2451 (1.07%)</td>
+                <td>377 (15.38%)</td>
+                <td>2173 (88.66%)</td>
+                <td>30 (1.22%)</td>
+                <td>27 (1.1%)</td>
+                <td>11 (0.45%)</td>
+                <td>168 (6.85%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Braenderup"> Braenderup </a></td>    
+                <td>7478 (3.27%)</td>
+                <td>1407 (18.82%)</td>
+                <td>7002 (93.63%)</td>
+                <td>210 (2.81%)</td>
+                <td>7 (0.09%)</td>
+                <td>38 (0.51%)</td>
+                <td>32 (0.43%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Brandenburg">Brandenburg</a></td>     
+                <td>1252 (0.55%)</td>
+                <td>330 (26.36%)</td>
+                <td>863 (68.93%)</td>
+                <td>8 (0.64%)</td>
+                <td>28 (2.24%)</td>
+                <td>170 (13.58%)</td>
+                <td>150 (11.98%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Cerro">Cerro</a> </td> 
+                <td>1544 (0.67%)</td>
+                <td>210 (13.60%)</td>
+                <td>347 (22.47%)</td>
+                <td>22 (1.42%)</td>
+                <td>3 (0.19%)</td>
+                <td>979 (63.41%)</td>
+                <td>134 (8.68%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Derby">Derby</a> </td>
+                <td>1682  (0.73%)</td>
+                <td>167 (9.93%)</td>
+                <td>484 (28.78%)</td>
+                <td>10 (0.59%)</td>
+                <td>6 (0.36%)</td>
+                <td>56 (3.33%)</td>
+                <td>1109 (65.93%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Dublin">Dublin</a> </td>    
+                <td>2718 (1.19%)</td>
+                <td>409 (15.05%)</td>
+                <td>1614 (59.38%)</td>
+                <td>3 (0.11%)</td>
+                <td>0 (0%)</td>
+                <td>1048 (38.56%)</td>
+                <td>1 (0.04%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Eko">Eko</a></td>
+                <td>425 (0.19%)</td>
+                <td>46 (10.82%)</td>
+                <td>12 (2.82%)</td>
+                <td>6 (1.41%)</td>
+                <td>0 (0%)</td>
+                <td>15 (3.53%)</td>
+                <td>392 (92.24%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Enteritidis">Enteritidis</a></td>
+                <td>51613 (22.55%)</td>
+                <td>10316 (19.99%)</td>
+                <td>46505 (90.1%)</td>
+                <td>4437 (8.6%)</td>
+                <td>22 (0.04%)</td>
+                <td>39 (0.08%)</td>
+                <td>39 (0.08%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Give">Give</a></td>
+                <td>1214 (0.53%)</td>
+                <td>168 (13.84%)</td>
+                <td>927 (76.36%)</td>
+                <td>2 (0.16%)</td>
+                <td>1 (0.08%)</td>
+                <td>191 (15.73%)</td>
+                <td>72 (5.93%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Hadar">Hadar</a></td>
+                <td>3124 (1.36%)</td>
+                <td>404 (12.93%)</td>
+                <td>2502 (80.09%)</td>
+                <td>109 (3.49%)</td>
+                <td>397 (12.71%)</td>
+                <td>6 (0.19%)</td>
+                <td>35 (1.12%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Heidelberg">Heidelberg</a></td>
+                <td>2570 (1.12%)</td>
+                <td>222 (8.64%)</td>
+                <td>1780 (69.26%)</td>
+                <td>435 (16.93%)</td>
+                <td>40 (1.56%)</td>
+                <td>29 (1.13%)</td>
+                <td>80 (3.11%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=I4">I4</a></td>
+                <td>14451 (6.31%)</td>
+                <td>1933 (13.38%)</td>
+                <td>12580 (87.05%)</td>
+                <td>229 (1.58%)</td>
+                <td>108 (0.75%)</td>
+                <td>164 (1.13%)</td>
+                <td>1178 (8.15%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Infantis">Infantis</a></td>
+                <td>19248 (8.41%)</td>
+                <td>2860 (14.86%)</td>
+                <td>10639 (55.27%)</td>
+                <td>6784 (35.25%)</td>
+                <td>239 (1.24%)</td>
+                <td>247 (1.28%)</td>
+                <td>1090 (5.66%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Johannesburg">Johannesburg</a></td>
+                <td>1429 (0.62%)</td>
+                <td>143 (10.01%)</td>
+                <td>292 (20.43%)</td>
+                <td>187 (13.09%)</td>
+                <td>6 (0.42%)</td>
+                <td>29 (2.03%)</td>
+                <td>893 (62.49%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Kentucky">Kentucky</a></td>
+                <td>9014 (3.94%)</td>
+                <td>995 (11.04%)</td>
+                <td>497 (5.51%)</td>
+                <td>7996 (88.71%)</td>
+                <td>27 (0.3%)</td>
+                <td>257 (2.85%)</td>
+                <td>47 (0.52%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Kiambu">Kiambu</a></td>
+                <td>558 (0.24%)</td>
+                <td>76 (13.62%)</td>
+                <td>463 (82.97%)</td>
+                <td>7 (1.25%)</td>
+                <td>0 (0%)</td>
+                <td>64 (11.47%)</td>
+                <td>17 (3.05%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=London">London</a></td>
+                <td>969 (0.42%)</td>
+                <td>113 (11.66%)</td>
+                <td>305 (31.48%)</td>
+                <td>7 (0.72%)</td>
+                <td>20 (2.06%)</td>
+                <td>26 (2.68%)</td>
+                <td>592 (61.09%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Lubbock">Lubbock</a></td>
+                <td>139 (0.06%)</td>
+                <td>11 (7.91%)</td>
+                <td>3 (2.16%)</td>
+                <td>2 (1.44%)</td>
+                <td>0 (0%)</td>
+                <td>132 (94.96%)</td>
+                <td>1 (0.72%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Mbandaka">Mbandaka</a></td>
+                <td>1982 (0.87%)</td>
+                <td>425 (21.44%)</td>
+                <td>1420 (71.64%)</td>
+                <td>108 (5.45%)</td>
+                <td>11 (0.55%)</td>
+                <td>194 (9.79%)</td>
+                <td>116 (5.85%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Meleagridis">Meleagridis</a></td>
+                <td>440 (0.19%)</td>
+                <td>36 (8.18%)</td>
+                <td>164 (37.27%)</td>
+                <td>1 (0.23%)</td>
+                <td>6 (1.36%)</td>
+                <td>212 (48.18%)</td>
+                <td>52 (11.82%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Montevideo">Montevideo</a></td>
+                <td>7917 (3.46%)</td>
+                <td>1072 (13.54%)</td>
+                <td>5610 (70.86%)</td>
+                <td>104 (1.31%)</td>
+                <td>44 (0.56%)</td>
+                <td>1835 (23.18%)</td>
+                <td>90 (1.14%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Muenchen">Muenchen</a></td>
+                <td>7174 (3.13%)</td>
+                <td>1165 (16.24%)</td>
+                <td>6217 (86.66%)</td>
+                <td>34 (0.47%)</td>
+                <td>124 (1.73%)</td>
+                <td>460 (6.41%)</td>
+                <td>255 (3.55%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Muenster">Muenster</a></td>
+                <td>1279 (0.56%)</td>
+                <td>160 (12.51%)</td>
+                <td>721 (56.37%)</td>
+                <td>11 (0.86%)</td>
+                <td>14 (1.09%)</td>
+                <td>414 (32.37%)</td>
+                <td>56 (4.38%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Newport">Newport</a></td>
+                <td>32409 (14.16%)</td>
+                <td>4944 (15.26%)</td>
+                <td>31321 (96.64%)</td>
+                <td>31 (0.1%)</td>
+                <td>30 (0.09%)</td>
+                <td>505 (1.56%)</td>
+                <td>74 (0.23%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Ohio">Ohio</a></td>
+                <td>803 (0.35%)</td>
+                <td>75 (9.34%)</td>
+                <td>403 (50.19%)</td>
+                <td>26 (3.24%)</td>
+                <td>1 (0.12%)</td>
+                <td>7 (0.87%)</td>
+                <td>363 (45.21%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Reading">Reading</a></td>
+                <td>1765 (0.77%)</td>
+                <td>121 (6.86%)</td>
+                <td>1055 (59.77%)</td>
+                <td>10 (0.57%)</td>
+                <td>503 (28.5%)</td>
+                <td>45 (2.55%)</td>
+                <td>116 (6.57%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Rissen">Rissen</a></td>
+                <td>430 (0.19%)</td>
+                <td>48 (11.16%)</td>
+                <td>225 (52.33%)</td>
+                <td>6 (1.4%)</td>
+                <td>4 (0.93%)</td>
+                <td>30 (6.98%)</td>
+                <td>161 (37.44%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Schwarzengrund">Schwarzengrund</a></td>
+                <td>2835 (1.24%)</td>
+                <td>315 (11.11%)</td>
+                <td>886 (31.25%)</td>
+                <td>1472 (51.92%)</td>
+                <td>239 (8.43%)</td>
+                <td>64 (2.26%)</td>
+                <td>157 (5.54%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Senftenberg">Senftenberg</a></td>
+                <td>1545 (0.68%)</td>
+                <td>194 (12.56%)</td>
+                <td>969 (62.72%)</td>
+                <td>59 (3.82%)</td>
+                <td>203 (13.14%)</td>
+                <td>82 (5.31%)</td>
+                <td>187 (12.1%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Thompson">Thompson</a></td>
+                <td>6281 (2.74%)</td>
+                <td>996 (15.86%)</td>
+                <td>5762 (91.74%)</td>
+                <td>311 (4.95%)</td>
+                <td>8 (0.13%)</td>
+                <td>56 (0.89%)</td>
+                <td>13 (0.21%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Typhimurium">Typhimurium</a></td>
+                <td>30652 (13.39%)</td>
+                <td>4620 (15.07%)</td>
+                <td>26379 (87.8%)</td>
+                <td>2258 (7.52%)</td>
+                <td>148 (0.49%)</td>
+                <td>450 (1.5%)</td>
+                <td>347 (1.15%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Uganda">Uganda</a></td>
+                <td>2000 (0.87%)</td>
+                <td>290 (14.50%)</td>
+                <td>1169 (58.45%)</td>
+                <td>27 (1.35%)</td>
+                <td>161 (8.05%)</td>
+                <td>159 (7.95%)</td>
+                <td>460 (23%)</td>
+              </tr>
+              <tr>
+                <td class="lalign"> <a href="/grapetree?selectedOption=Worthington">Worthington</a></td>
+                <td>514 (0.22%)</td>
+                <td>55 (10.70%)</td>
+                <td>217 (42.22%)</td>
+                <td>13 (2.53%)</td>
+                <td>18 (3.5%)</td>
+                <td>17 (3.31%)</td>
+                <td>243 (47.28%)</td>
+              </tr>
+       
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  $(document).ready(function() {
+    // Function to sort table rows
+    function sortTable(table, columnIndex, order) {
+      var rows = table.find('tbody > tr').get();
+  
+      rows.sort(function(rowA, rowB) {
+        var cellA = $(rowA).children('td').eq(columnIndex).text().trim();
+        var cellB = $(rowB).children('td').eq(columnIndex).text().trim();
+  
+        // Numeric sorting
+        var numA = parseFloat(cellA);
+        var numB = parseFloat(cellB);
+  
+        // Handle empty cells
+        if (isNaN(numA)) numA = 0;
+        if (isNaN(numB)) numB = 0;
+  
+        // Compare based on ascending or descending order
+        if (order === 'asc') {
+          return numA - numB;
+        } else {
+          return numB - numA;
+        }
+      });
+  
+      // Append sorted rows back to table
+      $.each(rows, function(index, row) {
+        table.children('tbody').append(row);
+      });
+    }
+  
+    // Event listener for header clicks
+    $('#keywords th.sort').click(function() {
+      console.log('Header clicked:', $(this).index());
+      var table = $('#keywords');
+      var columnIndex = $(this).index();
+      var currentOrder = $(this).data('order');
+      
+      console.log('Current order:', currentOrder);
+  
+      // Toggle order (asc/desc)
+      if (currentOrder === 'asc') {
+        $(this).data('order', 'desc');
+      } else {
+        $(this).data('order', 'asc');
+      }
+  
+      console.log('New order:', $(this).data('order'));
+  
+      // Remove sort indicator from all columns
+      $('#keywords th.sort').removeClass('sorted');
+      // Add sort indicator to the current column
+      $(this).addClass('sorted');
+  
+      // Sort table based on current column and order
+      sortTable(table, columnIndex, $(this).data('order'));
+    });
+  });
+  </script>
+
 {% endblock %}
