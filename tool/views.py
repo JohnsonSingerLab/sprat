@@ -8,6 +8,9 @@ def grapetree_view(request):
 def index_view(request):
     return render(request, 'index.html')
 
+def dashboard_view(request):
+    return render(request, 'dashboard.html')
+
 
 
 # from django.http import HttpResponse
