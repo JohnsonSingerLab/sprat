@@ -45,7 +45,7 @@ html, body {
 	/* position: relative; */
 	display: flex;
 	background-color: #7a0019;
-	height: 140px;
+	height: 138px;
 }
 
 #h1-header a{
@@ -111,7 +111,7 @@ h3{
 #menu-line {
     background-color: #e9ecef;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #menu-line nav {
@@ -144,9 +144,10 @@ h3{
 /* GrapeTree sidebar */
 #sidebar {
 	position: absolute;
-	top:170px;
+	top:160px;
 	bottom:0px;
 	width:220px;
+	margin-top:17px;
 	margin-left:5px;
 	overflow-y:auto;
 	overflow-x: hidden;
