@@ -320,6 +320,38 @@ margin-top: 8px;
 }
 
 
+/* dashboard  */
+
+
+#shiny-dashboard-container {
+    transition: margin-top 0.3s ease; /* Smooth transition for margin change */
+}
+
+#shiny-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.fullscreen-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#shiny-frame-2 {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.fullscreen-container-2 {
+    width: 100%;
+    height: calc(100vh - 150px); 
+    padding-top: 450px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 
 /******************************************************************* -- INDEX page --  ****************************************************************/
 /******************************************************************************************************************************************************/
