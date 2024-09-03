@@ -382,8 +382,9 @@
 				//console.log(fld_id);
 				var value = fields[fld_id];
 				var obj =options[value];
-				//console.log(value);
-				console.log(obj);
+				//console.log('value: '+value);
+				//console.log(obj);
+				//console.log("Value id: "+fld_id +" "+obj)
 				var category = null;
 				var label = ""
 				if (typeof obj === 'object'){
@@ -446,6 +447,22 @@
 			.duration(500)
 			.style("opacity", 0);
 		}
+
+		$(document).ready(function() {
+			// Function to get URL parameter by name
+			function getUrlParameter(name) {
+			  name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+			  var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+			  var results = regex.exec(location.search);
+			  return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+			};
+		  
+			// Auto-select option based on URL parameter
+			var selectedOption = getUrlParameter('selectedOption');
+			if (selectedOption) {
+				$('#select-files').val(selectedOption).trigger('change'); // Set selected option and trigger change event
+	
+		}});
 
 		<!-- modified for loading files on the server side -->
 		$("#select-files").change(async function(e) {
