@@ -133,7 +133,7 @@ function dropFiles(div) {
 }
 
 function filesDropped(files){
-	console.log(files)
+	// console.log(files)
 	current_metadata_file = null;
 	for (var id=0; id < files.length; id += 1) {
 		var file = files[id];

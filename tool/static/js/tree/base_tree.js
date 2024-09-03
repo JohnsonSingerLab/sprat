@@ -1490,44 +1490,95 @@ function isNumber (o) {
   * <li> cateogory The name of the category to group this field default is none </li>
   * </ul>
   */
-  D3BaseTree.prototype.addMetadataOptions=function(options){
-	  for (var key in options){
-		  var value = options[key];
-		  if ( value !== null && typeof value === 'object'){
-			  if (!value["coltype"]){
-				  value['coltype']='character';			
-			  }
-			  if (!value["grouptype"]){
-				  value['grouptype']='size';			
-			  }
-			  if(!value["colorscheme"]){
-				  value['colorscheme']='category';
-			  }
-			  if (! value["minnum"]) {
-				  value['minnum'] = 0;
-			  }
-			  
-			  this.metadata_info[key] =value
-		  }
-		  else if (this.metadata_info[key]) {
-			  delete options[key];
-		  }
-		  else{
-			  this.metadata_info[key]={
-				  label:options[key],
-				  coltype : 'numeric', 
-				  grouptype : 'alphabetic', 
-				  colorscheme : 'gradient_cool', 
-				  minnum : 0, 
-			  }
-		  }
-	  }
-	  for (var i in this.treeChangedListeners){
-		  this.treeChangedListeners[i]("metadata_options_altered",options);	
-	  }
-  }
-  
-  
+
+
+//   D3BaseTree.prototype.addMetadataOptions=function(options){
+// 	for (var key in options){
+// 		var value = options[key];
+// 		if ( value !== null && typeof value === 'object'){
+// 			if (!value["coltype"]){
+// 				value['coltype']='numeric';			
+// 			}
+// 			if (!value["grouptype"]){
+// 				value['grouptype']='alphabetic';			
+// 			}
+// 			if(!value["colorscheme"]){
+// 				value['colorscheme']='gradient_cool';
+// 			}
+// 			if (! value["minnum"]) {
+// 				value['minnum'] = 0;
+// 			}
+			
+// 			this.metadata_info[key] =value
+// 		}
+// 		else if (this.metadata_info[key]) {
+// 			delete options[key];
+// 		}
+// 		else{
+// 			this.metadata_info[key]={
+// 				label:options[key],
+// 				coltype : 'numeric', 
+// 				grouptype : 'alphabetic', 
+// 				colorscheme : 'gradient_cool', 
+// 				minnum : 0, 
+// 			}
+// 		}
+// 	}
+// 	for (var i in this.treeChangedListeners){
+// 		this.treeChangedListeners[i]("metadata_options_altered",options);	
+// 		console.log('options '+options)
+// 	}
+// }
+
+
+
+
+
+D3BaseTree.prototype.addMetadataOptions = function(options) {
+    for (var key in options) {
+        var value = options[key];
+        if (value !== null && typeof value === 'object') {
+            if (!value["coltype"]) {
+                value['coltype'] = 'numeric';
+            }
+            if (!value["grouptype"]) {
+                value['grouptype'] = 'alphabetic';
+            }
+            if (!value["colorscheme"]) {
+                // Update the color scheme based on the current selection
+                value['colorscheme'] = this.currentColorScheme || 'gradient_cool';
+            }
+            if (!value["minnum"]) {
+                value['minnum'] = 0;
+            }
+
+            this.metadata_info[key] = value;
+        } else if (this.metadata_info[key]) {
+            delete options[key];
+        } else {
+            this.metadata_info[key] = {
+                label: options[key],
+                coltype: 'numeric',
+                grouptype: 'alphabetic',
+                colorscheme: this.currentColorScheme || 'gradient_cool',
+                minnum: 0,
+            };
+        }
+    }
+    for (var i in this.treeChangedListeners) {
+        this.treeChangedListeners[i]("metadata_options_altered", options);
+        console.log('options ' + options);
+    }
+};
+
+
+
+
+
+
+
+
+
   
   D3BaseTree.prototype.addMetadata=function(metadata){
 	  var metadata_map = {};

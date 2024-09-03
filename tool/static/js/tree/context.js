@@ -162,262 +162,354 @@ function D3MSTreeContextMenu(tree,meta_grid,hide_tree_functions){
 	this._init();
 }
 
-D3MSTreeContextMenu.prototype._init=function(){
-	var self = this;
+// MODIFIED 
+D3MSTreeContextMenu.prototype._init = function() {
+    var self = this;
+
+    // Helper function to ensure default metadata values are set only if not already defined
+    function ensureDefaultMetadata(key, defaults) {
+        if (!self.tree.metadata_info[key]) {
+            self.tree.metadata_info[key] = defaults;
+        } else {
+            // Ensure all default properties are set if missing, without overwriting existing values
+            Object.keys(defaults).forEach(function(prop) {
+                if (self.tree.metadata_info[key][prop] === undefined) {
+                    self.tree.metadata_info[key][prop] = defaults[prop];
+                }
+            });
+        }
+    }
+
+	// Populate dropdown with metadata options
+	function populateMetadataDropdown() {
+		$("#metadata-select").empty(); // Clear existing options to prevent duplication
+
+        var options = Object.keys(self.tree.metadata_info).sort();
+        options.forEach(function(key) {
+            if (key !== 'ID' && key !== 'nothing') { // Exclude 'ID' and 'No Category'
+                var label = self.tree.metadata_info[key].label || key;
+
+                // Set default settings for metadata columns
+                if (key === 'Year') {
+                    ensureDefaultMetadata('Year', {
+                        label: 'Year',
+                        coltype: 'numeric',
+                        grouptype: 'alphabetic',
+                        colorscheme: 'gradient_cool',
+                        minnum: 0
+                    });
+                } else {
+                    ensureDefaultMetadata(key, {
+                        label: label,
+                        coltype: 'numeric',
+                        grouptype: 'size',
+                        colorscheme: 'category',
+                        minnum: 0
+                    });
+                }
+				
+                $("#metadata-select").append(new Option(label, key));
+            }
+        });
+
+        // Set the default selection to "Year"
+        $("#metadata-select").val('Year');
+	}
+
+    // Initialize the dropdown with default values
+    populateMetadataDropdown();
+
+    // Handle the change event for metadata category selection
+    $("#metadata-select").change(function(e) {
+        var selectedCategory = $(this).val();
+
+        // Check if the selected category is 'Year' or another category
+		// Update the metadata for the selected category
+        if (selectedCategory === 'Year') {
+            self.tree.metadata_info[selectedCategory].colorscheme = 'gradient_cool';
+            self.tree.metadata_info[selectedCategory].grouptype = 'alphabetic';
+        } else {
+            self.tree.metadata_info[selectedCategory].colorscheme = 'category';
+            self.tree.metadata_info[selectedCategory].grouptype = 'size'; // Explicitly set grouptype to 'size'
+        }
+
+        // Apply the changes and update the category in the tree
+        self.tree.changeCategory(selectedCategory);
+
+        // Update the dropdown to reflect the selected Category
+        $("#metadata-select").val(selectedCategory);
+    });
+
+
 	$(".replaceSelection").on("click", function(e) {
-		$(document).trigger('metadata:replace', {x:e.clientX, y:e.clientY});
-	});
-	$(".context-option").on("mouseenter",function(e) {
-		$(this).css("background", "#f1f1f1");
-	})
-	.on("mouseleave", function(e) {
-		$(this).css("background", "#ffffff");
-	});
+        $(document).trigger('metadata:replace', {x: e.clientX, y: e.clientY});
+    });
 
-	$(document).on("mousedown", function(e) {
-		if ( ! e.target.closest || ! e.target.closest("#context-menu")) {
-			$("#context-menu").hide();
-		}
-	});
+    $(".context-option").on("mouseenter", function(e) {
+        $(this).css("background", "#f1f1f1");
+    }).on("mouseleave", function(e) {
+        $(this).css("background", "#ffffff");
+    });
 
-	$("#context-menu").click(function(e) {
-		if ( ! e.target.closest(".ui-spinner")) {
-			$("#context-menu").hide();
-		}
-	});
+    $(document).on("mousedown", function(e) {
+        if (!e.target.closest || !e.target.closest("#context-menu")) {
+            $("#context-menu").hide();
+        }
+    });
+
+    $("#context-menu").click(function(e) {
+        if (!e.target.closest(".ui-spinner")) {
+            $("#context-menu").hide();
+        }
+    });
 
 	$(".context-select").click(function(e) {
-		e.stopPropagation();
-	})
-	.change(function(e) {
-		if (e.target.id === 'color-colname') {
-			var colname = $("#color-colname").val();
-			self.tree.changeCategory(colname);
-			self._fill_metadata_option(self.tree.metadata_info[colname]);
-		} else if (e.target.id == 'hover-colname') {
-			var colname = $("#hover-colname").val();
-			// console.log(colname)
-			if (! self.tree.metadata_info[colname]) {
-				$("#allowed-color").hide();
-			} else {
-				self._fill_metadata_option(self.tree.metadata_info[colname]);
-				$("#allowed-color").show();
-				$("#context-menu").height($("#context-menu").height()+$("#allowed-color").height())
-			}
-		} else {
-			var category = (e.target.closest( ('#myGrid-menu'))) ? $("#hover-colname").val() : self.tree.display_category;
-			var tochange = $(this).attr('class').split(' ')[1];
-			var value = $(this).val();
-			// console.log(category)
-			// console.log(tochange)
-			self.tree.metadata_info[category][tochange] = value;
-			if (category == self.tree.display_category) {
-				self.tree.changeCategory(self.tree.display_category);
-			}
-		}
-	});
+        e.stopPropagation();
+    });
 
-	$(".colorscheme").click(function(e, ui) {
-		if (e.pageY == 0 && e.pageX == 0) {
-			var value = $(this).val();
-			if (value === 'custom') {
-				var ccs_div = $('<div title="Customize a color scheme" style="width:20em; height:22em" id="custom_color_scheme"></div>').appendTo($('body'));
-				ccs_div.append('<div style="margin-bottom:5px">Paste color codes into the text box. <br>One color per line. <br> The colors can be in their names, <br>HEX codes or other HTML compatible codes.<br> Find the details in <a href="https://www.w3schools.com/html/html_colors.asp" target="_blank">THIS LINK</a></div>')
-				ccs_div.data('data', self.tree.color_schemes);
+    $(".context-select").change(function(e) {
+        if (e.target.id === 'color-colname') {
+            var colname = $("#color-colname").val();
+            self.tree.changeCategory(colname);
+            self._fill_metadata_option(self.tree.metadata_info[colname]);
+        } else if (e.target.id === 'hover-colname') {
+            var colname = $("#hover-colname").val();
+            if (!self.tree.metadata_info[colname]) {
+                $("#allowed-color").hide();
+            } else {
+                self._fill_metadata_option(self.tree.metadata_info[colname]);
+                $("#allowed-color").show();
+                $("#context-menu").height($("#context-menu").height() + $("#allowed-color").height());
+            }
+        } else {
+            var category = e.target.closest('#myGrid-menu') ? $("#hover-colname").val() : self.tree.display_category;
+            var tochange = $(this).attr('class').split(' ')[1];
+            var value = $(this).val();
+            self.tree.metadata_info[category][tochange] = value;
+            if (category === self.tree.display_category) {
+                self.tree.changeCategory(self.tree.display_category);
+            }
+        }
+    });
 
-				var colors = self.tree.color_schemes.custom;
-				var legend_text = $('<div style="width:12em;height:20em;resize:none;overflow:auto;white-space:nowrap;float: left;" readonly id="legend_text" ></div>').appendTo(ccs_div)
-										.html(d3.selectAll('.legend-item').data().map(function(d) { return '<div style="float:left; width:0.9em; height:0.9em; margin-right:0.1em; background:'+d.group_colour+'"></div>' + d.group}).join('<br>'));
-				var ccs_text = $('<textarea style="width:8em;height:20em;resize:none;overflow:auto;white-space:nowrap;float: left;" id="ccs_text" ></textarea>').appendTo(ccs_div);
-				legend_text.on('scroll', function () {
-					ccs_text.scrollTop($(this).scrollTop());
-				});
-				ccs_text.on('change keyup paste', function(e) {
-					var colors = $(this).val().split('\n');
-					legend_text.html(d3.selectAll('.legend-item').data().map(function(d, i) {  return '<div style="float:left; width:0.9em; height:0.9em; margin-right:0.1em; background:'+colors[i]+'"></div>' + d.group}).join('<br>'));
-				}).on('scroll', function () {
-					legend_text.scrollTop($(this).scrollTop());
-				});
-				ccs_text.val(colors.join('\n'));
-				ccs_div.dialog({
-					width : 'auto',
-					height : 'auto', 
-					buttons: {
-						Confirm: function(){
-							$(this).data('data').custom = ccs_text.val().split('\n');
-							self.tree.changeCategory(self.tree.display_category);
-							$(this).dialog("close");
-						},
-						Cancel: function() {
-							$(this).dialog("close");
-						}
-					},
-					close: function (e) {
-						ccs_div.dialog('destroy').remove();
-					}
-				});
-			}
-		}
-	});
+    // Ensure metadata options are added only once and prevent duplication
+    if (!self.metadataOptionsAdded) {
+        self.metadataOptionsAdded = true;
+        self.tree.addMetadataOptions(self.tree.metadata_info);
+    }
 
-	$(".switch-hypo").click(function(e) {
-		self.tree.toggleHypotheticalNodes();
-	});
+    $(".colorscheme").click(function(e, ui) {
+        if (e.pageY == 0 && e.pageX == 0) {
+            var value = $(this).val();
+            if (value === 'custom') {
+                var ccs_div = $('<div title="Customize a color scheme" style="width:20em; height:22em" id="custom_color_scheme"></div>').appendTo($('body'));
+                ccs_div.append('<div style="margin-bottom:5px">Paste color codes into the text box. <br>One color per line. <br> The colors can be in their names, <br>HEX codes or other HTML compatible codes.<br> Find the details in <a href="https://www.w3schools.com/html/html_colors.asp" target="_blank">THIS LINK</a></div>')
+                ccs_div.data('data', self.tree.color_schemes);
 
-	$(".clearSelection2").on("click", function(e) {
-		var items = self.meta_grid.grid.getData().getFilteredItems();
-		self.meta_grid.selectItems(items, false);
-	});
-	$(".selectAll2").on("click", function(e) {
-		var items = self.meta_grid.grid.getData().getFilteredItems();
-		self.meta_grid.selectItems(items, true);
-	});
+                var colors = self.tree.color_schemes.custom;
+                var legend_text = $('<div style="width:12em;height:20em;resize:none;overflow:auto;white-space:nowrap;float: left;" readonly id="legend_text" ></div>').appendTo(ccs_div)
+                    .html(d3.selectAll('.legend-item').data().map(function(d) {
+                        return '<div style="float:left; width:0.9em; height:0.9em; margin-right:0.1em; background:' + d.group_colour + '"></div>' + d.group;
+                    }).join('<br>'));
+                var ccs_text = $('<textarea style="width:8em;height:20em;resize:none;overflow:auto;white-space:nowrap;float: left;" id="ccs_text" ></textarea>').appendTo(ccs_div);
+                legend_text.on('scroll', function() {
+                    ccs_text.scrollTop($(this).scrollTop());
+                });
+                ccs_text.on('change keyup paste', function(e) {
+                    var colors = $(this).val().split('\n');
+                    legend_text.html(d3.selectAll('.legend-item').data().map(function(d, i) {
+                        return '<div style="float:left; width:0.9em; height:0.9em; margin-right:0.1em; background:' + colors[i] + '"></div>' + d.group;
+                    }).join('<br>'));
+                }).on('scroll', function() {
+                    legend_text.scrollTop($(this).scrollTop());
+                });
+                ccs_text.val(colors.join('\n'));
+                ccs_div.dialog({
+                    width: 'auto',
+                    height: 'auto',
+                    buttons: {
+                        Confirm: function() {
+                            $(this).data('data').custom = ccs_text.val().split('\n');
+                            self.tree.changeCategory(self.tree.display_category);
+                            $(this).dialog("close");
+                        },
+                        Cancel: function() {
+                            $(this).dialog("close");
+                        }
+                    },
+                    close: function(e) {
+                        ccs_div.dialog('destroy').remove();
+                    }
+                });
+            }
+        }
+    });
 
+    $(".switch-hypo").click(function(e) {
+        self.tree.toggleHypotheticalNodes();
+    });
 
-	$(".clearSelection").on("click", function(e) {
-		self.tree.clearSelection();
-	});
-	$(".selectAll").on("click", function(e) {
-		self.tree.selectAll();
-	});
-	
-	$(".toggle-metadata").click(function(e) {
-		if ($("#metadata-div").css('display') === 'none') {
-			$('#metadata-div').show(300);
-			setTimeout(function(){self.meta_grid.updateMetadataTable(true);}, 400);
-		} else {
-			$('#metadata-div').hide(300);
-		}
-	});
-	$(".select-group").click(function(e) {
-		var [category, group] = $(this).data('group');
-		var node_ids = {};
-		Object.values(self.tree.metadata).filter(function(d) {return d[category] === group;}).forEach(function(d) {return node_ids[d.__Node] = 1;});
-		self.tree.force_nodes.filter(function(n) {return node_ids[n.id]}).forEach(function(n){n.selected=true});		
-		self.tree._updateSelectionStatus();
-	});
-	
-	$(".toggle-legend").click(function(e) {
-		if (self.tree.legend_div.css("display") === "none") {
-			self.tree.legend_div.show(300);
-		} else {
-			self.tree.legend_div.hide(300);
-		}
-	});
-	
-	$("#center-tree").click(function(e) {
-		self.tree.centerGraph();
-	});
-	
-	$("#refresh-tree").click(function(e) {
-		showWaitingDialog("Refreshing The Tree");
-		setTimeout(function(){
-			the_tree.refreshGraph();
-			$("#information-div").modal("hide");
-		},500);
-	});
-	
-	$("#collapse_node").click(function(e) {	
-		self.tree.collapseSpecificNodes(self.tree.getSelectedNodeIDs());
-	});
-	$("#delete-node").click(function(e) {
-		self.tree.delNodes(self.tree.getSelectedNodeIDs());
-	});
-	$("#show-node").click(function(e) {
-		self.tree.delOtherNodes(self.tree.getSelectedNodeIDs());
-	});
-	$("#show-all").click(function(e) {
-		self.tree.undeleteNodes();
-	});
+    $(".clearSelection2").on("click", function(e) {
+        var items = self.meta_grid.grid.getData().getFilteredItems();
+        self.meta_grid.selectItems(items, false);
+    });
+    $(".selectAll2").on("click", function(e) {
+        var items = self.meta_grid.grid.getData().getFilteredItems();
+        self.meta_grid.selectItems(items, true);
+    });
 
-	$("#uncollapse_all").click(function(e) {
-		self.tree.manual_collapsing = {};
-		self.tree.collapseNodes(0);
-	
-	});
-	
-	$("#uncollapse_node").click(function(e) {
-		self.tree.collapseSpecificNodes(self.tree.getSelectedNodeIDs(),true)
-	});
-	$("#go-left").click(function(e) {
-		var row = self.meta_grid.grid.getActiveCell() ? self.meta_grid.grid.getActiveCell().row : 0;
-		var col = self.meta_grid.columns[0].field === '__selected' ? 1 : 0;
-		self.meta_grid.grid.gotoCell(row, col);
-	});
-	$("#go-right").click(function(e) {
-		var row = self.meta_grid.grid.getActiveCell() ? self.meta_grid.grid.getActiveCell().row : 0;
-		self.meta_grid.grid.gotoCell(row,self.meta_grid.columns.length-1);
-	});
-	$("#moveleft-category").click(function(e) {
-		var colname = $("#hover-colname").val();
-		for (var id in self.meta_grid.columns) {
-			var c = self.meta_grid.columns[id];
-			if (c.id === colname) {
-				var x = self.meta_grid.columns.splice(id, 1);
-				self.meta_grid.columns.unshift(x[0]);
-				break;
-			}
-		}
-		self.meta_grid.updateMetadataTable();
-	})
-	$("#moveright-category").click(function(e) {
-		var colname = $("#hover-colname").val();
-		for (var id in self.meta_grid.columns) {
-			var c = self.meta_grid.columns[id];
-			if (c.id === colname) {
-				var tmp = self.meta_grid.columns.splice(id, 1);
-				self.meta_grid.columns.push(tmp[0]);
-				break;
-			}
-		}
-		self.meta_grid.updateMetadataTable();
-	})
-	
-	$("#change-category").click(function(e) {
-		var colname = $("#hover-colname").val();
-		if (!colname){
-			colname = 'nothing';
-		}
-		self.tree.changeCategory(colname);
-	});
-	$(".group-size-input").on("change", function(e) {
-		$(this).data('data').minnum = parseInt($(this).val());
-		self.tree.changeCategory($("#metadata-select").val());
-	})
-	.spinner({
-		spin: function(e, ui) {
-			$(this).spinner("value", ui.value);
-		},
-		change: function(e, ui) {
-			$(this).trigger('change');
-		}
-	}).keypress(function(e){
-		if (e.which === 13) {
-			$(this).spinner("value", $(this).val());
-		}
-	});
+    $(".clearSelection").on("click", function(e) {
+        self.tree.clearSelection();
+    });
+    $(".selectAll").on("click", function(e) {
+        self.tree.selectAll();
+    });
 
-	$("#group-num-input").on("change", function(e) {
-		var n = parseInt($("#group-num-input").val());
-		var category_info = the_tree.metadata_info[the_tree.display_category];
-		if (n !== category_info.category_num) {
-			category_info.category_num = n;
-			self.tree.changeCategory(the_tree.display_category);
-		}
-	})
-	.spinner({
-		spin: function(e, ui) {
-			$(this).spinner("value", ui.value);
-		},
-		change: function(e, ui) {
-			$(this).trigger('change');
-		}
-	}).keypress(function(e){
-		if (e.which === 13) {
-			$(this).spinner("value", $(this).val());
-		}
-	});
+    $(".toggle-metadata").click(function(e) {
+        if ($("#metadata-div").css('display') === 'none') {
+            $('#metadata-div').show(300);
+            setTimeout(function() {
+                self.meta_grid.updateMetadataTable(true);
+            }, 400);
+        } else {
+            $('#metadata-div').hide(300);
+        }
+    });
+    $(".select-group").click(function(e) {
+        var [category, group] = $(this).data('group');
+        var node_ids = {};
+        Object.values(self.tree.metadata).filter(function(d) {
+            return d[category] === group;
+        }).forEach(function(d) {
+            return node_ids[d.__Node] = 1;
+        });
+        self.tree.force_nodes.filter(function(n) {
+            return node_ids[n.id]
+        }).forEach(function(n) {
+            n.selected = true
+        });
+        self.tree._updateSelectionStatus();
+    });
+
+    $(".toggle-legend").click(function(e) {
+        if (self.tree.legend_div.css("display") === "none") {
+            self.tree.legend_div.show(300);
+        } else {
+            self.tree.legend_div.hide(300);
+        }
+    });
+
+    $("#center-tree").click(function(e) {
+        self.tree.centerGraph();
+    });
+
+    $("#refresh-tree").click(function(e) {
+        showWaitingDialog("Refreshing The Tree");
+        setTimeout(function() {
+            the_tree.refreshGraph();
+            $("#information-div").modal("hide");
+        }, 500);
+    });
+
+    $("#collapse_node").click(function(e) {
+        self.tree.collapseSpecificNodes(self.tree.getSelectedNodeIDs());
+    });
+    $("#delete-node").click(function(e) {
+        self.tree.delNodes(self.tree.getSelectedNodeIDs());
+    });
+    $("#show-node").click(function(e) {
+        self.tree.delOtherNodes(self.tree.getSelectedNodeIDs());
+    });
+    $("#show-all").click(function(e) {
+        self.tree.undeleteNodes();
+    });
+
+    $("#uncollapse_all").click(function(e) {
+        self.tree.manual_collapsing = {};
+        self.tree.collapseNodes(0);
+    });
+
+    $("#uncollapse_node").click(function(e) {
+        self.tree.collapseSpecificNodes(self.tree.getSelectedNodeIDs(), true)
+    });
+    $("#go-left").click(function(e) {
+        var row = self.meta_grid.grid.getActiveCell() ? self.meta_grid.grid.getActiveCell().row : 0;
+        var col = self.meta_grid.columns[0].field === '__selected' ? 1 : 0;
+        self.meta_grid.grid.gotoCell(row, col);
+    });
+    $("#go-right").click(function(e) {
+        var row = self.meta_grid.grid.getActiveCell() ? self.meta_grid.grid.getActiveCell().row : 0;
+        self.meta_grid.grid.gotoCell(row, self.meta_grid.columns.length - 1);
+    });
+    $("#moveleft-category").click(function(e) {
+        var colname = $("#hover-colname").val();
+        for (var id in self.meta_grid.columns) {
+            var c = self.meta_grid.columns[id];
+            if (c.id === colname) {
+                var x = self.meta_grid.columns.splice(id, 1);
+                self.meta_grid.columns.unshift(x[0]);
+                break;
+            }
+        }
+        self.meta_grid.updateMetadataTable();
+    });
+    $("#moveright-category").click(function(e) {
+        var colname = $("#hover-colname").val();
+        for (var id in self.meta_grid.columns) {
+            var c = self.meta_grid.columns[id];
+            if (c.id === colname) {
+                var tmp = self.meta_grid.columns.splice(id, 1);
+                self.meta_grid.columns.push(tmp[0]);
+                break;
+            }
+        }
+        self.meta_grid.updateMetadataTable();
+    });
+
+    $("#change-category").click(function(e) {
+        var colname = $("#hover-colname").val();
+        if (!colname) {
+            colname = 'nothing';
+        }
+        self.tree.changeCategory(colname);
+    });
+    $(".group-size-input").on("change", function(e) {
+        $(this).data('data').minnum = parseInt($(this).val());
+        self.tree.changeCategory($("#metadata-select").val());
+    }).spinner({
+        spin: function(e, ui) {
+            $(this).spinner("value", ui.value);
+        },
+        change: function(e, ui) {
+            $(this).trigger('change');
+        }
+    }).keypress(function(e) {
+        if (e.which === 13) {
+            $(this).spinner("value", $(this).val());
+        }
+    });
+
+    $("#group-num-input").on("change", function(e) {
+        var n = parseInt($("#group-num-input").val());
+        var category_info = the_tree.metadata_info[the_tree.display_category];
+        if (n !== category_info.category_num) {
+            category_info.category_num = n;
+            self.tree.changeCategory(the_tree.display_category);
+        }
+    }).spinner({
+        spin: function(e, ui) {
+            $(this).spinner("value", ui.value);
+        },
+        change: function(e, ui) {
+            $(this).trigger('change');
+        }
+    }).keypress(function(e) {
+        if (e.which === 13) {
+            $(this).spinner("value", $(this).val());
+        }
+    });
 };
+
 
 
 D3MSTreeContextMenu.prototype._fill_metadata_option = function(source) {
