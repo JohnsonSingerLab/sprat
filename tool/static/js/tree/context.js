@@ -162,7 +162,7 @@ function D3MSTreeContextMenu(tree,meta_grid,hide_tree_functions){
 	this._init();
 }
 
-// MODIFIED 
+// ----  MODIFIED 
 D3MSTreeContextMenu.prototype._init = function() {
     var self = this;
 
@@ -180,9 +180,32 @@ D3MSTreeContextMenu.prototype._init = function() {
         }
     }
 
-	// Populate dropdown with metadata options
-	function populateMetadataDropdown() {
-		$("#metadata-select").empty(); // Clear existing options to prevent duplication
+    // Function to apply metadata settings based on the selected column
+    function applyMetadataSettings(selectedCategory) {
+
+        if (!self.tree.metadata_info[selectedCategory]) {
+            console.error("Metadata missing for category:", selectedCategory);
+            return; // Exit if no metadata for this category
+        }
+
+        if (selectedCategory === 'Year') {
+            console.log("Applying Year-specific settings");
+            self.tree.metadata_info[selectedCategory].coltype = 'numeric';
+            self.tree.metadata_info[selectedCategory].grouptype = 'alphabetic';
+            self.tree.metadata_info[selectedCategory].colorscheme = 'gradient_cool';
+        } else {
+            console.log("Applying default settings for", selectedCategory);
+            self.tree.metadata_info[selectedCategory].coltype = 'numeric';
+            self.tree.metadata_info[selectedCategory].grouptype = 'size';
+            self.tree.metadata_info[selectedCategory].colorscheme = 'category';
+        }
+        console.log("Current settings for", selectedCategory, self.tree.metadata_info[selectedCategory]);
+    }
+
+
+    // Populate dropdown with metadata options
+    function populateMetadataDropdown() {
+        $("#metadata-select").empty(); // Clear existing options to prevent duplication
 
         var options = Object.keys(self.tree.metadata_info).sort();
         options.forEach(function(key) {
@@ -207,14 +230,15 @@ D3MSTreeContextMenu.prototype._init = function() {
                         minnum: 0
                     });
                 }
-				
+                
                 $("#metadata-select").append(new Option(label, key));
             }
         });
 
         // Set the default selection to "Year"
         $("#metadata-select").val('Year');
-	}
+        applyMetadataSettings('Year'); // Ensure settings are applied for 'Year' by default
+    }
 
     // Initialize the dropdown with default values
     populateMetadataDropdown();
@@ -222,19 +246,23 @@ D3MSTreeContextMenu.prototype._init = function() {
     // Handle the change event for metadata category selection
     $("#metadata-select").change(function(e) {
         var selectedCategory = $(this).val();
+        console.log("Category selected:", selectedCategory);
 
-        // Check if the selected category is 'Year' or another category
-		// Update the metadata for the selected category
-        if (selectedCategory === 'Year') {
-            self.tree.metadata_info[selectedCategory].colorscheme = 'gradient_cool';
-            self.tree.metadata_info[selectedCategory].grouptype = 'alphabetic';
-        } else {
-            self.tree.metadata_info[selectedCategory].colorscheme = 'category';
-            self.tree.metadata_info[selectedCategory].grouptype = 'size'; // Explicitly set grouptype to 'size'
+        // Apply the metadata settings based on the selected category
+        applyMetadataSettings(selectedCategory);
+
+        // Check if metadata exists for the selected category
+        if (!self.tree.metadata_info[selectedCategory]) {
+            console.error("Error: Metadata missing for selected category:", selectedCategory);
+            return;
         }
 
         // Apply the changes and update the category in the tree
-        self.tree.changeCategory(selectedCategory);
+        try {
+            self.tree.changeCategory(selectedCategory);
+        } catch (error) {
+            console.error("Error while changing category for:", selectedCategory, "Error:", error);
+        }
 
         // Update the dropdown to reflect the selected Category
         $("#metadata-select").val(selectedCategory);
