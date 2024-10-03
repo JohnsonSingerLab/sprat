@@ -60,27 +60,31 @@ html, body {
 /* Logo and SPRAT alignment */
 #logo-text {
   display: flex;
-  align-items: flex-start; /* Align SPRAT and logo vertically */
+  align-items: center; /* Align SPRAT and logo vertically */
+  flex-grow: 1; /* Allow this section to take up available space */
 }
 
 #logo {
 	margin-right: 20px; /* Space between logo and SPRAT */
 	height: 90px;
 	width: 146px;
-  margin-top: -10px; /* Adjust logo position */
+  /* margin-top: -30px; Adjust logo position */
+  margin-bottom: 50px; /* Adjust logo position */
 }
 
-/* Ensure content respects the fixed header
+/* Ensure content doesn't overlap with the fixed header */
 body {
-  padding-top: 138px; /* Matches the header height to prevent overlap */
-/* } */ */
+ padding-top: 138px;  /* Matches the header height to prevent overlap */
+}
 
 /* Align SPRAT and subtitle */
 /* Display SPRAT and Salmonella Predictive Risk Assessment Tool next to each other */
 #header-text {
   display: flex;
-  flex-direction: column; /* Stack SPRAT and subtitle vertically */
-  max-width: 600px; /* Set a maximum width for the whole container */
+  flex-direction: row; /* Stack SPRAT and subtitle vertically */
+  align-items: flex-end; /* Align subtitle with the bottom of SPRAT */
+  flex-grow: 1; /* Allow this section to grow and take up available space */
+  max-width: 100%; /* Allow the text to take up as much width as possible */
 }
 
 /* SPRAT styling */
@@ -89,7 +93,7 @@ body {
   font-size: 5.5em;
   color: #ffcc33;
   text-decoration: none; /* Remove underline from the link */
-  margin-right: 0; /* Space between SPRAT and the tool name */
+  margin-right: 20px; /* Space between SPRAT and the tool name */
 }
 
 #sprat:hover {
@@ -100,10 +104,10 @@ body {
 #subtitle {
   font-size: 1.5em;
   color: #f1f1f1;
-
-  max-width: 600px; /* Ensures the subtitle stays within its container */
-  white-space: normal; /* Allows the subtitle to wrap within itself */
-  word-wrap: break-word; /* Break long words if necessary */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow if text overflows */
+  text-overflow: ellipsis; /* Add ellipsis (...) if text is too long */
+  margin-bottom: 25px; /* Space between subtitle and the menu */S
 }
 
 /* Menu container */
@@ -128,7 +132,6 @@ body {
   font-size: 1.2em;
 }
 
-
 #menu-top a:hover {
   text-decoration: underline;
   color: #007bff; /* Hover color */
@@ -140,35 +143,6 @@ body {
   color: #f1f1f1;
   font-size: 1em;
 }
-
-
-
-/* CSS for the menu line */
-#menu-line {
-    background-color: #e9ecef;
-    padding: 10px;
-    /* margin-bottom: 0px; */
-}
-
-#menu-line nav {
-    display: flex;
-    justify-content: left;
-    gap: 40px; 	/* space between links*/
-	
-}
-
-#menu-line nav a {
-    text-decoration: none;
-    color: black;
-}
-
-/* styles for hover effects */
-#menu-line nav a:hover {
-    text-decoration: underline;
-    color: #007bff; /* hover color */
-}
-
-
 
 /* Responsive behavior for smaller screens */
 
@@ -199,8 +173,6 @@ body {
   }
 }
 
-
-
 @media screen and (max-width: 768px) {
   #header-text {
     max-width: 100%; /* Ensures the header-text takes up available space */
@@ -222,6 +194,31 @@ body {
   }
 }
 
+
+/* CSS for the menu line */
+#menu-line {
+    background-color: #e9ecef;
+    padding: 10px;
+    /* margin-bottom: 0px; */
+}
+
+#menu-line nav {
+    display: flex;
+    justify-content: left;
+    gap: 40px; 	/* space between links*/
+	
+}
+
+#menu-line nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* styles for hover effects */
+#menu-line nav a:hover {
+    text-decoration: underline;
+    color: #007bff; /* hover color */
+}
 
 
 /* ---  END OF Base.html --- */
