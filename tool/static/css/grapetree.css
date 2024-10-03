@@ -67,8 +67,7 @@ html, body {
 	margin-right: 20px; /* Space between logo and SPRAT */
 	height: 90px;
 	width: 146px;
-  /* justify-content: center */
-	/* set logo to be center */
+  margin-top: -10px; /* Adjust logo position */
 }
 
 /* Ensure content respects the fixed header
@@ -80,10 +79,8 @@ body {
 /* Display SPRAT and Salmonella Predictive Risk Assessment Tool next to each other */
 #header-text {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100%;
+  flex-direction: column; /* Stack SPRAT and subtitle vertically */
+  max-width: 600px; /* Set a maximum width for the whole container */
 }
 
 /* SPRAT styling */
@@ -92,18 +89,21 @@ body {
   font-size: 5.5em;
   color: #ffcc33;
   text-decoration: none; /* Remove underline from the link */
-  margin-right: 35px; /* Space between SPRAT and the tool name */
+  margin-right: 0; /* Space between SPRAT and the tool name */
 }
 
 #sprat:hover {
   text-decoration: underline; /* hover effect */
 }
 
+/* Subtitle styling */
 #subtitle {
   font-size: 1.5em;
   color: #f1f1f1;
-  margin-top: auto; /* Moves subtitle to the bottom of the container */
-  align-self: flex-start; /* Ensure it's aligned to the left */
+
+  max-width: 600px; /* Ensures the subtitle stays within its container */
+  white-space: normal; /* Allows the subtitle to wrap within itself */
+  word-wrap: break-word; /* Break long words if necessary */
 }
 
 /* Menu container */
@@ -169,21 +169,56 @@ body {
 }
 
 
-/* Responsive behavior */
+
+/* Responsive behavior for smaller screens */
+
+@media screen and (max-width: 1084px) {
+  #header-text {
+    max-width: 100%; /* Ensures the header-text takes up available space */
+  }
+
+  #logo {
+    margin-right: 10px; /* Space between logo and SPRAT */
+    /* height: 80px;
+    width: 126px; */
+    height: 90px;
+    width: 146px;
+    margin-top: -15px; /* Adjust logo position */
+  }
+
+
+  #sprat {
+    font-size: 4em; /* Adjust SPRAT font-size for smaller screens */
+  }
+
+  #subtitle {
+    font-size: 1.2em; /* Adjust subtitle font-size for smaller screens */
+    max-width: 100%; /* Ensure subtitle doesn't overflow */
+    white-space: normal; /* Allow wrapping */
+    word-wrap: break-word; /* Break words if necessary */
+  }
+}
+
+
+
 @media screen and (max-width: 768px) {
-  #menu {
-      flex-direction: column;
-      padding-left: 0;
+  #header-text {
+    max-width: 100%; /* Ensures the header-text takes up available space */
   }
 
-  #menu a {
-      margin-left: 0;
-      padding: 10px 0;
-      text-align: center;
+  #logo {
+    display: none; /* Hide the logo */
   }
 
-  #tittle {
-      width: auto;
+  #sprat {
+    font-size: 3em; /* Adjust SPRAT font-size for smaller screens */
+  }
+
+  #subtitle {
+    font-size: 1.2em; /* Adjust subtitle font-size for smaller screens */
+    max-width: 100%; /* Ensure subtitle doesn't overflow */
+    white-space: normal; /* Allow wrapping */
+    word-wrap: break-word; /* Break words if necessary */
   }
 }
 
