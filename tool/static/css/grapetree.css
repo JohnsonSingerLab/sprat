@@ -41,71 +41,107 @@ html, body {
 	/* overflow: scroll; */
 }
 
+/* Fix the header at the top */
 #header {
-	/* position: relative; */
-	display: flex;
-	background-color: #7a0019;
-	height: 138px;
+  position: fixed; /* Keep the header fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7a0019;
+  height: 138px;
+  z-index: 100; /* Ensure the header stays above all content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Add padding for better spacing */
+  box-sizing: border-box; /* Ensure padding and width are calculated properly */
 }
 
-#h1-header a{
-	font-family: 'Amarante', Tahoma, sans-serif;
-	/* Papyrus, Fantasy-serif; */
-	font-weight: bold;
-	font-size: 2em;
-	color: #ffcc33;
-	/* /* line-height: 2.7em; */
-	text-decoration: none;
-	margin-bottom: 5px;
-}
-
-/* #h1-header a {
-	color: #ffcc33;
-} */
-/* Tittle */
-h3{
-	color: #f1f1f1;
-	margin-top: 1px;
+/* Logo and SPRAT alignment */
+#logo-text {
+  display: flex;
+  align-items: center; /* Align SPRAT and logo vertically */
 }
 
 #logo {
-	margin-top: 3px;
+	margin-top: 20px; /* Space between logo and SPRAT */
 	height: 90px;
 	width: 146px;
+  justify-content: center
 	/* set logo to be center */
 }
 
-/* Subtittle */
-#tittle {
-	height: 98px;
-	width: 900px;
+/* Ensure content respects the fixed header
+body {
+  padding-top: 138px; /* Matches the header height to prevent overlap */
+/* } */ */
+
+/* Align SPRAT and subtitle */
+/* Display SPRAT and Salmonella Predictive Risk Assessment Tool next to each other */
+#header-text {
+  display: flex;
+  flex-direction: column;
+  ; /* Aligns items to the vertical center */
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  height: 100%;
 }
 
-#menu {
-    width: 500px;
-	/* height: 90px; */
-	/* display: inline-block; */
-    margin-left:350px;
-    font-weight:bold;
-    text-align:left;
-    padding-bottom:100px; 
-	padding-left:200px;
-	float: left;
-} 
+#sprat {
+  font-weight: bold;
+  font-size: 5.5em;
+  color: #ffcc33;
+  text-decoration: none; /* Remove underline from the link */
+  margin-right: 35px; /* Space between SPRAT and the tool name */
+}
 
-#menu a {
-	color: #f1f1f1;
-	margin-left: 55px;
-	float: left;
+#sprat:hover {
+  text-decoration: underline; /* hover effect */
 }
-#menu p {
-	color: #f1f1f1;
-	margin-top: 120px;
-	margin-bottom: 100px;
-	margin-right: 200px;
-	margin-left: 65px;
-	width: 80%;
+
+#subtitle {
+  font-size: 1.5em;
+  color: #f1f1f1;
+  margin-top: auto; /* Moves subtitle to the bottom of the container */
+  align-self: flex-start; /* Ensure it's aligned to the left */
 }
+
+/* Menu container */
+#menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%; /* Ensure the container takes up the full height of the header */
+  justify-content: space-between;
+}
+
+/* Top menu: Align the links horizontally */
+#menu-top {
+  display: flex;
+  gap: 20px; /* Space between links */
+  align-items: flex-start;
+}
+
+#menu-top a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+
+#menu-top a:hover {
+  text-decoration: underline;
+  color: #007bff; /* Hover color */
+}
+
+/* Bottom menu: Align the text at the bottom */
+#menu-bottom p {
+  margin: 0;
+  color: #f1f1f1;
+  font-size: 1em;
+}
+
+
 
 /* CSS for the menu line */
 #menu-line {
@@ -131,6 +167,26 @@ h3{
     text-decoration: underline;
     color: #007bff; /* hover color */
 }
+
+
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  #menu {
+      flex-direction: column;
+      padding-left: 0;
+  }
+
+  #menu a {
+      margin-left: 0;
+      padding: 10px 0;
+      text-align: center;
+  }
+
+  #tittle {
+      width: auto;
+  }
+}
+
 
 
 /* ---  END OF Base.html --- */

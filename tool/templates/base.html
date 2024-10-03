@@ -16,21 +16,28 @@
 <body>
 	<!-- START OF PAGE HEADER -->
 	<div id="header">
-		<div id="logo">
-			<a title="salmonella typhi icons" href="https://www.flaticon.com/free-icons/salmonella-typhi" target = '_blank'>
-				<img src="{% static 'js/img/logo2.png' %}" alt="SPRAT" style="width:153px;height:135px;transform: rotate(45deg);"></a>
+		<div id="logo-text">
+			<div id="logo">
+				<a title="salmonella typhi icons" href="https://www.flaticon.com/free-icons/salmonella-typhi" target="_blank">
+					<img src="{% static 'js/img/logo2.png' %}" alt="SPRAT" style="width:153px;height:135px;transform: rotate(45deg);">
+				</a>
+			</div>
+			<div id="header-text">
+				<a id="sprat" href="{% url 'index' %}">SPRAT</a>
+				<span id="subtitle"><i> Salmonella</i> Predictive Risk Assessment Tool</span>
+			</div>
 		</div>
-		<div id="SPRAT">
-			<h1 id="h1-header"><a href="{% url 'index' %}"> SPRAT </a></h1>
-			<h3><i> Salmonella</i> Predictive Risk Assessment Tool</h3>
-		</div>	
-		<div id="menu" class="col-auto"> 
-			<a href="#">About</a>
-			<a href="#">Help</a>
-			<a href="#">Cite Us</a>
-			<p>Hosted by University of Minnesota</p>
+		<div id="menu-container">
+			<div id="menu-top">
+				<a href="#">About</a>
+				<a href="#">Help</a>
+				<a href="#">Cite Us</a>
+			</div>
+			<div id="menu-bottom">
+				<p>Hosted by University of Minnesota</p>
+			</div>
 		</div>
-	</div> 
+	</div>
 	<!-- END OF PAGE HEADER  -->
 
 	<!-- START OF MENU LINE -->
