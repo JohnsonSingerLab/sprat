@@ -60,14 +60,14 @@ html, body {
 /* Logo and SPRAT alignment */
 #logo-text {
   display: flex;
-  align-items: center; /* Align SPRAT and logo vertically */
+  align-items: flex-start; /* Align SPRAT and logo vertically */
 }
 
 #logo {
-	margin-top: 20px; /* Space between logo and SPRAT */
+	margin-right: 20px; /* Space between logo and SPRAT */
 	height: 90px;
 	width: 146px;
-  justify-content: center
+  /* justify-content: center */
 	/* set logo to be center */
 }
 
@@ -81,12 +81,12 @@ body {
 #header-text {
   display: flex;
   flex-direction: column;
-  ; /* Aligns items to the vertical center */
-  /* justify-content: flex-start; */
+  justify-content: center;
   align-items: flex-start;
   height: 100%;
 }
 
+/* SPRAT styling */
 #sprat {
   font-weight: bold;
   font-size: 5.5em;
