@@ -48,7 +48,7 @@ html, body {
   left: 0;
   width: 100%;
   background-color: #7a0019;
-  height: 138px;
+  height: 100px;
   z-index: 100; /* Ensure the header stays above all content */
   display: flex;
   justify-content: space-between;
@@ -66,10 +66,10 @@ html, body {
 
 #logo {
 	margin-right: 20px; /* Space between logo and SPRAT */
-	height: 90px;
-	width: 146px;
+	height: 70px;
+	width: 120px;
   /* margin-top: -30px; Adjust logo position */
-  margin-bottom: 50px; /* Adjust logo position */
+  margin-bottom: 65px; /* Adjust logo position */
 }
 
 /* Ensure content doesn't overlap with the fixed header */
@@ -94,6 +94,7 @@ body {
   color: #ffcc33;
   text-decoration: none; /* Remove underline from the link */
   margin-right: 20px; /* Space between SPRAT and the tool name */
+  margin-bottom: 10px;
 }
 
 #sprat:hover {
@@ -106,8 +107,8 @@ body {
   color: #f1f1f1;
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflow if text overflows */
-  text-overflow: ellipsis; /* Add ellipsis (...) if text is too long */
-  margin-bottom: 25px; /* Space between subtitle and the menu */S
+  /* text-overflow: ellipsis; Add ellipsis (...) if text is too long */
+  margin-bottom: 40px; /* Space between subtitle and the menu */
 }
 
 /* Menu container */
@@ -155,14 +156,15 @@ body {
     margin-right: 10px; /* Space between logo and SPRAT */
     /* height: 80px;
     width: 126px; */
-    height: 90px;
-    width: 146px;
-    margin-top: -15px; /* Adjust logo position */
+    height: 75px;
+    width: 126px;
+    margin-top: 10px; /* Adjust logo position */
   }
 
 
   #sprat {
     font-size: 4em; /* Adjust SPRAT font-size for smaller screens */
+    margin-top: 10px;
   }
 
   #subtitle {
@@ -170,6 +172,7 @@ body {
     max-width: 100%; /* Ensure subtitle doesn't overflow */
     white-space: normal; /* Allow wrapping */
     word-wrap: break-word; /* Break words if necessary */
+    margin-top: 10px;
   }
 }
 
@@ -184,13 +187,15 @@ body {
 
   #sprat {
     font-size: 3em; /* Adjust SPRAT font-size for smaller screens */
+    margin-top: 10px;
   }
 
   #subtitle {
-    font-size: 1.2em; /* Adjust subtitle font-size for smaller screens */
+    font-size: 1.0em; /* Adjust subtitle font-size for smaller screens */
     max-width: 100%; /* Ensure subtitle doesn't overflow */
     white-space: normal; /* Allow wrapping */
     word-wrap: break-word; /* Break words if necessary */
+    margin-top: 30px;
   }
 }
 
@@ -198,8 +203,8 @@ body {
 /* CSS for the menu line */
 #menu-line {
     background-color: #e9ecef;
-    padding: 10px;
-    /* margin-bottom: 0px; */
+    padding: 10px; /* Size of the menu */
+    margin-top: -37px;
 }
 
 #menu-line nav {
@@ -208,7 +213,6 @@ body {
     gap: 40px; 	/* space between links*/
 	
 }
-
 #menu-line nav a {
     text-decoration: none;
     color: black;
