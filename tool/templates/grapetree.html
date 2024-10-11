@@ -101,12 +101,13 @@
 	<br>
 	<!-- Inputs/Outputs -->
 	<div id='input-output-panel' class='panel panel-default'>
-		<div class ='panel-heading mst-menu-title' id= 'file-menu'> <b id='input-output-title'>Serovars</b><span id = 'file-menu-icon' class='glyphicon glyphicon-menu-down'> </span></div>
+		<div class ='panel-body' id= 'file-menu'> <b id='input-output-title'>Step 1: Create Tree</b><span id = 'file-menu-icon' class='glyphicon glyphicon-menu-down'> </span></div>
 		<!-- Inputs/Outputs  => Minimum spanning tree using: -->
 		<div class = "panel-body" id ='file-menu-panel'>
 			<div id ='load-panel'>
 				<!-- replace btn to dropdown -->
 				<!-- <button title='Handles trees, profiles and metadata files' id = 'button-files' class = 'show-tooltip'> Load Files</button> -->
+				<label>Select a Serovar:</label>
 				<select id = 'select-files' >
 					<option>Select</option>
 					<option value="Agona">Agona</option> 
@@ -173,7 +174,7 @@
 
 <!-- Tree Layout -->
 <div class='panel panel-default'>
-	<div class ='panel-heading mst-menu-title' id= 'tree-menu'> <b id>Tree Layout</b><span id = 'tree-menu-icon' class='glyphicon glyphicon-menu-right'> </span></div>
+	<div class ='panel-heading mst-menu-title' id= 'tree-menu'> <b id>Step 2: Change Tree Layout</b><span id = 'tree-menu-icon' class='glyphicon glyphicon-menu-right'> </span></div>
 	<div class = "panel-body" id ='tree-menu-panel' style='padding:0px;' ><br>
 		<button id = 'button-goback' style='margin-left:15px;' onclick='loadMSTree(tree_raw);if(current_metadata_file) {loadMetadataText(current_metadata_file);}'> Original tree</button>
 		<span class="glyphicon glyphicon-question-sign" style="float:right;margin-right:15px" onclick="getHelpBox('tree_layout');"></span>
