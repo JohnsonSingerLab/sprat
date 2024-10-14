@@ -156,11 +156,11 @@ body {
     margin-right: 10px; /* Space between logo and SPRAT */
     /* height: 80px;
     width: 126px; */
-    height: 75px;
-    width: 126px;
+    height: 70px;
+    width: 120px;
     margin-top: 10px; /* Adjust logo position */
+    margin-bottom: 75px;
   }
-
 
   #sprat {
     font-size: 4em; /* Adjust SPRAT font-size for smaller screens */
@@ -175,6 +175,8 @@ body {
     margin-top: 10px;
   }
 }
+
+
 
 @media screen and (max-width: 768px) {
   #header-text {
