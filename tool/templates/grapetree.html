@@ -467,6 +467,13 @@
 
 		<!-- modified for loading files on the server side -->
 		$("#select-files").change(async function(e) {
+			var selectedSerovar = $(this).val();
+
+			// Update the URL without reloading the page
+			var newUrl = window.location.pathname + '?selectedOption=' + selectedSerovar;
+			window.history.pushState({ path: newUrl }, '', newUrl);
+		 
+
 			let nwkFileName = this.value.concat(".nwk");
 			let txtFileName = this.value.concat(".tsv");
 			await loadServerFiles(nwkFileName);
