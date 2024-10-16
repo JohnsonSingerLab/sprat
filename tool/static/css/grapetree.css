@@ -69,7 +69,7 @@ html, body {
 	height: 70px;
 	width: 120px;
   /* margin-top: -30px; Adjust logo position */
-  margin-bottom: 65px; /* Adjust logo position */
+  margin-bottom: 70px; /* Adjust logo position */
 }
 
 /* Ensure content doesn't overlap with the fixed header */
@@ -159,7 +159,7 @@ body {
     height: 70px;
     width: 120px;
     margin-top: 10px; /* Adjust logo position */
-    margin-bottom: 75px;
+    margin-bottom: 77px;
   }
 
   #sprat {
@@ -185,6 +185,7 @@ body {
 
   #logo {
     display: none; /* Hide the logo */
+    margin-bottom: 75px;
   }
 
   #sprat {
