@@ -11,6 +11,12 @@ def index_view(request):
 def dashboard_view(request):
     return render(request, 'dashboard.html')
 
+def tutorial_view(request):
+    return render(request, 'tutorial.html')
+
+def about_view(request):
+    return render(request, 'about.html')
+
 
 
 # from django.http import HttpResponse

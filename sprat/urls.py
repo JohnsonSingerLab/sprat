@@ -20,13 +20,15 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from tool.views import index_view, dashboard_view
+from tool.views import index_view, dashboard_view, tutorial_view, about_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_view, name='index'),
     path('grapetree/', include('tool.urls')),  # Include URLs from the tool app
     path('dashboard/', dashboard_view, name='dashboard'),
+    path('tutorial/', tutorial_view, name='tutorial'),
+    path('about/', about_view, name='about'),
 ]#+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
