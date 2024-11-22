@@ -11,16 +11,15 @@
         <p> SPRAT (<i>Salmonella</i> Predictive Risk Assessment Tool) is an interactive tool for surveillance of the top food animal-associated <i>Salmonella</i> serovars using publicly available sequence data from USDA-FSIS and CDC. SPRAT allows for visualizing the genomic landscape of each serovar, identification of emerging clusters of interest, and comparison of traits of interest including antimicrobial resistance and virulence.</p>
         
         <!-- New Images Container -->
-                    <!-- Centered Images with Spacing -->
         <div class="d-flex justify-content-center align-items-center flex-wrap mt-4">
-          <!-- Image 1 Link -->
-          <a href="#" target="_blank" class="mx-3">
-            <img src="{% static 'js/img/isosearch.png' %}" alt="Description of Image 1" class="img-fluid sprat-image">
-          </a>
-          <!-- Image 2 Link -->
-          <a href="#" target="_blank" class="mx-3">
+          <a href="{% url 'grapetree' %}" target="_blank" class="mx-3">
             <img src="{% static 'js/img/genomic.png' %}" alt="Description of Image 2" class="img-fluid sprat-image">
           </a>
+
+          <a href="{% url 'dashboard' %}" target="_blank" class="mx-3">
+            <img src="{% static 'js/img/isosearch.png' %}" alt="Description of Image 1" class="img-fluid sprat-image">
+          </a>
+
         </div>
        
         <!-- End of Images Container -->
