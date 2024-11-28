@@ -666,3 +666,60 @@ img { border: 0; max-width: 100%; }
 	margin-right: 30px;
 	padding: 10px 17px !important;
   }
+
+
+
+/******************** ---  ABOUT PAGE --- **************************/
+
+
+/* Adjust spacing and alignment */
+.container h1 {
+  text-align: center; /* Center align headings */
+}
+
+.container h2 {
+  text-align: left; /* Center align headings */
+}
+
+h1 {
+  font-size: 2rem; /* Smaller title */
+}
+
+h2 {
+  font-size: 1.25rem; /* Adjust subtitle size */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333; /* Darker shade for contrast */
+}
+
+/* h2 {
+  font-size: 1.8rem; /* Smaller subtitle */
+} */
+
+.container p {
+  line-height: 1.6; /* Improve readability with line spacing */
+}
+
+
+/* Section Spacing */
+.mb-4 {
+  margin-bottom: 1.5rem; /* Adds space below each section */
+}
+
+/* Italicize Scientific Text */
+i {
+  font-style: italic;
+}
+
+/* Link Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darker blue link color on hover */
+}
+
+  
