@@ -1,816 +1,817 @@
-ID	Year	Source	MST-14	MST-85	MST-92
-SRR10001036	2019	Human	cluster_39	cluster_1	cluster_1
-SRR10005448	2019	Human	cluster_35	cluster_1	cluster_1
-SRR10012574	Unknown	Unspecified Animal	cluster_58	cluster_1	cluster_1
-SRR10015736	2019	Human	cluster_38	cluster_1	cluster_1
-SRR10018781	2019	Human	cluster_80	cluster_1	cluster_1
-SRR10037995	2019	Swine	cluster_5	cluster_1	cluster_1
-SRR10075115	2019	Human	cluster_15	cluster_1	cluster_1
-SRR10075133	2019	Human	singleton_102	cluster_1	cluster_1
-SRR10075393	2019	Human	cluster_74	cluster_1	cluster_1
-SRR10078922	2019	Human	cluster_5	cluster_1	cluster_1
-SRR10082187	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10082247	2019	Swine	cluster_65	cluster_1	cluster_1
-SRR10119501	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10119502	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10119504	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10136220	2019	Human	cluster_38	cluster_1	cluster_1
-SRR10156338	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10156341	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10164745	2019	Swine	cluster_43	cluster_1	cluster_1
-SRR10164777	2019	Human	cluster_27	cluster_1	cluster_1
-SRR10176076	2019	Human	cluster_35	cluster_1	cluster_1
-SRR10216320	2019	Human	cluster_59	cluster_1	cluster_1
-SRR10226358	2019	Human	cluster_5	cluster_1	cluster_1
-SRR10228062	2019	Human	singleton_119	cluster_1	cluster_1
-SRR10230035	2019	Swine	singleton_241	cluster_1	cluster_1
-SRR10233383	2019	Human	cluster_39	cluster_1	cluster_1
-SRR10251234	2019	Human	cluster_68	cluster_1	cluster_1
-SRR10251584	Unknown	Unspecified Animal	singleton_185	cluster_1	cluster_1
-SRR10276610	2019	Human	cluster_27	cluster_1	cluster_1
-SRR10289959	2019	Human	cluster_27	cluster_1	cluster_1
-SRR10307442	2019	Swine	cluster_43	cluster_1	cluster_1
-SRR10340466	2019	Human	cluster_34	cluster_1	cluster_1
-SRR10363875	2019	Swine	cluster_29	cluster_1	cluster_1
-SRR10381282	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10447368	2019	Chicken	cluster_53	cluster_1	cluster_1
-SRR10513291	2019	Human	cluster_24	cluster_1	cluster_1
-SRR10533029	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10582792	2019	Swine	cluster_74	cluster_1	cluster_1
-SRR10584573	2019	Human	cluster_58	cluster_1	cluster_1
-SRR10612170	2019	Swine	cluster_5	cluster_1	cluster_1
-SRR10691681	2019	Swine	cluster_73	cluster_1	cluster_1
-SRR10708508	2019	Swine	cluster_78	cluster_1	cluster_1
-SRR10719506	2019	Human	cluster_27	cluster_1	cluster_1
-SRR10744667	2019	Human	cluster_22	cluster_1	cluster_1
-SRR10763293	2019	Human	singleton_11	cluster_1	cluster_1
-SRR10775256	2019	Human	singleton_212	cluster_1	cluster_1
-SRR10806427	2019	Human	cluster_27	cluster_1	cluster_1
-SRR10815621	2019	Swine	singleton_169	cluster_1	cluster_1
-SRR10816089	2019	Human	cluster_47	cluster_1	cluster_1
-SRR10816096	2019	Human	cluster_48	cluster_1	cluster_1
-SRR10823774	2019	Human	cluster_73	cluster_1	cluster_1
-SRR10879481	2019	Swine	cluster_66	cluster_1	cluster_1
-SRR10879489	2019	Swine	cluster_66	cluster_1	cluster_1
-SRR10879494	2019	Swine	cluster_66	cluster_1	cluster_1
-SRR10879499	2019	Swine	singleton_223	cluster_1	cluster_1
-SRR10879538	2019	Swine	cluster_66	cluster_1	cluster_1
-SRR10981484	2020	Human	cluster_13	cluster_1	cluster_1
-SRR11015402	2020	Swine	singleton_208	cluster_1	cluster_1
-SRR11040157	2020	Chicken	singleton_178	cluster_1	cluster_1
-SRR11043911	2020	Human	singleton_93	cluster_1	cluster_1
-SRR11048510	2020	Swine	singleton_252	cluster_1	cluster_1
-SRR11049983	2020	Swine	singleton_216	cluster_1	cluster_1
-SRR11059527	2020	Swine	cluster_43	cluster_1	cluster_1
-SRR11096329	2020	Swine	singleton_213	cluster_1	cluster_1
-SRR11119321	2020	Swine	singleton_94	cluster_1	cluster_1
-SRR11142459	2020	Swine	cluster_66	cluster_1	cluster_1
-SRR11153196	2020	Swine	singleton_229	cluster_1	cluster_1
-SRR11176435	2020	Swine	singleton_254	cluster_1	cluster_1
-SRR11179378	2020	Human	cluster_55	cluster_1	cluster_1
-SRR11190592	2020	Swine	cluster_66	cluster_1	cluster_1
-SRR11193988	2020	Human	cluster_68	cluster_1	cluster_1
-SRR11195964	2020	Swine	singleton_215	cluster_1	cluster_1
-SRR11214794	2020	Swine	singleton_235	cluster_1	cluster_1
-SRR11214862	2020	Human	cluster_10	cluster_1	cluster_1
-SRR11235385	2020	Human	cluster_13	cluster_1	cluster_1
-SRR11252393	2020	Swine	cluster_29	cluster_1	cluster_1
-SRR11252527	2020	Swine	singleton_249	cluster_1	cluster_1
-SRR11311797	2020	Swine	cluster_66	cluster_1	cluster_1
-SRR11311809	2020	Swine	cluster_66	cluster_1	cluster_1
-SRR11317804	2020	Swine	cluster_59	cluster_1	cluster_1
-SRR11351642	2020	Swine	singleton_207	cluster_1	cluster_1
-SRR11362781	2020	Swine	cluster_60	cluster_1	cluster_1
-SRR11477190	2020	Human	cluster_46	cluster_1	cluster_1
-SRR11477864	2020	Human	singleton_136	cluster_1	cluster_1
-SRR11488854	2020	Swine	singleton_81	cluster_1	cluster_1
-SRR11510980	2020	Swine	cluster_78	cluster_1	cluster_1
-SRR11515338	2020	Human	cluster_55	cluster_1	cluster_1
-SRR11584894	2020	Chicken	cluster_53	cluster_1	cluster_1
-SRR11681157	2020	Swine	cluster_73	cluster_1	cluster_1
-SRR11832998	2020	Swine	singleton_86	cluster_1	cluster_1
-SRR11833366	2020	Swine	cluster_60	cluster_1	cluster_1
-SRR11833391	2020	Swine	cluster_60	cluster_1	cluster_1
-SRR11833472	2020	Swine	cluster_73	cluster_1	cluster_1
-SRR11847316	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR11847319	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR11868382	2020	Human	cluster_10	cluster_1	cluster_1
-SRR11879307	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR11879332	2020	Swine	singleton_267	cluster_1	cluster_1
-SRR11928968	2020	Human	cluster_47	cluster_1	cluster_1
-SRR11950139	2020	Swine	cluster_36	cluster_1	cluster_1
-SRR12026408	2020	Swine	cluster_44	cluster_1	cluster_1
-SRR12026414	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR12047282	2020	Swine	cluster_40	cluster_1	cluster_1
-SRR12056326	2020	Swine	cluster_60	cluster_1	cluster_1
-SRR12071728	2020	Swine	cluster_62	cluster_1	cluster_1
-SRR12074057	2020	Swine	cluster_43	cluster_1	cluster_1
-SRR12091616	2020	Swine	cluster_72	cluster_1	cluster_1
-SRR12091669	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR12104778	2020	Bovine	singleton_246	cluster_1	cluster_1
-SRR12112546	2020	Swine	cluster_36	cluster_1	cluster_1
-SRR12215567	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR12216387	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR12229319	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR12317099	2020	Swine	cluster_59	cluster_1	cluster_1
-SRR12321160	2020	Chicken	singleton_70	cluster_1	cluster_1
-SRR12363269	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR12376960	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR12377481	2020	Swine	cluster_73	cluster_1	cluster_1
-SRR12377535	2020	Human	cluster_27	cluster_1	cluster_1
-SRR12388985	2020	Swine	cluster_36	cluster_1	cluster_1
-SRR12411069	2020	Human	cluster_64	cluster_1	cluster_1
-SRR12412960	2020	Human	cluster_34	cluster_1	cluster_1
-SRR12455705	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR12475931	2020	Swine	cluster_36	cluster_1	cluster_1
-SRR12476768	2020	Human	cluster_66	cluster_1	cluster_1
-SRR12479611	2020	Swine	cluster_37	cluster_1	cluster_1
-SRR12487492	2020	Swine	cluster_37	cluster_1	cluster_1
-SRR12492665	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR12513490	2020	Human	cluster_64	cluster_1	cluster_1
-SRR12515448	2020	Swine	singleton_105	cluster_1	cluster_1
-SRR12545594	2020	Swine	cluster_73	cluster_1	cluster_1
-SRR12599224	2020	Swine	singleton_123	cluster_1	cluster_1
-SRR12623134	2020	Human	singleton_271	cluster_1	cluster_1
-SRR12660270	2020	Human	cluster_66	cluster_1	cluster_1
-SRR12671060	2020	Human	cluster_36	cluster_1	cluster_1
-SRR12682521	2020	Human	singleton_193	cluster_1	cluster_1
-SRR12697364	2020	Human	cluster_12	cluster_1	cluster_1
-SRR12713720	2020	Swine	singleton_135	cluster_1	cluster_1
-SRR12743113	2020	Human	singleton_145	cluster_1	cluster_1
-SRR12743965	2020	Human	cluster_73	cluster_1	cluster_1
-SRR12748061	2020	Human	singleton_233	cluster_1	cluster_1
-SRR12770328	2020	Human	singleton_266	cluster_1	cluster_1
-SRR12804410	2020	Swine	cluster_33	cluster_1	cluster_1
-SRR12810595	2020	Human	singleton_189	cluster_1	cluster_1
-SRR12811730	2020	Swine	cluster_37	cluster_1	cluster_1
-SRR12819073	2020	Human	cluster_43	cluster_1	cluster_1
-SRR12826236	2020	Swine	singleton_21	cluster_1	cluster_1
-SRR12845046	2020	Human	cluster_12	cluster_1	cluster_1
-SRR12880320	2020	Human	cluster_29	cluster_1	cluster_1
-SRR12884290	2020	Swine	cluster_59	cluster_1	cluster_1
-SRR12887494	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR12926468	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR12931082	2020	Human	singleton_10	cluster_1	cluster_1
-SRR12931210	2020	Human	cluster_5	cluster_1	cluster_1
-SRR12938916	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR12949670	2020	Swine	singleton_139	cluster_1	cluster_1
-SRR12982403	2020	Human	cluster_44	cluster_1	cluster_1
-SRR12993234	2020	Human	cluster_36	cluster_1	cluster_1
-SRR13059394	2020	Swine	singleton_224	cluster_1	cluster_1
-SRR13088672	2020	Human	cluster_4	cluster_1	cluster_1
-SRR13094597	2020	Swine	cluster_5	cluster_1	cluster_1
-SRR13107634	2020	Swine	cluster_60	cluster_1	cluster_1
-SRR13108234	2020	Swine	cluster_74	cluster_1	cluster_1
-SRR13123210	2020	Human	singleton_155	cluster_1	cluster_1
-SRR13123685	2020	Human	singleton_28	cluster_1	cluster_1
-SRR13126784	2020	Turkey	singleton_39	cluster_1	cluster_1
-SRR13198888	2020	Swine	cluster_62	cluster_1	cluster_1
-SRR13218646	2020	Swine	cluster_66	cluster_1	cluster_1
-SRR13253240	2020	Human	cluster_5	cluster_1	cluster_1
-SRR13274000	2020	Human	cluster_29	cluster_1	cluster_1
-SRR13281450	2020	Human	cluster_66	cluster_1	cluster_1
-SRR13321225	2020	Swine	cluster_73	cluster_1	cluster_1
-SRR13357450	2020	Human	cluster_63	cluster_1	cluster_1
-SRR13389424	2020	Swine	singleton_201	cluster_1	cluster_1
-SRR13403349	2020	Swine	cluster_73	cluster_1	cluster_1
-SRR13403387	2020	Swine	cluster_73	cluster_1	cluster_1
-SRR13420013	2020	Swine	cluster_38	cluster_1	cluster_1
-SRR13428249	2019	Human	cluster_80	cluster_1	cluster_1
-SRR13438969	2020	Human	cluster_16	cluster_1	cluster_1
-SRR13498994	2021	Swine	cluster_2	cluster_1	cluster_1
-SRR13500726	2021	Human	cluster_12	cluster_1	cluster_1
-SRR13593712	2020	Swine	singleton_75	cluster_1	cluster_1
-SRR13615163	2021	Swine	singleton_202	cluster_1	cluster_1
-SRR13643002	2021	Chicken	cluster_17	cluster_1	cluster_1
-SRR13690464	2021	Swine	cluster_74	cluster_1	cluster_1
-SRR13697456	2021	Swine	cluster_17	cluster_1	cluster_1
-SRR13698627	2019	Human	singleton_219	cluster_1	cluster_1
-SRR13725505	2021	Swine	cluster_9	cluster_1	cluster_1
-SRR13734486	2021	Swine	cluster_2	cluster_1	cluster_1
-SRR13738016	2021	Swine	singleton_74	cluster_1	cluster_1
-SRR13745163	2021	Swine	singleton_64	cluster_1	cluster_1
-SRR13764600	2021	Swine	cluster_43	cluster_1	cluster_1
-SRR13976671	2021	Swine	cluster_73	cluster_1	cluster_1
-SRR14038090	2021	Human	cluster_12	cluster_1	cluster_1
-SRR14084276	2021	Swine	singleton_247	cluster_1	cluster_1
-SRR14103531	2021	Swine	cluster_74	cluster_1	cluster_1
-SRR14154521	2021	Swine	cluster_77	cluster_1	cluster_1
-SRR14174460	2021	Human	cluster_16	cluster_1	cluster_1
-SRR14237714	2021	Human	singleton_121	cluster_1	cluster_1
-SRR14252160	2021	Swine	cluster_73	cluster_1	cluster_1
-SRR14294939	2021	Human	cluster_74	cluster_1	cluster_1
-SRR14476519	2021	Human	cluster_48	cluster_1	cluster_1
-SRR14512817	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR14518536	2021	Swine	cluster_7	cluster_1	cluster_1
-SRR14536100	2021	Swine	singleton_237	cluster_1	cluster_1
-SRR14631929	2021	Human	singleton_232	cluster_1	cluster_1
-SRR14659064	2021	Human	cluster_73	cluster_1	cluster_1
-SRR14739044	2021	Swine	singleton_103	cluster_1	cluster_1
-SRR14743660	2021	Human	cluster_12	cluster_1	cluster_1
-SRR14791779	2021	Swine	cluster_43	cluster_1	cluster_1
-SRR14807067	2021	Human	cluster_54	cluster_1	cluster_1
-SRR14872314	2021	Human	cluster_73	cluster_1	cluster_1
-SRR14905888	2021	Human	cluster_23	cluster_1	cluster_1
-SRR14918241	2021	Human	singleton_236	cluster_1	cluster_1
-SRR15017571	2021	Swine	singleton_138	cluster_1	cluster_1
-SRR15017609	2021	Swine	cluster_74	cluster_1	cluster_1
-SRR15139180	2021	Human	cluster_12	cluster_1	cluster_1
-SRR15177444	2021	Swine	singleton_13	cluster_1	cluster_1
-SRR15183934	2021	Human	singleton_106	cluster_1	cluster_1
-SRR15192818	2021	Human	singleton_85	singleton_1	cluster_1
-SRR15251548	2021	Human	cluster_77	cluster_1	cluster_1
-SRR15321228	2021	Swine	cluster_31	cluster_1	cluster_1
-SRR15321244	2021	Swine	cluster_43	cluster_1	cluster_1
-SRR15321322	2021	Swine	cluster_74	cluster_1	cluster_1
-SRR15323862	2021	Swine	singleton_90	cluster_1	cluster_1
-SRR15340779	2021	Human	cluster_12	cluster_1	cluster_1
-SRR15377912	2021	Human	singleton_37	cluster_1	cluster_1
-SRR15444049	2021	Swine	cluster_73	cluster_1	cluster_1
-SRR15494380	2021	Swine	singleton_47	cluster_1	cluster_1
-SRR15494511	2021	Swine	cluster_31	cluster_1	cluster_1
-SRR15512829	2021	Human	singleton_142	cluster_1	cluster_1
-SRR15526123	2021	Human	cluster_26	cluster_1	cluster_1
-SRR15668582	2021	Human	cluster_76	cluster_1	cluster_1
-SRR15688685	2021	Human	cluster_76	cluster_1	cluster_1
-SRR15841269	2021	Human	cluster_76	cluster_1	cluster_1
-SRR15877872	2021	Human	cluster_21	cluster_1	cluster_1
-SRR15915247	2021	Swine	singleton_35	cluster_1	cluster_1
-SRR15926862	2021	Human	cluster_21	cluster_1	cluster_1
-SRR15943656	2021	Swine	cluster_29	cluster_1	cluster_1
-SRR15988212	2021	Human	singleton_255	cluster_1	cluster_1
-SRR16027360	2021	Human	cluster_44	cluster_1	cluster_1
-SRR16028419	2021	Human	cluster_76	cluster_1	cluster_1
-SRR16038558	2021	Swine	cluster_43	cluster_1	cluster_1
-SRR16060668	2021	Swine	singleton_225	cluster_1	cluster_1
-SRR16089582	2021	Human	cluster_43	cluster_1	cluster_1
-SRR16089647	2021	Swine	singleton_146	cluster_1	cluster_1
-SRR16099980	2021	Swine	singleton_6	cluster_1	cluster_1
-SRR16147897	2021	Human	cluster_43	cluster_1	cluster_1
-SRR16153941	2021	Human	singleton_259	cluster_1	cluster_1
-SRR16290708	2021	Human	cluster_44	cluster_1	cluster_1
-SRR16291139	2021	Human	cluster_23	cluster_1	cluster_1
-SRR16303296	2021	Human	cluster_80	cluster_1	cluster_1
-SRR16316960	2021	Swine	singleton_195	cluster_1	cluster_1
-SRR16345596	2021	Human	cluster_74	cluster_1	cluster_1
-SRR16499321	2021	Swine	singleton_251	cluster_1	cluster_1
-SRR16531821	2021	Human	singleton_117	cluster_1	cluster_1
-SRR16541556	2021	Swine	singleton_214	cluster_1	cluster_1
-SRR16553241	2021	Swine	singleton_147	cluster_1	cluster_1
-SRR16562004	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR16609752	2021	Human	cluster_41	cluster_1	cluster_1
-SRR16693326	2021	Human	cluster_81	cluster_1	cluster_1
-SRR16764704	2021	Swine	cluster_17	cluster_1	cluster_1
-SRR16927942	2021	Swine	singleton_157	cluster_1	cluster_1
-SRR16931864	2021	Swine	singleton_231	cluster_1	cluster_1
-SRR16983430	2021	Human	cluster_74	cluster_1	cluster_1
-SRR17157318	2021	Swine	singleton_209	cluster_1	cluster_1
-SRR17209007	2021	Swine	singleton_137	cluster_1	cluster_1
-SRR17230170	2021	Swine	cluster_80	cluster_1	cluster_1
-SRR17278981	2021	Human	cluster_49	cluster_1	cluster_1
-SRR17297962	2021	Human	cluster_41	cluster_1	cluster_1
-SRR17487834	2021	Swine	cluster_43	cluster_1	cluster_1
-SRR17534432	2021	Human	cluster_41	cluster_1	cluster_1
-SRR17772039	2022	Human	singleton_113	cluster_1	cluster_1
-SRR17809289	2022	Swine	cluster_43	cluster_1	cluster_1
-SRR17809312	2022	Swine	singleton_118	cluster_1	cluster_1
-SRR17837471	2022	Human	singleton_24	cluster_1	cluster_1
-SRR17838613	2022	Swine	cluster_59	cluster_1	cluster_1
-SRR17838616	2022	Bovine	cluster_59	cluster_1	cluster_1
-SRR17838854	2022	Swine	singleton_221	cluster_1	cluster_1
-SRR17839043	2021	Human	singleton_260	cluster_1	cluster_1
-SRR17853885	2022	Swine	cluster_66	cluster_1	cluster_1
-SRR17853889	2022	Swine	cluster_45	cluster_1	cluster_1
-SRR18000148	2022	Swine	cluster_73	cluster_1	cluster_1
-SRR18021575	2022	Swine	singleton_227	cluster_1	cluster_1
-SRR18114765	2022	Human	singleton_17	cluster_1	cluster_1
-SRR18184380	2022	Swine	singleton_112	cluster_1	cluster_1
-SRR18220462	2022	Swine	cluster_74	cluster_1	cluster_1
-SRR18231276	2022	Swine	singleton_116	cluster_1	cluster_1
-SRR18231278	2022	Swine	singleton_210	cluster_1	cluster_1
-SRR18344579	2021	Human	singleton_263	cluster_1	cluster_1
-SRR18483163	2022	Swine	singleton_69	cluster_1	cluster_1
-SRR18505600	2022	Swine	cluster_79	cluster_1	cluster_1
-SRR18546507	2022	Swine	singleton_143	cluster_1	cluster_1
-SRR18688570	2022	Swine	cluster_22	cluster_1	cluster_1
-SRR18715874	2022	Human	singleton_253	cluster_1	cluster_1
-SRR18739221	2022	Swine	cluster_43	cluster_1	cluster_1
-SRR18771518	2022	Swine	cluster_66	cluster_1	cluster_1
-SRR18771523	2022	Swine	singleton_244	cluster_1	cluster_1
-SRR18915572	2022	Swine	singleton_176	cluster_1	cluster_1
-SRR18915666	2022	Swine	singleton_78	cluster_1	cluster_1
-SRR18915669	2022	Swine	cluster_30	cluster_1	cluster_1
-SRR19033918	2022	Swine	cluster_59	cluster_1	cluster_1
-SRR19139591	2022	Swine	cluster_79	cluster_1	cluster_1
-SRR19324904	2022	Swine	singleton_120	cluster_1	cluster_1
-SRR19346987	2022	Swine	cluster_73	cluster_1	cluster_1
-SRR19363954	2022	Human	cluster_19	cluster_1	cluster_1
-SRR19372699	2022	Human	cluster_43	cluster_1	cluster_1
-SRR19383052	2022	Swine	singleton_114	cluster_1	cluster_1
-SRR19488849	2022	Swine	singleton_238	cluster_1	cluster_1
-SRR19513343	2022	Human	cluster_26	cluster_1	cluster_1
-SRR19560648	2022	Human	cluster_16	cluster_1	cluster_1
-SRR19594070	2022	Human	cluster_81	cluster_1	cluster_1
-SRR19638707	2022	Human	cluster_19	cluster_1	cluster_1
-SRR19779019	2022	Human	cluster_21	cluster_1	cluster_1
-SRR19785305	2022	Human	cluster_82	cluster_1	cluster_1
-SRR19903066	2022	Swine	cluster_59	cluster_1	cluster_1
-SRR19918644	2022	Human	singleton_111	cluster_1	cluster_1
-SRR19986417	2022	Human	cluster_19	cluster_1	cluster_1
-SRR19992515	2022	Swine	cluster_79	cluster_1	cluster_1
-SRR20017562	2022	Human	cluster_21	cluster_1	cluster_1
-SRR20017818	2022	Swine	singleton_30	cluster_1	cluster_1
-SRR20225953	2022	Swine	cluster_21	cluster_1	cluster_1
-SRR20590996	2022	Human	singleton_63	cluster_1	cluster_1
-SRR20710300	2022	Human	cluster_81	cluster_1	cluster_1
-SRR20964907	2022	Human	singleton_44	cluster_1	cluster_1
-SRR21029585	2022	Human	cluster_21	cluster_1	cluster_1
-SRR21085781	2022	Human	cluster_21	cluster_1	cluster_1
-SRR21086004	2022	Human	singleton_273	cluster_1	cluster_1
-SRR21087195	2022	Human	cluster_12	cluster_1	cluster_1
-SRR21143110	2022	Human	cluster_16	cluster_1	cluster_1
-SRR21146029	2022	Swine	singleton_152	cluster_1	cluster_1
-SRR21197636	2022	Swine	singleton_133	cluster_1	cluster_1
-SRR21221287	2022	Human	cluster_79	cluster_1	cluster_1
-SRR21303758	2022	Human	singleton_3	cluster_1	cluster_1
-SRR21377583	2022	Human	cluster_21	cluster_1	cluster_1
-SRR21464226	2022	Human	cluster_12	cluster_1	cluster_1
-SRR2153015	2012	Unspecified Poultry	singleton_200	cluster_1	cluster_1
-SRR21554768	2022	Human	cluster_43	cluster_1	cluster_1
-SRR21618216	2022	Human	singleton_218	cluster_1	cluster_1
-SRR21624315	2022	Human	cluster_16	cluster_1	cluster_1
-SRR21661060	2022	Swine	singleton_175	cluster_1	cluster_1
-SRR21661758	2022	Bovine	cluster_70	cluster_1	cluster_1
-SRR21661762	2022	Swine	cluster_70	cluster_1	cluster_1
-SRR21662734	2022	Human	cluster_21	cluster_1	cluster_1
-SRR21726320	2022	Human	singleton_1	cluster_1	cluster_1
-SRR21769029	2022	Human	singleton_89	cluster_1	cluster_1
-SRR21777487	2022	Bovine	cluster_70	cluster_1	cluster_1
-SRR21786180	2022	Human	cluster_48	cluster_1	cluster_1
-SRR21808086	2022	Human	singleton_36	cluster_1	cluster_1
-SRR21832295	2022	Human	singleton_5	cluster_1	cluster_1
-SRR21859140	2022	Human	cluster_48	cluster_1	cluster_1
-SRR21891533	2022	Human	cluster_82	cluster_1	cluster_1
-SRR21985617	2022	Human	singleton_50	cluster_1	cluster_1
-SRR22008237	2022	Human	singleton_165	cluster_1	cluster_1
-SRR22054564	2022	Human	cluster_43	cluster_1	cluster_1
-SRR22070783	2022	Swine	cluster_33	cluster_1	cluster_1
-SRR22093167	2022	Chicken	singleton_179	cluster_1	cluster_1
-SRR22127258	2022	Human	singleton_14	cluster_1	cluster_1
-SRR22163659	2022	Swine	cluster_11	cluster_1	cluster_1
-SRR22163745	2022	Swine	cluster_11	cluster_1	cluster_1
-SRR22341759	2022	Swine	singleton_149	cluster_1	cluster_1
-SRR22361149	2022	Human	cluster_48	cluster_1	cluster_1
-SRR22397010	2022	Human	cluster_48	cluster_1	cluster_1
-SRR22445055	2022	Human	singleton_71	cluster_1	cluster_1
-SRR22479943	2022	Human	singleton_140	cluster_1	cluster_1
-SRR22790526	2022	Swine	singleton_186	cluster_1	cluster_1
-SRR22809569	2022	Swine	singleton_230	cluster_1	cluster_1
-SRR22974209	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23062251	2021	Swine	cluster_9	cluster_1	cluster_1
-SRR23062252	2021	Swine	cluster_9	cluster_1	cluster_1
-SRR23071324	2022	Swine	singleton_159	cluster_1	cluster_1
-SRR23073798	2023	Human	cluster_30	cluster_1	cluster_1
-SRR23098036	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23098043	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23098046	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23116372	2022	Swine	singleton_191	cluster_1	cluster_1
-SRR23124776	2023	Swine	cluster_63	cluster_1	cluster_1
-SRR23133728	2022	Human	cluster_77	cluster_1	cluster_1
-SRR23148830	2022	Human	singleton_163	cluster_1	cluster_1
-SRR23149182	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23149185	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23149186	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23149187	2021	Swine	cluster_5	cluster_1	cluster_1
-SRR23170643	2023	Swine	singleton_98	cluster_1	cluster_1
-SRR23285963	2023	Human	cluster_20	cluster_1	cluster_1
-SRR23318233	2022	Human	singleton_270	cluster_1	cluster_1
-SRR23348598	2021	Swine	cluster_20	cluster_1	cluster_1
-SRR23375229	2023	Swine	singleton_203	cluster_1	cluster_1
-SRR23456050	2023	Swine	singleton_95	cluster_1	cluster_1
-SRR23714329	2021	Swine	cluster_7	cluster_1	cluster_1
-SRR23714331	2021	Swine	cluster_7	cluster_1	cluster_1
-SRR23714337	2021	Swine	cluster_7	cluster_1	cluster_1
-SRR23761062	2023	Swine	singleton_45	cluster_1	cluster_1
-SRR23864193	2023	Human	singleton_68	cluster_1	cluster_1
-SRR23993441	2023	Swine	cluster_79	cluster_1	cluster_1
-SRR24049148	2023	Human	cluster_21	cluster_1	cluster_1
-SRR24049172	2023	Human	cluster_21	cluster_1	cluster_1
-SRR24052906	2023	Human	singleton_49	cluster_1	cluster_1
-SRR24071982	2023	Human	singleton_84	cluster_1	cluster_1
-SRR24100150	2023	Swine	singleton_245	cluster_1	cluster_1
-SRR24112683	2023	Swine	singleton_222	cluster_1	cluster_1
-SRR24318321	2023	Swine	singleton_256	cluster_1	cluster_1
-SRR24325292	2023	Swine	cluster_59	cluster_1	cluster_1
-SRR24326186	2023	Swine	singleton_211	cluster_1	cluster_1
-SRR24377097	2023	Human	singleton_141	cluster_1	cluster_1
-SRR24462061	2023	Human	cluster_12	cluster_1	cluster_1
-SRR24467514	2023	Swine	cluster_43	cluster_1	cluster_1
-SRR24490798	2023	Human	singleton_131	cluster_1	cluster_1
-SRR24564833	2023	Human	singleton_67	cluster_1	cluster_1
-SRR24686639	2023	Human	cluster_81	cluster_1	cluster_1
-SRR24687776	2023	Human	cluster_12	cluster_1	cluster_1
-SRR24736740	2023	Swine	cluster_79	cluster_1	cluster_1
-SRR24756264	2023	Swine	cluster_70	cluster_1	cluster_1
-SRR24764452	2023	Human	cluster_59	cluster_1	cluster_1
-SRR24806570	2023	Human	cluster_43	cluster_1	cluster_1
-SRR24828617	2023	Human	cluster_81	cluster_1	cluster_1
-SRR24875962	2023	Human	cluster_77	cluster_1	cluster_1
-SRR24950341	2023	Swine	singleton_153	cluster_1	cluster_1
-SRR24971573	2023	Human	singleton_264	cluster_1	cluster_1
-SRR25004956	2023	Human	singleton_62	cluster_1	cluster_1
-SRR25007435	2023	Swine	cluster_79	cluster_1	cluster_1
-SRR25056002	2023	Human	cluster_81	cluster_1	cluster_1
-SRR25118700	2023	Human	singleton_274	singleton_2	singleton_1
-SRR25145013	2023	Human	cluster_81	cluster_1	cluster_1
-SRR25168746	2023	Human	cluster_21	cluster_1	cluster_1
-SRR25302977	2023	Swine	singleton_206	cluster_1	cluster_1
-SRR25318875	2023	Human	cluster_45	cluster_1	cluster_1
-SRR25319572	2023	Human	cluster_21	cluster_1	cluster_1
-SRR25338870	2023	Human	singleton_51	cluster_1	cluster_1
-SRR25403840	2023	Human	cluster_12	cluster_1	cluster_1
-SRR25404962	2023	Human	cluster_21	cluster_1	cluster_1
-SRR25411770	2023	Human	cluster_81	cluster_1	cluster_1
-SRR25412092	2023	Swine	singleton_58	cluster_1	cluster_1
-SRR25437255	2023	Human	singleton_248	cluster_1	cluster_1
-SRR25568942	2023	Human	cluster_45	cluster_1	cluster_1
-SRR25596835	2023	Human	singleton_16	cluster_1	cluster_1
-SRR25601827	2023	Swine	singleton_42	cluster_1	cluster_1
-SRR25616980	2023	Human	cluster_81	cluster_1	cluster_1
-SRR25629764	2023	Human	singleton_164	cluster_1	cluster_1
-SRR25679497	2023	Swine	singleton_65	cluster_1	cluster_1
-SRR25917761	2023	Human	singleton_56	cluster_1	cluster_1
-SRR25918852	2023	Human	singleton_161	cluster_1	cluster_1
-SRR26032379	2023	Human	singleton_261	cluster_1	cluster_1
-SRR26098071	2023	Human	cluster_12	cluster_1	cluster_1
-SRR26106038	2023	Human	singleton_80	cluster_1	cluster_1
-SRR26107477	2023	Human	singleton_258	cluster_1	cluster_1
-SRR26125964	2023	Human	cluster_44	cluster_1	cluster_1
-SRR26190354	2023	Swine	singleton_217	cluster_1	cluster_1
-SRR26256321	2023	Human	singleton_154	cluster_1	cluster_1
-SRR26453126	2023	Human	cluster_18	cluster_1	cluster_1
-SRR26491782	2023	Human	singleton_134	cluster_1	cluster_1
-SRR26544516	2023	Human	cluster_81	cluster_1	cluster_1
-SRR26641412	2023	Human	singleton_272	cluster_1	cluster_1
-SRR26707466	2023	Human	cluster_79	cluster_1	cluster_1
-SRR26850138	2023	Human	singleton_31	cluster_1	cluster_1
-SRR26892951	2023	Swine	singleton_265	cluster_1	cluster_1
-SRR26969145	2023	Human	singleton_83	cluster_1	cluster_1
-SRR27265653	2023	Human	singleton_82	cluster_1	cluster_1
-SRR27364170	2023	Human	cluster_79	cluster_1	cluster_1
-SRR27374177	2023	Human	singleton_91	cluster_1	cluster_1
-SRR27399498	2023	Human	cluster_41	cluster_1	cluster_1
-SRR27677553	2024	Human	cluster_79	cluster_1	cluster_1
-SRR27761249	2023	Human	cluster_81	cluster_1	cluster_1
-SRR27947391	2024	Human	singleton_38	cluster_1	cluster_1
-SRR28246643	2024	Human	cluster_43	cluster_1	cluster_1
-SRR28272636	2024	Human	cluster_8	cluster_1	cluster_1
-SRR28335331	2024	Other	cluster_8	cluster_1	cluster_1
-SRR28335333	2024	Other	cluster_8	cluster_1	cluster_1
-SRR28335402	2024	Other	cluster_8	cluster_1	cluster_1
-SRR28338529	2024	Other	cluster_8	cluster_1	cluster_1
-SRR28379647	2024	Other	cluster_8	cluster_1	cluster_1
-SRR3056912	2015	Swine	singleton_104	cluster_1	cluster_1
-SRR3085523	2015	Swine	singleton_46	cluster_1	cluster_1
-SRR3159940	2016	Swine	cluster_43	cluster_1	cluster_1
-SRR3187244	2016	Swine	cluster_3	cluster_1	cluster_1
-SRR3203836	2016	Swine	cluster_69	cluster_1	cluster_1
-SRR3205699	2015	Human	cluster_38	cluster_1	cluster_1
-SRR3240348	2016	Human	singleton_2	cluster_1	cluster_1
-SRR3573433	Unknown	Human	singleton_167	cluster_1	cluster_1
-SRR3710269	2016	Swine	cluster_38	cluster_1	cluster_1
-SRR3713569	2015	Human	singleton_226	cluster_1	cluster_1
-SRR3925097	2016	Swine	cluster_74	cluster_1	cluster_1
-SRR3953271	2015	Bovine	singleton_173	cluster_1	cluster_1
-SRR4032930	2016	Human	singleton_170	cluster_1	cluster_1
-SRR4032966	2016	Human	cluster_52	cluster_1	cluster_1
-SRR4039940	2016	Human	cluster_54	cluster_1	cluster_1
-SRR4040081	2016	Human	cluster_54	cluster_1	cluster_1
-SRR4040082	2016	Human	cluster_54	cluster_1	cluster_1
-SRR4046876	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046884	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046885	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046889	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046890	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046891	Unknown	Human	cluster_42	cluster_1	cluster_1
-SRR4046892	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046893	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046902	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4046903	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4054671	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4054672	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4054673	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4106378	2016	Swine	cluster_38	cluster_1	cluster_1
-SRR4176699	2016	Human	cluster_42	cluster_1	cluster_1
-SRR4176756	2016	Human	cluster_54	cluster_1	cluster_1
-SRR4195706	2016	Swine	cluster_50	cluster_1	cluster_1
-SRR4252411	2016	Swine	cluster_50	cluster_1	cluster_1
-SRR4342912	2016	Human	singleton_20	cluster_1	cluster_1
-SRR4414077	2016	Human	singleton_276	cluster_1	cluster_1
-SRR4841757	2016	Swine	cluster_74	cluster_1	cluster_1
-SRR5043241	2016	Swine	singleton_92	cluster_1	cluster_1
-SRR5060614	2014	Human	cluster_22	cluster_1	cluster_1
-SRR5127019	2016	Swine	cluster_74	cluster_1	cluster_1
-SRR5133942	2016	Swine	cluster_52	cluster_1	cluster_1
-SRR5139819	2016	Swine	cluster_74	cluster_1	cluster_1
-SRR5144286	2016	Human	cluster_54	cluster_1	cluster_1
-SRR5152082	2016	Human	cluster_47	cluster_1	cluster_1
-SRR5184269	2016	Human	cluster_47	cluster_1	cluster_1
-SRR5204155	2016	Swine	cluster_50	cluster_1	cluster_1
-SRR5224194	2017	Swine	singleton_32	cluster_1	cluster_1
-SRR5229540	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5235504	2016	Swine	cluster_50	cluster_1	cluster_1
-SRR5235544	2017	Chicken	singleton_18	cluster_1	cluster_1
-SRR5238238	2016	Human	cluster_38	cluster_1	cluster_1
-SRR5251087	2017	Swine	singleton_79	cluster_1	cluster_1
-SRR5264003	2017	Human	singleton_262	cluster_1	cluster_1
-SRR5264027	2016	Human	singleton_8	cluster_1	cluster_1
-SRR5271446	2017	Swine	cluster_1	cluster_1	cluster_1
-SRR5297973	2017	Chicken	singleton_196	cluster_1	cluster_1
-SRR5311485	2016	Chicken	cluster_49	cluster_1	cluster_1
-SRR5311490	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5345361	2017	Chicken	singleton_197	cluster_1	cluster_1
-SRR5345614	2017	Swine	cluster_6	cluster_1	cluster_1
-SRR5346346	2017	Swine	singleton_87	cluster_1	cluster_1
-SRR5360702	2017	Human	cluster_74	cluster_1	cluster_1
-SRR5365113	2017	Swine	singleton_7	cluster_1	cluster_1
-SRR5365186	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5368943	2016	Human	singleton_59	cluster_1	cluster_1
-SRR5388858	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5441507	2017	Swine	cluster_73	cluster_1	cluster_1
-SRR5441708	2017	Swine	cluster_22	cluster_1	cluster_1
-SRR5441845	2017	Swine	cluster_43	cluster_1	cluster_1
-SRR5444226	2017	Swine	singleton_126	cluster_1	cluster_1
-SRR5448569	2017	Swine	cluster_72	cluster_1	cluster_1
-SRR5454569	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5459296	2017	Human	cluster_22	cluster_1	cluster_1
-SRR5486030	2017	Swine	singleton_234	cluster_1	cluster_1
-SRR5486727	2017	Human	cluster_48	cluster_1	cluster_1
-SRR5500984	2016	Human	cluster_50	cluster_1	cluster_1
-SRR5508436	2016	Human	singleton_148	cluster_1	cluster_1
-SRR5579142	2016	Human	cluster_47	cluster_1	cluster_1
-SRR5583975	2017	Human	singleton_242	cluster_1	cluster_1
-SRR5583977	2017	Human	singleton_130	cluster_1	cluster_1
-SRR5584992	2017	Human	cluster_22	cluster_1	cluster_1
-SRR5631275	2017	Human	cluster_18	cluster_1	cluster_1
-SRR5647038	2017	Swine	cluster_38	cluster_1	cluster_1
-SRR5655461	2017	Human	cluster_3	cluster_1	cluster_1
-SRR5664412	2017	Human	cluster_38	cluster_1	cluster_1
-SRR5683289	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5683892	2017	Swine	cluster_38	cluster_1	cluster_1
-SRR5705158	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5705208	2017	Swine	cluster_43	cluster_1	cluster_1
-SRR5714176	2017	Human	cluster_47	cluster_1	cluster_1
-SRR5725501	2017	Chicken	singleton_198	cluster_1	cluster_1
-SRR5725504	2017	Swine	cluster_6	cluster_1	cluster_1
-SRR5761414	2017	Human	cluster_47	cluster_1	cluster_1
-SRR5761424	2017	Human	cluster_47	cluster_1	cluster_1
-SRR5764621	2017	Chicken	cluster_57	cluster_1	cluster_1
-SRR5787132	2017	Human	cluster_56	cluster_1	cluster_1
-SRR5799653	2017	Human	cluster_57	cluster_1	cluster_1
-SRR5800843	2017	Swine	cluster_44	cluster_1	cluster_1
-SRR5808651	2017	Swine	singleton_107	cluster_1	cluster_1
-SRR5808676	2017	Chicken	singleton_199	cluster_1	cluster_1
-SRR5819515	2017	Swine	singleton_22	cluster_1	cluster_1
-SRR5821016	2017	Human	cluster_47	cluster_1	cluster_1
-SRR5851434	2017	Chicken	cluster_57	cluster_1	cluster_1
-SRR5853155	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5853156	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR5853159	2017	Swine	cluster_38	cluster_1	cluster_1
-SRR5862407	2017	Swine	singleton_257	cluster_1	cluster_1
-SRR5862664	2017	Swine	cluster_75	cluster_1	cluster_1
-SRR5865344	2017	Human	cluster_66	cluster_1	cluster_1
-SRR5865685	2017	Chicken	singleton_177	cluster_1	cluster_1
-SRR5876386	2017	Human	cluster_47	cluster_1	cluster_1
-SRR5888641	2016	Human	singleton_151	cluster_1	cluster_1
-SRR5901622	2017	Chicken	cluster_57	cluster_1	cluster_1
-SRR5921256	2017	Human	singleton_9	cluster_1	cluster_1
-SRR5921510	2017	Human	cluster_48	cluster_1	cluster_1
-SRR5932633	2017	Human	singleton_184	cluster_1	cluster_1
-SRR5932671	2017	Human	cluster_54	cluster_1	cluster_1
-SRR5945425	2017	Human	singleton_128	cluster_1	cluster_1
-SRR5948500	2017	Human	cluster_54	cluster_1	cluster_1
-SRR5948536	2011	Human	singleton_183	cluster_1	cluster_1
-SRR5955226	2017	Chicken	singleton_182	cluster_1	cluster_1
-SRR5978531	2017	Human	cluster_47	cluster_1	cluster_1
-SRR5980396	2017	Chicken	cluster_57	cluster_1	cluster_1
-SRR5993063	2017	Human	singleton_99	cluster_1	cluster_1
-SRR5996332	2017	Swine	cluster_40	cluster_1	cluster_1
-SRR6010278	2017	Swine	singleton_156	cluster_1	cluster_1
-SRR6011705	2017	Swine	cluster_40	cluster_1	cluster_1
-SRR6039945	2017	Chicken	cluster_57	cluster_1	cluster_1
-SRR6051472	2017	Human	cluster_43	cluster_1	cluster_1
-SRR6051632	2017	Swine	cluster_1	cluster_1	cluster_1
-SRR6107218	2017	Human	singleton_72	cluster_1	cluster_1
-SRR6113316	2017	Swine	singleton_115	cluster_1	cluster_1
-SRR6131647	2017	Swine	cluster_43	cluster_1	cluster_1
-SRR6155084	2017	Human	singleton_101	cluster_1	cluster_1
-SRR6187091	2017	Swine	singleton_158	cluster_1	cluster_1
-SRR6197826	2017	Swine	singleton_57	cluster_1	cluster_1
-SRR6217919	2017	Human	singleton_174	cluster_1	cluster_1
-SRR6221663	2017	Human	singleton_15	cluster_1	cluster_1
-SRR6238439	2016	Chicken	singleton_180	cluster_1	cluster_1
-SRR6249751	2017	Human	cluster_48	cluster_1	cluster_1
-SRR6250397	2017	Swine	singleton_29	cluster_1	cluster_1
-SRR6255080	2017	Swine	cluster_39	cluster_1	cluster_1
-SRR6269910	2017	Swine	cluster_38	cluster_1	cluster_1
-SRR6283418	2017	Human	cluster_34	cluster_1	cluster_1
-SRR6310048	2017	Swine	cluster_56	cluster_1	cluster_1
-SRR6335201	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR6342372	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR6345594	2017	Human	cluster_47	cluster_1	cluster_1
-SRR6353985	2017	Human	cluster_74	cluster_1	cluster_1
-SRR6354076	2017	Swine	singleton_205	cluster_1	cluster_1
-SRR6356223	2017	Swine	cluster_43	cluster_1	cluster_1
-SRR6359227	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR6371681	2017	Human	singleton_162	cluster_1	cluster_1
-SRR6374147	2017	Swine	singleton_33	cluster_1	cluster_1
-SRR6377186	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR6380938	2017	Human	cluster_43	cluster_1	cluster_1
-SRR6412879	2017	Human	singleton_108	cluster_1	cluster_1
-SRR6424959	2017	Chicken	cluster_28	cluster_1	cluster_1
-SRR6446717	2017	Human	singleton_55	cluster_1	cluster_1
-SRR6451404	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR6459476	2017	Swine	cluster_43	cluster_1	cluster_1
-SRR6468480	2017	Human	cluster_43	cluster_1	cluster_1
-SRR6468733	Unknown	Human	cluster_74	cluster_1	cluster_1
-SRR6475540	2017	Human	cluster_47	cluster_1	cluster_1
-SRR6485177	2017	Human	cluster_51	cluster_1	cluster_1
-SRR6491691	2017	Swine	cluster_69	cluster_1	cluster_1
-SRR6495091	2017	Swine	cluster_38	cluster_1	cluster_1
-SRR6495251	2017	Swine	cluster_74	cluster_1	cluster_1
-SRR6627645	2018	Human	cluster_43	cluster_1	cluster_1
-SRR6659199	2017	Swine	singleton_41	cluster_1	cluster_1
-SRR6659254	2017	Swine	cluster_72	cluster_1	cluster_1
-SRR6668164	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR6704098	2018	Swine	singleton_132	cluster_1	cluster_1
-SRR6726354	2017	Human	cluster_43	cluster_1	cluster_1
-SRR6750020	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR6750610	2017	Human	cluster_72	cluster_1	cluster_1
-SRR6756844	2018	Chicken	cluster_28	cluster_1	cluster_1
-SRR6764165	2018	Swine	cluster_75	cluster_1	cluster_1
-SRR6791846	2018	Human	cluster_74	cluster_1	cluster_1
-SRR6819590	2018	Swine	cluster_32	cluster_1	cluster_1
-SRR6879528	2018	Swine	cluster_61	cluster_1	cluster_1
-SRR6880938	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6880952	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6880955	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6880962	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6881316	2017	Human	singleton_48	cluster_1	cluster_1
-SRR6881508	2018	Human	cluster_66	cluster_1	cluster_1
-SRR6885288	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6885293	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902781	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902789	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902790	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902793	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902795	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902799	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902804	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902809	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902816	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902825	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902826	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6902829	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903010	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903122	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903126	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903136	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903141	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903144	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903150	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6903152	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6907933	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6920525	2017	Human	cluster_38	cluster_1	cluster_1
-SRR6927002	2018	Human	singleton_181	cluster_1	cluster_1
-SRR6933284	2018	Chicken	cluster_28	cluster_1	cluster_1
-SRR6940269	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6940349	2018	Swine	cluster_22	cluster_1	cluster_1
-SRR6940567	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6950244	2018	Swine	singleton_168	cluster_1	cluster_1
-SRR6976753	2018	Swine	singleton_250	cluster_1	cluster_1
-SRR6984366	2018	Human	singleton_54	cluster_1	cluster_1
-SRR6994751	2018	Human	cluster_25	cluster_1	cluster_1
-SRR6998696	2018	Swine	cluster_61	cluster_1	cluster_1
-SRR7015151	2018	Human	cluster_25	cluster_1	cluster_1
-SRR7015156	2018	Human	cluster_25	cluster_1	cluster_1
-SRR7015158	2018	Human	cluster_25	cluster_1	cluster_1
-SRR7015159	2018	Human	cluster_25	cluster_1	cluster_1
-SRR7028101	2018	Human	singleton_150	cluster_1	cluster_1
-SRR7049684	2017	Human	cluster_74	cluster_1	cluster_1
-SRR7049908	2018	Swine	singleton_204	cluster_1	cluster_1
-SRR7081891	2018	Human	cluster_43	cluster_1	cluster_1
-SRR7089427	2018	Swine	singleton_26	cluster_1	cluster_1
-SRR7095742	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR7138699	2018	Swine	cluster_38	cluster_1	cluster_1
-SRR7170350	2018	Human	cluster_43	cluster_1	cluster_1
-SRR7173072	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR7189188	2018	Human	singleton_12	cluster_1	cluster_1
-SRR7219091	2018	Human	cluster_43	cluster_1	cluster_1
-SRR7237491	2018	Swine	cluster_72	cluster_1	cluster_1
-SRR7245633	2018	Human	cluster_25	cluster_1	cluster_1
-SRR7248282	2018	Human	singleton_144	cluster_1	cluster_1
-SRR7248301	2018	Swine	singleton_4	cluster_1	cluster_1
-SRR7253154	2018	Human	cluster_74	cluster_1	cluster_1
-SRR7253177	2018	Human	cluster_51	cluster_1	cluster_1
-SRR7263025	2016	Human	singleton_160	cluster_1	cluster_1
-SRR7267530	2018	Swine	singleton_61	cluster_1	cluster_1
-SRR7267875	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR7267909	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR7267911	2018	Swine	singleton_77	cluster_1	cluster_1
-SRR7349384	2018	Swine	cluster_69	cluster_1	cluster_1
-SRR7414576	2018	Human	cluster_14	cluster_1	cluster_1
-SRR7414624	2018	Human	cluster_14	cluster_1	cluster_1
-SRR7473082	2018	Human	cluster_9	cluster_1	cluster_1
-SRR7473083	2018	Human	cluster_14	cluster_1	cluster_1
-SRR7473147	2018	Human	cluster_47	cluster_1	cluster_1
-SRR7501026	2018	Swine	cluster_73	cluster_1	cluster_1
-SRR7501028	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR7533589	2018	Swine	cluster_9	cluster_1	cluster_1
-SRR7608227	2018	Human	singleton_166	cluster_1	cluster_1
-SRR7615163	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR7642112	2018	Human	cluster_43	cluster_1	cluster_1
-SRR7650124	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR7657597	2018	Swine	singleton_34	cluster_1	cluster_1
-SRR7661057	2018	Bovine	cluster_32	cluster_1	cluster_1
-SRR7715931	2018	Swine	cluster_76	cluster_1	cluster_1
-SRR7766938	2018	Human	singleton_97	cluster_1	cluster_1
-SRR7767060	2018	Human	cluster_67	cluster_1	cluster_1
-SRR7771741	2018	Bovine	singleton_43	cluster_1	cluster_1
-SRR7789901	2018	Swine	singleton_19	cluster_1	cluster_1
-SRR7882123	2018	Human	cluster_73	cluster_1	cluster_1
-SRR7955898	2018	Swine	singleton_110	cluster_1	cluster_1
-SRR7965895	2018	Swine	singleton_60	cluster_1	cluster_1
-SRR7974097	2018	Swine	singleton_187	cluster_1	cluster_1
-SRR8030140	2018	Human	cluster_67	cluster_1	cluster_1
-SRR8037281	2018	Swine	singleton_243	cluster_1	cluster_1
-SRR8053961	2018	Human	cluster_67	cluster_1	cluster_1
-SRR8055261	2018	Swine	singleton_27	cluster_1	cluster_1
-SRR8087250	2018	Swine	cluster_38	cluster_1	cluster_1
-SRR8092104	2016	Human	singleton_25	cluster_1	cluster_1
-SRR8098601	2018	Swine	singleton_76	cluster_1	cluster_1
-SRR8157127	2018	Human	cluster_38	cluster_1	cluster_1
-SRR8157339	2018	Human	singleton_129	cluster_1	cluster_1
-SRR8172903	2018	Chicken	singleton_109	cluster_1	cluster_1
-SRR8188790	2018	Human	cluster_73	cluster_1	cluster_1
-SRR8188986	2018	Human	cluster_54	cluster_1	cluster_1
-SRR8207777	2018	Human	cluster_47	cluster_1	cluster_1
-SRR8208287	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR8252770	2018	Swine	singleton_172	cluster_1	cluster_1
-SRR8263130	2018	Swine	cluster_74	cluster_1	cluster_1
-SRR8263131	2018	Swine	cluster_66	cluster_1	cluster_1
-SRR8266110	2018	Human	cluster_15	cluster_1	cluster_1
-SRR8268137	2018	Human	singleton_96	cluster_1	cluster_1
-SRR8275021	2018	Swine	singleton_268	cluster_1	cluster_1
-SRR8280728	2018	Human	cluster_15	cluster_1	cluster_1
-SRR8299181	2018	Human	singleton_275	cluster_1	cluster_1
-SRR8305688	2018	Human	cluster_74	cluster_1	cluster_1
-SRR8321717	2018	Human	cluster_4	cluster_1	cluster_1
-SRR8370029	2018	Human	cluster_47	cluster_1	cluster_1
-SRR8394262	2018	Human	singleton_171	cluster_1	cluster_1
-SRR8477862	2018	Human	cluster_44	cluster_1	cluster_1
-SRR8539933	2018	Human	cluster_44	cluster_1	cluster_1
-SRR8546833	2018	Swine	singleton_239	cluster_1	cluster_1
-SRR8575596	2019	Human	cluster_4	cluster_1	cluster_1
-SRR8582776	2019	Swine	singleton_194	cluster_1	cluster_1
-SRR8593435	2019	Chicken	cluster_46	cluster_1	cluster_1
-SRR8599213	2019	Swine	singleton_122	cluster_1	cluster_1
-SRR8723081	2019	Swine	singleton_100	cluster_1	cluster_1
-SRR8731042	2019	Swine	singleton_124	cluster_1	cluster_1
-SRR8760761	2019	Human	cluster_47	cluster_1	cluster_1
-SRR8839646	2019	Swine	singleton_127	cluster_1	cluster_1
-SRR8839840	2019	Swine	singleton_220	cluster_1	cluster_1
-SRR8884658	2019	Swine	cluster_5	cluster_1	cluster_1
-SRR8923102	2019	Human	cluster_47	cluster_1	cluster_1
-SRR8924414	2019	Swine	cluster_5	cluster_1	cluster_1
-SRR8925528	2019	Swine	singleton_52	cluster_1	cluster_1
-SRR8933070	2019	Swine	singleton_228	cluster_1	cluster_1
-SRR8942632	2019	Swine	cluster_5	cluster_1	cluster_1
-SRR8951399	2019	Swine	cluster_24	cluster_1	cluster_1
-SRR8984708	2019	Human	cluster_58	cluster_1	cluster_1
-SRR8984714	2019	Human	cluster_58	cluster_1	cluster_1
-SRR8991649	2019	Swine	cluster_43	cluster_1	cluster_1
-SRR8997362	2019	Human	singleton_66	cluster_1	cluster_1
-SRR9001386	2019	Swine	cluster_65	cluster_1	cluster_1
-SRR9105596	2019	Swine	cluster_43	cluster_1	cluster_1
-SRR9139735	2019	Swine	singleton_269	cluster_1	cluster_1
-SRR9172064	2019	Swine	singleton_53	cluster_1	cluster_1
-SRR9207112	2019	Swine	singleton_88	cluster_1	cluster_1
-SRR9602996	2019	Swine	singleton_40	cluster_1	cluster_1
-SRR9643273	2019	Swine	singleton_240	cluster_1	cluster_1
-SRR9643394	2019	Swine	cluster_43	cluster_1	cluster_1
-SRR9668033	2019	Chicken	singleton_73	cluster_1	cluster_1
-SRR9668865	2019	Swine	singleton_190	cluster_1	cluster_1
-SRR9671765	2019	Human	cluster_54	cluster_1	cluster_1
-SRR9694411	2019	Human	cluster_43	cluster_1	cluster_1
-SRR9708982	2019	Human	cluster_5	cluster_1	cluster_1
-SRR9715920	2019	Swine	cluster_74	cluster_1	cluster_1
-SRR9721881	2019	Swine	cluster_43	cluster_1	cluster_1
-SRR9734415	2019	Human	singleton_192	cluster_1	cluster_1
-SRR9734434	2019	Human	cluster_43	cluster_1	cluster_1
-SRR9875360	2019	Swine	cluster_43	cluster_1	cluster_1
-SRR9943047	2019	Swine	singleton_23	cluster_1	cluster_1
-SRR9943152	2019	Chicken	singleton_188	cluster_1	cluster_1
-SRR9961283	2019	Human	singleton_125	cluster_1	cluster_1
-SRR9988274	2019	Human	cluster_71	cluster_1	cluster_1
-SRR9988289	2019	Human	cluster_71	cluster_1	cluster_1
+ID	Year	Source	MST-39
+SRR10001036	2019	Human	cluster_17
+SRR10005448	2019	Human	cluster_17
+SRR10012574	Unknown	Unspecified Animal	cluster_26
+SRR10015736	2019	Human	cluster_17
+SRR10018781	2019	Human	cluster_13
+SRR10037995	2019	Swine	cluster_3
+SRR10075115	2019	Human	cluster_26
+SRR10075133	2019	Human	cluster_21
+SRR10075393	2019	Human	cluster_26
+SRR10078922	2019	Human	cluster_3
+SRR10082187	2019	Human	cluster_23
+SRR10082247	2019	Swine	cluster_26
+SRR10119501	2019	Human	cluster_23
+SRR10119502	2019	Human	cluster_23
+SRR10119504	2019	Human	cluster_23
+SRR10136220	2019	Human	cluster_17
+SRR10156338	2019	Human	cluster_23
+SRR10156341	2019	Human	cluster_23
+SRR10164745	2019	Swine	cluster_17
+SRR10164777	2019	Human	cluster_5
+SRR10176076	2019	Human	cluster_17
+SRR10216320	2019	Human	cluster_26
+SRR10226358	2019	Human	cluster_3
+SRR10228062	2019	Human	cluster_14
+SRR10230035	2019	Swine	cluster_26
+SRR10233383	2019	Human	cluster_17
+SRR10251234	2019	Human	cluster_26
+SRR10251584	Unknown	Unspecified Animal	cluster_25
+SRR10276610	2019	Human	cluster_5
+SRR10289959	2019	Human	cluster_5
+SRR10307442	2019	Swine	cluster_17
+SRR10340466	2019	Human	cluster_17
+SRR10363875	2019	Swine	cluster_17
+SRR10381282	2019	Human	cluster_23
+SRR10447368	2019	Chicken	cluster_1
+SRR10513291	2019	Human	cluster_26
+SRR10533029	2019	Human	cluster_23
+SRR10582792	2019	Swine	cluster_26
+SRR10584573	2019	Human	cluster_26
+SRR10612170	2019	Swine	cluster_3
+SRR10691681	2019	Swine	cluster_26
+SRR10708508	2019	Swine	cluster_23
+SRR10719506	2019	Human	cluster_5
+SRR10744667	2019	Human	cluster_14
+SRR10763293	2019	Human	singleton_5
+SRR10775256	2019	Human	cluster_26
+SRR10806427	2019	Human	cluster_5
+SRR10815621	2019	Swine	cluster_11
+SRR10816089	2019	Human	cluster_11
+SRR10816096	2019	Human	cluster_23
+SRR10823774	2019	Human	cluster_26
+SRR10879481	2019	Swine	cluster_26
+SRR10879489	2019	Swine	cluster_26
+SRR10879494	2019	Swine	cluster_26
+SRR10879499	2019	Swine	cluster_26
+SRR10879538	2019	Swine	cluster_26
+SRR10981484	2020	Human	cluster_26
+SRR11015402	2020	Swine	cluster_26
+SRR11040157	2020	Chicken	cluster_25
+SRR11043911	2020	Human	cluster_17
+SRR11048510	2020	Swine	cluster_22
+SRR11049983	2020	Swine	cluster_26
+SRR11059527	2020	Swine	cluster_17
+SRR11096329	2020	Swine	cluster_26
+SRR11119321	2020	Swine	cluster_17
+SRR11142459	2020	Swine	cluster_26
+SRR11153196	2020	Swine	cluster_26
+SRR11176435	2020	Swine	cluster_23
+SRR11179378	2020	Human	cluster_25
+SRR11190592	2020	Swine	cluster_26
+SRR11193988	2020	Human	cluster_26
+SRR11195964	2020	Swine	cluster_26
+SRR11214794	2020	Swine	cluster_26
+SRR11214862	2020	Human	cluster_26
+SRR11235385	2020	Human	cluster_26
+SRR11252393	2020	Swine	cluster_17
+SRR11252527	2020	Swine	cluster_26
+SRR11311797	2020	Swine	cluster_26
+SRR11311809	2020	Swine	cluster_26
+SRR11317804	2020	Swine	cluster_26
+SRR11351642	2020	Swine	cluster_26
+SRR11362781	2020	Swine	cluster_26
+SRR11477190	2020	Human	cluster_24
+SRR11477864	2020	Human	cluster_26
+SRR11488854	2020	Swine	cluster_28
+SRR11510980	2020	Swine	cluster_23
+SRR11515338	2020	Human	cluster_25
+SRR11584894	2020	Chicken	cluster_1
+SRR11681157	2020	Swine	cluster_26
+SRR11832998	2020	Swine	cluster_28
+SRR11833366	2020	Swine	cluster_26
+SRR11833391	2020	Swine	cluster_26
+SRR11833472	2020	Swine	cluster_26
+SRR11847316	2020	Swine	cluster_26
+SRR11847319	2020	Swine	cluster_3
+SRR11868382	2020	Human	cluster_26
+SRR11879307	2020	Swine	cluster_3
+SRR11879332	2020	Swine	cluster_26
+SRR11928968	2020	Human	cluster_11
+SRR11950139	2020	Swine	cluster_17
+SRR12026408	2020	Swine	cluster_17
+SRR12026414	2020	Swine	cluster_3
+SRR12047282	2020	Swine	cluster_17
+SRR12056326	2020	Swine	cluster_26
+SRR12071728	2020	Swine	cluster_26
+SRR12074057	2020	Swine	cluster_17
+SRR12091616	2020	Swine	cluster_26
+SRR12091669	2020	Swine	cluster_3
+SRR12104778	2020	Bovine	cluster_26
+SRR12112546	2020	Swine	cluster_17
+SRR12215567	2020	Swine	cluster_3
+SRR12216387	2020	Swine	cluster_26
+SRR12229319	2020	Swine	cluster_3
+SRR12317099	2020	Swine	cluster_26
+SRR12321160	2020	Chicken	singleton_14
+SRR12363269	2020	Swine	cluster_26
+SRR12376960	2020	Swine	cluster_26
+SRR12377481	2020	Swine	cluster_26
+SRR12377535	2020	Human	cluster_5
+SRR12388985	2020	Swine	cluster_17
+SRR12411069	2020	Human	cluster_26
+SRR12412960	2020	Human	cluster_17
+SRR12455705	2020	Swine	cluster_26
+SRR12475931	2020	Swine	cluster_17
+SRR12476768	2020	Human	cluster_26
+SRR12479611	2020	Swine	cluster_26
+SRR12487492	2020	Swine	cluster_26
+SRR12492665	2020	Swine	cluster_26
+SRR12513490	2020	Human	cluster_26
+SRR12515448	2020	Swine	cluster_5
+SRR12545594	2020	Swine	cluster_26
+SRR12599224	2020	Swine	cluster_17
+SRR12623134	2020	Human	cluster_17
+SRR12660270	2020	Human	cluster_26
+SRR12671060	2020	Human	cluster_17
+SRR12682521	2020	Human	cluster_6
+SRR12697364	2020	Human	cluster_24
+SRR12713720	2020	Swine	cluster_17
+SRR12743113	2020	Human	cluster_14
+SRR12743965	2020	Human	cluster_26
+SRR12748061	2020	Human	cluster_26
+SRR12770328	2020	Human	cluster_13
+SRR12804410	2020	Swine	cluster_17
+SRR12810595	2020	Human	cluster_25
+SRR12811730	2020	Swine	cluster_26
+SRR12819073	2020	Human	cluster_17
+SRR12826236	2020	Swine	cluster_7
+SRR12845046	2020	Human	cluster_24
+SRR12880320	2020	Human	cluster_17
+SRR12884290	2020	Swine	cluster_26
+SRR12887494	2020	Swine	cluster_26
+SRR12926468	2020	Swine	cluster_3
+SRR12931082	2020	Human	singleton_9
+SRR12931210	2020	Human	cluster_3
+SRR12938916	2020	Swine	cluster_26
+SRR12949670	2020	Swine	cluster_17
+SRR12982403	2020	Human	cluster_17
+SRR12993234	2020	Human	cluster_17
+SRR13059394	2020	Swine	cluster_26
+SRR13088672	2020	Human	cluster_2
+SRR13094597	2020	Swine	cluster_3
+SRR13107634	2020	Swine	cluster_26
+SRR13108234	2020	Swine	cluster_26
+SRR13123210	2020	Human	singleton_19
+SRR13123685	2020	Human	cluster_12
+SRR13126784	2020	Turkey	singleton_10
+SRR13198888	2020	Swine	cluster_26
+SRR13218646	2020	Swine	cluster_26
+SRR13253240	2020	Human	cluster_3
+SRR13274000	2020	Human	cluster_17
+SRR13281450	2020	Human	cluster_26
+SRR13321225	2020	Swine	cluster_26
+SRR13357450	2020	Human	cluster_26
+SRR13389424	2020	Swine	cluster_26
+SRR13403349	2020	Swine	cluster_26
+SRR13403387	2020	Swine	cluster_26
+SRR13420013	2020	Swine	cluster_17
+SRR13428249	2019	Human	cluster_13
+SRR13438969	2020	Human	cluster_4
+SRR13498994	2021	Swine	cluster_26
+SRR13500726	2021	Human	cluster_24
+SRR13593712	2020	Swine	cluster_26
+SRR13615163	2021	Swine	cluster_26
+SRR13643002	2021	Chicken	cluster_28
+SRR13690464	2021	Swine	cluster_26
+SRR13697456	2021	Swine	cluster_28
+SRR13698627	2019	Human	cluster_26
+SRR13725505	2021	Swine	cluster_26
+SRR13734486	2021	Swine	cluster_26
+SRR13738016	2021	Swine	cluster_26
+SRR13745163	2021	Swine	cluster_17
+SRR13764600	2021	Swine	cluster_17
+SRR13976671	2021	Swine	cluster_26
+SRR14038090	2021	Human	cluster_24
+SRR14084276	2021	Swine	cluster_26
+SRR14103531	2021	Swine	cluster_26
+SRR14154521	2021	Swine	cluster_23
+SRR14174460	2021	Human	cluster_4
+SRR14237714	2021	Human	cluster_17
+SRR14252160	2021	Swine	cluster_26
+SRR14294939	2021	Human	cluster_26
+SRR14476519	2021	Human	cluster_23
+SRR14512817	2021	Swine	cluster_3
+SRR14518536	2021	Swine	cluster_28
+SRR14536100	2021	Swine	cluster_26
+SRR14631929	2021	Human	cluster_26
+SRR14659064	2021	Human	cluster_26
+SRR14739044	2021	Swine	singleton_27
+SRR14743660	2021	Human	cluster_24
+SRR14791779	2021	Swine	cluster_17
+SRR14807067	2021	Human	cluster_25
+SRR14872314	2021	Human	cluster_26
+SRR14905888	2021	Human	cluster_14
+SRR14918241	2021	Human	cluster_26
+SRR15017571	2021	Swine	cluster_26
+SRR15017609	2021	Swine	cluster_26
+SRR15139180	2021	Human	cluster_24
+SRR15177444	2021	Swine	singleton_17
+SRR15183934	2021	Human	cluster_16
+SRR15192818	2021	Human	singleton_36
+SRR15251548	2021	Human	cluster_23
+SRR15321228	2021	Swine	cluster_17
+SRR15321244	2021	Swine	cluster_17
+SRR15321322	2021	Swine	cluster_26
+SRR15323862	2021	Swine	cluster_14
+SRR15340779	2021	Human	cluster_24
+SRR15377912	2021	Human	singleton_2
+SRR15444049	2021	Swine	cluster_26
+SRR15494380	2021	Swine	cluster_28
+SRR15494511	2021	Swine	cluster_17
+SRR15512829	2021	Human	cluster_17
+SRR15526123	2021	Human	cluster_5
+SRR15668582	2021	Human	cluster_23
+SRR15688685	2021	Human	cluster_23
+SRR15841269	2021	Human	cluster_23
+SRR15877872	2021	Human	cluster_28
+SRR15915247	2021	Swine	cluster_9
+SRR15926862	2021	Human	cluster_28
+SRR15943656	2021	Swine	cluster_17
+SRR15988212	2021	Human	cluster_19
+SRR16027360	2021	Human	cluster_17
+SRR16028419	2021	Human	cluster_23
+SRR16038558	2021	Swine	cluster_17
+SRR16060668	2021	Swine	cluster_26
+SRR16089582	2021	Human	cluster_17
+SRR16089647	2021	Swine	cluster_14
+SRR16099980	2021	Swine	cluster_15
+SRR16147897	2021	Human	cluster_17
+SRR16153941	2021	Human	cluster_23
+SRR16290708	2021	Human	cluster_17
+SRR16291139	2021	Human	cluster_14
+SRR16303296	2021	Human	cluster_13
+SRR16316960	2021	Swine	cluster_26
+SRR16345596	2021	Human	cluster_26
+SRR16499321	2021	Swine	cluster_26
+SRR16531821	2021	Human	cluster_17
+SRR16541556	2021	Swine	cluster_26
+SRR16553241	2021	Swine	cluster_14
+SRR16562004	2021	Swine	cluster_3
+SRR16609752	2021	Human	cluster_26
+SRR16693326	2021	Human	cluster_26
+SRR16764704	2021	Swine	cluster_28
+SRR16927942	2021	Swine	cluster_12
+SRR16931864	2021	Swine	cluster_26
+SRR16983430	2021	Human	cluster_26
+SRR17157318	2021	Swine	cluster_26
+SRR17209007	2021	Swine	cluster_26
+SRR17230170	2021	Swine	cluster_13
+SRR17278981	2021	Human	cluster_25
+SRR17297962	2021	Human	cluster_26
+SRR1745549	2012	Unspecified Poultry	NA
+SRR17487834	2021	Swine	cluster_17
+SRR17534432	2021	Human	cluster_26
+SRR17772039	2022	Human	cluster_17
+SRR17809289	2022	Swine	cluster_17
+SRR17809312	2022	Swine	cluster_17
+SRR17837471	2022	Human	cluster_22
+SRR17838613	2022	Swine	cluster_26
+SRR17838616	2022	Bovine	cluster_26
+SRR17838854	2022	Swine	cluster_26
+SRR17839043	2021	Human	singleton_32
+SRR17853885	2022	Swine	cluster_26
+SRR17853889	2022	Swine	cluster_17
+SRR18000148	2022	Swine	cluster_26
+SRR18021575	2022	Swine	cluster_26
+SRR18114765	2022	Human	cluster_26
+SRR18184380	2022	Swine	cluster_26
+SRR18220462	2022	Swine	cluster_26
+SRR18231276	2022	Swine	cluster_26
+SRR18231278	2022	Swine	cluster_26
+SRR18344579	2021	Human	cluster_26
+SRR18483163	2022	Swine	singleton_4
+SRR18505600	2022	Swine	cluster_13
+SRR18546507	2022	Swine	cluster_14
+SRR18688570	2022	Swine	cluster_14
+SRR18715874	2022	Human	cluster_23
+SRR18739221	2022	Swine	cluster_17
+SRR18771518	2022	Swine	cluster_26
+SRR18771523	2022	Swine	cluster_26
+SRR18915572	2022	Swine	cluster_25
+SRR18915666	2022	Swine	cluster_26
+SRR18915669	2022	Swine	cluster_26
+SRR19033918	2022	Swine	cluster_26
+SRR19139591	2022	Swine	cluster_13
+SRR19324904	2022	Swine	cluster_26
+SRR19346987	2022	Swine	cluster_26
+SRR19363954	2022	Human	cluster_28
+SRR19372699	2022	Human	cluster_17
+SRR19383052	2022	Swine	cluster_17
+SRR19488849	2022	Swine	cluster_26
+SRR19513343	2022	Human	cluster_5
+SRR19560648	2022	Human	cluster_4
+SRR19594070	2022	Human	cluster_26
+SRR19638707	2022	Human	cluster_28
+SRR19779019	2022	Human	cluster_28
+SRR19785305	2022	Human	cluster_27
+SRR19903066	2022	Swine	cluster_26
+SRR19918644	2022	Human	cluster_20
+SRR19986417	2022	Human	cluster_28
+SRR19992515	2022	Swine	cluster_13
+SRR20017562	2022	Human	cluster_28
+SRR20017818	2022	Swine	cluster_22
+SRR20225953	2022	Swine	cluster_28
+SRR20590996	2022	Human	cluster_17
+SRR20710300	2022	Human	cluster_26
+SRR20964907	2022	Human	cluster_10
+SRR21029585	2022	Human	cluster_28
+SRR21085781	2022	Human	cluster_28
+SRR21086004	2022	Human	singleton_24
+SRR21087195	2022	Human	cluster_24
+SRR21143110	2022	Human	cluster_4
+SRR21146029	2022	Swine	cluster_17
+SRR21197636	2022	Swine	cluster_26
+SRR21221287	2022	Human	cluster_13
+SRR21303758	2022	Human	cluster_15
+SRR21377583	2022	Human	cluster_28
+SRR21464226	2022	Human	cluster_24
+SRR2153015	2012	Unspecified Poultry	cluster_26
+SRR21554768	2022	Human	cluster_17
+SRR21618216	2022	Human	cluster_26
+SRR21624315	2022	Human	cluster_4
+SRR21661060	2022	Swine	cluster_25
+SRR21661758	2022	Bovine	cluster_26
+SRR21661762	2022	Swine	cluster_26
+SRR21662734	2022	Human	cluster_28
+SRR21726320	2022	Human	cluster_3
+SRR21769029	2022	Human	cluster_14
+SRR21777487	2022	Bovine	cluster_26
+SRR21786180	2022	Human	cluster_23
+SRR21808086	2022	Human	cluster_22
+SRR21832295	2022	Human	cluster_15
+SRR21859140	2022	Human	cluster_23
+SRR21891533	2022	Human	cluster_27
+SRR21985617	2022	Human	cluster_26
+SRR22008237	2022	Human	cluster_27
+SRR22054564	2022	Human	cluster_17
+SRR22070783	2022	Swine	cluster_17
+SRR22093167	2022	Chicken	singleton_16
+SRR22127258	2022	Human	singleton_22
+SRR22163659	2022	Swine	cluster_17
+SRR22163745	2022	Swine	cluster_17
+SRR22341759	2022	Swine	cluster_14
+SRR22361149	2022	Human	cluster_23
+SRR22397010	2022	Human	cluster_23
+SRR22445055	2022	Human	cluster_8
+SRR22479943	2022	Human	cluster_17
+SRR22790526	2022	Swine	cluster_25
+SRR22809569	2022	Swine	cluster_26
+SRR22974209	2021	Swine	cluster_3
+SRR23062251	2021	Swine	cluster_26
+SRR23062252	2021	Swine	cluster_26
+SRR23071324	2022	Swine	cluster_23
+SRR23073798	2023	Human	cluster_26
+SRR23098036	2021	Swine	cluster_3
+SRR23098043	2021	Swine	cluster_3
+SRR23098046	2021	Swine	cluster_3
+SRR23116372	2022	Swine	cluster_25
+SRR23124776	2023	Swine	cluster_26
+SRR23133728	2022	Human	cluster_23
+SRR23148830	2022	Human	singleton_30
+SRR23149182	2021	Swine	cluster_3
+SRR23149185	2021	Swine	cluster_3
+SRR23149186	2021	Swine	cluster_3
+SRR23149187	2021	Swine	cluster_3
+SRR23170643	2023	Swine	cluster_21
+SRR23285963	2023	Human	cluster_28
+SRR23318233	2022	Human	cluster_14
+SRR23348598	2021	Swine	cluster_28
+SRR23375229	2023	Swine	cluster_26
+SRR23456050	2023	Swine	cluster_18
+SRR23714329	2021	Swine	cluster_28
+SRR23714331	2021	Swine	cluster_28
+SRR23714337	2021	Swine	cluster_28
+SRR23761062	2023	Swine	cluster_17
+SRR23864193	2023	Human	cluster_15
+SRR23993441	2023	Swine	cluster_13
+SRR24049148	2023	Human	cluster_28
+SRR24049172	2023	Human	cluster_28
+SRR24052906	2023	Human	cluster_26
+SRR24071982	2023	Human	cluster_8
+SRR24100150	2023	Swine	cluster_26
+SRR24112683	2023	Swine	cluster_26
+SRR24318321	2023	Swine	cluster_23
+SRR24325292	2023	Swine	cluster_26
+SRR24326186	2023	Swine	cluster_26
+SRR24377097	2023	Human	cluster_17
+SRR24462061	2023	Human	cluster_24
+SRR24467514	2023	Swine	cluster_17
+SRR24490798	2023	Human	cluster_17
+SRR24564833	2023	Human	cluster_4
+SRR24686639	2023	Human	cluster_26
+SRR24687776	2023	Human	cluster_24
+SRR24736740	2023	Swine	cluster_13
+SRR24756264	2023	Swine	cluster_26
+SRR24764452	2023	Human	cluster_26
+SRR24806570	2023	Human	cluster_17
+SRR24828617	2023	Human	cluster_26
+SRR24875962	2023	Human	cluster_23
+SRR24950341	2023	Swine	cluster_17
+SRR24971573	2023	Human	cluster_13
+SRR25004956	2023	Human	cluster_17
+SRR25007435	2023	Swine	cluster_13
+SRR25056002	2023	Human	cluster_26
+SRR25118700	2023	Human	singleton_37
+SRR25145013	2023	Human	cluster_26
+SRR25168746	2023	Human	cluster_28
+SRR25302977	2023	Swine	cluster_26
+SRR25318875	2023	Human	cluster_17
+SRR25319572	2023	Human	cluster_28
+SRR25338870	2023	Human	cluster_26
+SRR25403840	2023	Human	cluster_24
+SRR25404962	2023	Human	cluster_28
+SRR25411770	2023	Human	cluster_26
+SRR25412092	2023	Swine	cluster_26
+SRR25437255	2023	Human	cluster_26
+SRR25568942	2023	Human	cluster_17
+SRR25596835	2023	Human	singleton_26
+SRR25601827	2023	Swine	cluster_3
+SRR25616980	2023	Human	cluster_26
+SRR25629764	2023	Human	cluster_27
+SRR25679497	2023	Swine	cluster_17
+SRR25917761	2023	Human	cluster_26
+SRR25918852	2023	Human	cluster_27
+SRR26032379	2023	Human	cluster_19
+SRR26098071	2023	Human	cluster_24
+SRR26106038	2023	Human	cluster_26
+SRR26107477	2023	Human	cluster_23
+SRR26125964	2023	Human	cluster_17
+SRR26190354	2023	Swine	cluster_26
+SRR26256321	2023	Human	singleton_33
+SRR26453126	2023	Human	cluster_26
+SRR26491782	2023	Human	cluster_17
+SRR26544516	2023	Human	cluster_26
+SRR26641412	2023	Human	singleton_15
+SRR26707466	2023	Human	cluster_13
+SRR26850138	2023	Human	cluster_22
+SRR26892951	2023	Swine	cluster_13
+SRR26969145	2023	Human	cluster_8
+SRR27265653	2023	Human	cluster_28
+SRR27364170	2023	Human	cluster_13
+SRR27374177	2023	Human	cluster_14
+SRR27399498	2023	Human	cluster_26
+SRR27677553	2024	Human	cluster_13
+SRR27761249	2023	Human	cluster_26
+SRR27947391	2024	Human	singleton_29
+SRR28246643	2024	Human	cluster_17
+SRR28272636	2024	Human	cluster_17
+SRR28335331	2024	Other	cluster_17
+SRR28335333	2024	Other	cluster_17
+SRR28335402	2024	Other	cluster_17
+SRR28338529	2024	Other	cluster_17
+SRR28379647	2024	Other	cluster_17
+SRR3056912	2015	Swine	cluster_21
+SRR3085523	2015	Swine	cluster_5
+SRR3159940	2016	Swine	cluster_17
+SRR3187244	2016	Swine	cluster_26
+SRR3203836	2016	Swine	cluster_26
+SRR3205699	2015	Human	cluster_17
+SRR3240348	2016	Human	cluster_15
+SRR3573433	Unknown	Human	singleton_13
+SRR3710269	2016	Swine	cluster_17
+SRR3713569	2015	Human	cluster_26
+SRR3925097	2016	Swine	cluster_26
+SRR3953271	2015	Bovine	cluster_25
+SRR4032930	2016	Human	cluster_11
+SRR4032966	2016	Human	cluster_25
+SRR4039940	2016	Human	cluster_25
+SRR4040081	2016	Human	cluster_25
+SRR4040082	2016	Human	cluster_25
+SRR4046876	2016	Human	cluster_17
+SRR4046884	2016	Human	cluster_17
+SRR4046885	2016	Human	cluster_17
+SRR4046889	2016	Human	cluster_17
+SRR4046890	2016	Human	cluster_17
+SRR4046891	Unknown	Human	cluster_17
+SRR4046892	2016	Human	cluster_17
+SRR4046893	2016	Human	cluster_17
+SRR4046902	2016	Human	cluster_17
+SRR4046903	2016	Human	cluster_17
+SRR4054671	2016	Human	cluster_17
+SRR4054672	2016	Human	cluster_17
+SRR4054673	2016	Human	cluster_17
+SRR4106378	2016	Swine	cluster_17
+SRR4176699	2016	Human	cluster_17
+SRR4176756	2016	Human	cluster_25
+SRR4195706	2016	Swine	cluster_25
+SRR4252411	2016	Swine	cluster_25
+SRR4342912	2016	Human	cluster_26
+SRR4414077	2016	Human	cluster_2
+SRR4841757	2016	Swine	cluster_26
+SRR5043241	2016	Swine	cluster_14
+SRR5060614	2014	Human	cluster_14
+SRR5127019	2016	Swine	cluster_26
+SRR5133942	2016	Swine	cluster_25
+SRR5139819	2016	Swine	cluster_26
+SRR5144286	2016	Human	cluster_25
+SRR5152082	2016	Human	cluster_11
+SRR5184269	2016	Human	cluster_11
+SRR5204155	2016	Swine	cluster_25
+SRR5224194	2017	Swine	singleton_21
+SRR5229540	2017	Swine	cluster_26
+SRR5235504	2016	Swine	cluster_25
+SRR5235544	2017	Chicken	cluster_26
+SRR5238238	2016	Human	cluster_17
+SRR5251087	2017	Swine	cluster_26
+SRR5264003	2017	Human	singleton_25
+SRR5264027	2016	Human	cluster_11
+SRR5271446	2017	Swine	cluster_26
+SRR5297973	2017	Chicken	cluster_26
+SRR5311485	2016	Chicken	cluster_25
+SRR5311490	2017	Swine	cluster_26
+SRR5345361	2017	Chicken	cluster_26
+SRR5345614	2017	Swine	cluster_17
+SRR5346346	2017	Swine	cluster_14
+SRR5360702	2017	Human	cluster_26
+SRR5365113	2017	Swine	cluster_16
+SRR5365186	2017	Swine	cluster_26
+SRR5368943	2016	Human	cluster_26
+SRR5388858	2017	Swine	cluster_26
+SRR5441507	2017	Swine	cluster_26
+SRR5441708	2017	Swine	cluster_14
+SRR5441845	2017	Swine	cluster_17
+SRR5444226	2017	Swine	cluster_17
+SRR5448569	2017	Swine	cluster_26
+SRR5454569	2017	Swine	cluster_26
+SRR5459296	2017	Human	cluster_14
+SRR5486030	2017	Swine	cluster_26
+SRR5486727	2017	Human	cluster_23
+SRR5500984	2016	Human	cluster_25
+SRR5508436	2016	Human	cluster_14
+SRR5579142	2016	Human	cluster_11
+SRR5583975	2017	Human	cluster_26
+SRR5583977	2017	Human	singleton_23
+SRR5584992	2017	Human	cluster_14
+SRR5631275	2017	Human	cluster_26
+SRR5647038	2017	Swine	cluster_17
+SRR5655461	2017	Human	cluster_26
+SRR5664412	2017	Human	cluster_17
+SRR5683289	2017	Swine	cluster_26
+SRR5683892	2017	Swine	cluster_17
+SRR5705158	2017	Swine	cluster_26
+SRR5705208	2017	Swine	cluster_17
+SRR5714176	2017	Human	cluster_11
+SRR5725501	2017	Chicken	cluster_26
+SRR5725504	2017	Swine	cluster_17
+SRR5761414	2017	Human	cluster_11
+SRR5761424	2017	Human	cluster_11
+SRR5764621	2017	Chicken	cluster_26
+SRR5787132	2017	Human	cluster_25
+SRR5799653	2017	Human	cluster_26
+SRR5800843	2017	Swine	cluster_17
+SRR5808651	2017	Swine	singleton_12
+SRR5808676	2017	Chicken	cluster_26
+SRR5819515	2017	Swine	cluster_26
+SRR5821016	2017	Human	cluster_11
+SRR5851434	2017	Chicken	cluster_26
+SRR5853155	2017	Swine	cluster_26
+SRR5853156	2017	Swine	cluster_26
+SRR5853159	2017	Swine	cluster_17
+SRR5862407	2017	Swine	singleton_20
+SRR5862664	2017	Swine	cluster_22
+SRR5865344	2017	Human	cluster_26
+SRR5865685	2017	Chicken	cluster_25
+SRR5876386	2017	Human	cluster_11
+SRR5888641	2016	Human	singleton_11
+SRR5901622	2017	Chicken	cluster_26
+SRR5921256	2017	Human	singleton_8
+SRR5921510	2017	Human	cluster_23
+SRR5932633	2017	Human	cluster_25
+SRR5932671	2017	Human	cluster_25
+SRR5945425	2017	Human	cluster_26
+SRR5948500	2017	Human	cluster_25
+SRR5948536	2011	Human	cluster_25
+SRR5955226	2017	Chicken	cluster_25
+SRR5978531	2017	Human	cluster_11
+SRR5980396	2017	Chicken	cluster_26
+SRR5993063	2017	Human	cluster_21
+SRR5996332	2017	Swine	cluster_17
+SRR6010278	2017	Swine	cluster_9
+SRR6011705	2017	Swine	cluster_17
+SRR6039945	2017	Chicken	cluster_26
+SRR6051472	2017	Human	cluster_17
+SRR6051632	2017	Swine	cluster_26
+SRR6107218	2017	Human	cluster_26
+SRR6113316	2017	Swine	cluster_17
+SRR6131647	2017	Swine	cluster_17
+SRR6155084	2017	Human	cluster_21
+SRR6187091	2017	Swine	cluster_20
+SRR6197826	2017	Swine	cluster_26
+SRR6217919	2017	Human	cluster_25
+SRR6221663	2017	Human	singleton_6
+SRR6238439	2016	Chicken	cluster_25
+SRR6249751	2017	Human	cluster_23
+SRR6250397	2017	Swine	singleton_28
+SRR6255080	2017	Swine	cluster_17
+SRR6269910	2017	Swine	cluster_17
+SRR6283418	2017	Human	cluster_17
+SRR6310048	2017	Swine	cluster_25
+SRR6335201	2017	Swine	cluster_26
+SRR6342372	2017	Swine	cluster_26
+SRR6345594	2017	Human	cluster_11
+SRR6353985	2017	Human	cluster_26
+SRR6354076	2017	Swine	cluster_26
+SRR6356223	2017	Swine	cluster_17
+SRR6359227	2017	Swine	cluster_26
+SRR6371681	2017	Human	cluster_27
+SRR6374147	2017	Swine	cluster_9
+SRR6377186	2017	Swine	cluster_26
+SRR6380938	2017	Human	cluster_17
+SRR6412879	2017	Human	cluster_17
+SRR6424959	2017	Chicken	cluster_20
+SRR6446717	2017	Human	singleton_35
+SRR6451404	2017	Swine	cluster_26
+SRR6459476	2017	Swine	cluster_17
+SRR6468480	2017	Human	cluster_17
+SRR6468733	Unknown	Human	cluster_26
+SRR6475540	2017	Human	cluster_11
+SRR6485177	2017	Human	cluster_25
+SRR6491691	2017	Swine	cluster_26
+SRR6495091	2017	Swine	cluster_17
+SRR6495251	2017	Swine	cluster_26
+SRR6627645	2018	Human	cluster_17
+SRR6659199	2017	Swine	cluster_10
+SRR6659254	2017	Swine	cluster_26
+SRR6668164	2018	Swine	cluster_26
+SRR6704098	2018	Swine	cluster_17
+SRR6726354	2017	Human	cluster_17
+SRR6750020	2018	Swine	cluster_26
+SRR6750610	2017	Human	cluster_26
+SRR6756844	2018	Chicken	cluster_20
+SRR6764165	2018	Swine	cluster_22
+SRR6791846	2018	Human	cluster_26
+SRR6819590	2018	Swine	cluster_17
+SRR6879528	2018	Swine	cluster_26
+SRR6880938	2018	Human	cluster_21
+SRR6880952	2018	Human	cluster_21
+SRR6880955	2018	Human	cluster_21
+SRR6880962	2018	Human	cluster_21
+SRR6881316	2017	Human	cluster_28
+SRR6881508	2018	Human	cluster_26
+SRR6885288	2018	Human	cluster_21
+SRR6885293	2018	Human	cluster_21
+SRR6902781	2018	Human	cluster_21
+SRR6902789	2018	Human	cluster_21
+SRR6902790	2018	Human	cluster_21
+SRR6902793	2018	Human	cluster_21
+SRR6902795	2018	Human	cluster_21
+SRR6902799	2018	Human	cluster_21
+SRR6902804	2018	Human	cluster_21
+SRR6902809	2018	Human	cluster_21
+SRR6902816	2018	Human	cluster_21
+SRR6902825	2018	Human	cluster_21
+SRR6902826	2018	Human	cluster_21
+SRR6902829	2018	Human	cluster_21
+SRR6903010	2018	Human	cluster_21
+SRR6903122	2018	Human	cluster_21
+SRR6903126	2018	Human	cluster_21
+SRR6903136	2018	Human	cluster_21
+SRR6903141	2018	Human	cluster_21
+SRR6903144	2018	Human	cluster_21
+SRR6903150	2018	Human	cluster_21
+SRR6903152	2018	Human	cluster_21
+SRR6907933	2018	Human	cluster_21
+SRR6920525	2017	Human	cluster_17
+SRR6927002	2018	Human	cluster_6
+SRR6933284	2018	Chicken	cluster_20
+SRR6940269	2018	Human	cluster_21
+SRR6940349	2018	Swine	cluster_14
+SRR6940567	2018	Human	cluster_21
+SRR6950244	2018	Swine	cluster_11
+SRR6976753	2018	Swine	cluster_26
+SRR6984366	2018	Human	cluster_26
+SRR6994751	2018	Human	cluster_21
+SRR6998696	2018	Swine	cluster_26
+SRR7015151	2018	Human	cluster_21
+SRR7015156	2018	Human	cluster_21
+SRR7015158	2018	Human	cluster_21
+SRR7015159	2018	Human	cluster_21
+SRR7028101	2018	Human	cluster_14
+SRR7049684	2017	Human	cluster_26
+SRR7049908	2018	Swine	cluster_26
+SRR7081891	2018	Human	cluster_17
+SRR7089427	2018	Swine	cluster_9
+SRR7095742	2018	Swine	cluster_26
+SRR7138699	2018	Swine	cluster_17
+SRR7170350	2018	Human	cluster_17
+SRR7173072	2018	Swine	cluster_26
+SRR7189188	2018	Human	cluster_27
+SRR7219091	2018	Human	cluster_17
+SRR7237491	2018	Swine	cluster_26
+SRR7245633	2018	Human	cluster_21
+SRR7248282	2018	Human	cluster_14
+SRR7248301	2018	Swine	cluster_15
+SRR7253154	2018	Human	cluster_26
+SRR7253177	2018	Human	cluster_25
+SRR7263025	2016	Human	cluster_23
+SRR7267530	2018	Swine	cluster_26
+SRR7267875	2018	Swine	cluster_26
+SRR7267909	2018	Swine	cluster_26
+SRR7267911	2018	Swine	cluster_26
+SRR7349384	2018	Swine	cluster_26
+SRR7414576	2018	Human	cluster_26
+SRR7414624	2018	Human	cluster_26
+SRR7473082	2018	Human	cluster_26
+SRR7473083	2018	Human	cluster_26
+SRR7473147	2018	Human	cluster_11
+SRR7501026	2018	Swine	cluster_26
+SRR7501028	2018	Swine	cluster_26
+SRR7533589	2018	Swine	cluster_26
+SRR7608227	2018	Human	singleton_31
+SRR7615163	2018	Swine	cluster_26
+SRR7642112	2018	Human	cluster_17
+SRR7650124	2018	Swine	cluster_26
+SRR7657597	2018	Swine	cluster_9
+SRR7661057	2018	Bovine	cluster_17
+SRR7715931	2018	Swine	cluster_23
+SRR7766938	2018	Human	cluster_21
+SRR7767060	2018	Human	cluster_26
+SRR7771741	2018	Bovine	cluster_10
+SRR7789901	2018	Swine	cluster_26
+SRR7882123	2018	Human	cluster_26
+SRR7955898	2018	Swine	singleton_1
+SRR7965895	2018	Swine	cluster_26
+SRR7974097	2018	Swine	cluster_25
+SRR8030140	2018	Human	cluster_26
+SRR8037281	2018	Swine	cluster_26
+SRR8053961	2018	Human	cluster_26
+SRR8055261	2018	Swine	singleton_18
+SRR8087250	2018	Swine	cluster_17
+SRR8092104	2016	Human	cluster_22
+SRR8098601	2018	Swine	cluster_26
+SRR8157127	2018	Human	cluster_17
+SRR8157339	2018	Human	cluster_13
+SRR8172903	2018	Chicken	cluster_20
+SRR8188790	2018	Human	cluster_26
+SRR8188986	2018	Human	cluster_25
+SRR8207777	2018	Human	cluster_11
+SRR8208287	2018	Swine	cluster_26
+SRR8252770	2018	Swine	cluster_25
+SRR8263130	2018	Swine	cluster_26
+SRR8263131	2018	Swine	cluster_26
+SRR8266110	2018	Human	cluster_26
+SRR8268137	2018	Human	cluster_18
+SRR8275021	2018	Swine	cluster_13
+SRR8280728	2018	Human	cluster_26
+SRR8299181	2018	Human	singleton_7
+SRR8305688	2018	Human	cluster_26
+SRR8321717	2018	Human	cluster_2
+SRR8370029	2018	Human	cluster_11
+SRR8394262	2018	Human	cluster_25
+SRR8477862	2018	Human	cluster_17
+SRR8539933	2018	Human	cluster_17
+SRR8546833	2018	Swine	cluster_26
+SRR8575596	2019	Human	cluster_2
+SRR8582776	2019	Swine	cluster_7
+SRR8593435	2019	Chicken	cluster_24
+SRR8599213	2019	Swine	cluster_17
+SRR8723081	2019	Swine	cluster_26
+SRR8731042	2019	Swine	cluster_17
+SRR8760761	2019	Human	cluster_11
+SRR8839646	2019	Swine	singleton_3
+SRR8839840	2019	Swine	cluster_26
+SRR8884658	2019	Swine	cluster_3
+SRR8923102	2019	Human	cluster_11
+SRR8924414	2019	Swine	cluster_3
+SRR8925528	2019	Swine	cluster_26
+SRR8933070	2019	Swine	cluster_26
+SRR8942632	2019	Swine	cluster_3
+SRR8951399	2019	Swine	cluster_26
+SRR8984708	2019	Human	cluster_26
+SRR8984714	2019	Human	cluster_26
+SRR8991649	2019	Swine	cluster_17
+SRR8997362	2019	Human	cluster_26
+SRR9001386	2019	Swine	cluster_26
+SRR9105596	2019	Swine	cluster_17
+SRR9139735	2019	Swine	cluster_13
+SRR9172064	2019	Swine	cluster_26
+SRR9207112	2019	Swine	cluster_14
+SRR9602996	2019	Swine	cluster_3
+SRR9643273	2019	Swine	cluster_26
+SRR9643394	2019	Swine	cluster_17
+SRR9668033	2019	Chicken	singleton_34
+SRR9668865	2019	Swine	cluster_25
+SRR9671765	2019	Human	cluster_25
+SRR9694411	2019	Human	cluster_17
+SRR9708982	2019	Human	cluster_3
+SRR9715920	2019	Swine	cluster_26
+SRR9721881	2019	Swine	cluster_17
+SRR9734415	2019	Human	cluster_6
+SRR9734434	2019	Human	cluster_17
+SRR9875360	2019	Swine	cluster_17
+SRR9943047	2019	Swine	cluster_22
+SRR9943152	2019	Chicken	cluster_25
+SRR9961283	2019	Human	cluster_17
+SRR9988274	2019	Human	cluster_26
+SRR9988289	2019	Human	cluster_26

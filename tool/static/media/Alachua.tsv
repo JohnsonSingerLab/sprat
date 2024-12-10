@@ -1,337 +1,337 @@
-ID	Year	Source	MST-14	MST-30	MST-67	MST-88	MST-98	MST-127	MST-141
-SRR10093199	2019	Human	cluster_21	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10164108	2019	Swine	singleton_19	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10165163	2019	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10229993	2019	Chicken	singleton_24	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10230009	2019	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10230209	2019	Human	cluster_17	cluster_17	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10298410	Unknown	Human	singleton_14	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10482334	2019	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10500080	2019	Human	singleton_102	singleton_53	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10500088	2019	Human	singleton_66	singleton_31	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10512735	2019	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10764309	2019	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10852215	2019	Chicken	singleton_105	singleton_56	cluster_10	cluster_3	cluster_2	cluster_2	cluster_2
-SRR10873288	2019	Swine	singleton_25	cluster_3	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR10965907	2020	Chicken	cluster_20	cluster_19	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11041698	2018	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11075428	2019	Human	cluster_21	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11123419	2020	Swine	cluster_8	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11142325	Unknown	Human	cluster_21	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11214027	2020	Chicken	cluster_20	cluster_19	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11248425	2020	Swine	cluster_8	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11311387	2020	Swine	cluster_8	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11340685	2020	Human	cluster_9	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11430479	2020	Turkey	cluster_14	cluster_13	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11600284	2020	Turkey	singleton_52	cluster_19	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11907343	2020	Human	singleton_30	singleton_7	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11955234	2020	Human	cluster_21	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR11966460	2020	Swine	singleton_46	singleton_17	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12143579	2019	Human	singleton_99	singleton_52	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12320322	2020	Human	cluster_21	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12362695	2020	Swine	singleton_26	cluster_3	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12540207	2020	Human	singleton_5	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1
-SRR12682956	2020	Turkey	singleton_85	singleton_44	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12799210	2020	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12884604	2020	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12982559	2020	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12982612	2020	Human	singleton_65	singleton_30	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12982713	2020	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR12993369	2020	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR13020457	2020	Swine	singleton_31	cluster_5	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR13237205	2020	Human	singleton_6	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1
-SRR13498604	2021	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14131134	2021	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14182608	2021	Human	singleton_11	singleton_2	singleton_1	singleton_1	singleton_1	singleton_1	singleton_1
-SRR14240519	2021	Human	cluster_21	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14244110	2021	Human	cluster_15	cluster_14	cluster_4	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14244112	2021	Human	cluster_15	cluster_14	cluster_4	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14244114	2021	Human	cluster_15	cluster_14	cluster_4	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14244117	2021	Human	cluster_15	cluster_14	cluster_4	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14269096	2021	Swine	singleton_32	cluster_5	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14351981	2021	Human	singleton_72	cluster_15	cluster_5	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14371214	2021	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14480735	2021	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14707956	2021	Human	singleton_51	singleton_21	singleton_6	singleton_2	singleton_2	singleton_2	cluster_2
-SRR14760891	2021	Human	cluster_15	cluster_14	cluster_4	cluster_2	cluster_2	cluster_2	cluster_2
-SRR14792892	2021	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15007542	2021	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15069239	2021	Chicken	cluster_12	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15178460	2021	Chicken	cluster_1	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15210156	2021	Swine	cluster_14	cluster_13	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15217991	2021	Swine	cluster_9	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15249116	2021	Swine	cluster_9	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15288874	2021	Swine	cluster_9	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15440503	2021	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15540891	2021	Human	singleton_41	singleton_13	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR15687621	2021	Human	cluster_9	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR16134479	2021	Human	cluster_9	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR16289836	2021	Human	singleton_71	singleton_35	singleton_10	cluster_2	cluster_2	cluster_2	cluster_2
-SRR16598276	2021	Chicken	cluster_12	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR16889907	2021	Chicken	singleton_89	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR16892350	2021	Human	singleton_90	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR16968795	2021	Chicken	singleton_92	singleton_47	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR16976220	2021	Human	singleton_47	singleton_18	singleton_5	cluster_2	cluster_2	cluster_2	cluster_2
-SRR17180084	2021	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR17229637	2021	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR17243382	2021	Human	cluster_6	cluster_6	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR1774091	2012	Unspecified Poultry	singleton_95	singleton_50	singleton_14	cluster_2	cluster_2	cluster_2	cluster_2
-SRR17831855	2022	Swine	singleton_17	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18116017	2022	Swine	cluster_4	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18218539	2022	Swine	cluster_4	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18265055	2022	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18333713	2022	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18426055	2022	Bovine	cluster_4	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18432960	2022	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18508387	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR18687569	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19038865	2022	Human	cluster_6	cluster_6	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19070357	2022	Swine	singleton_29	singleton_6	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19100850	2022	Human	singleton_79	singleton_38	singleton_12	singleton_4	singleton_4	singleton_3	singleton_2
-SRR19142930	2022	Chicken	cluster_11	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19363175	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19379259	2022	Swine	cluster_4	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19581904	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19658583	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19664290	2022	Turkey	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19870015	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19882143	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR19897762	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR20326954	2022	Human	singleton_1	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1
-SRR2067960	2015	Chicken	singleton_86	singleton_45	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR20729187	2022	Human	cluster_11	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR20781905	2022	Human	singleton_7	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1
-SRR20799065	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR20966578	2022	Swine	cluster_17	cluster_17	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR20995037	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21026016	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21115585	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21165740	2022	Swine	cluster_17	cluster_17	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21166165	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21187568	2022	Chicken	cluster_11	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21204044	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21346162	2022	Human	singleton_12	singleton_3	singleton_2	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21449790	2022	Human	singleton_2	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1	cluster_1
-SRR21464337	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21464338	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21607408	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21607549	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21618224	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21640924	2022	Unknown	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21661059	2022	Swine	cluster_14	cluster_13	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21667863	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21677952	2022	Human	cluster_21	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21709934	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21729538	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21742703	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21743309	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21787917	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21791288	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21839724	2022	Chicken	singleton_15	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21840129	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21851384	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21859695	2022	Chicken	cluster_1	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21897073	2022	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21898518	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21930400	2022	Chicken	singleton_23	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21932012	2022	Swine	cluster_17	cluster_17	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21937904	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21937926	2022	Swine	cluster_4	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21937947	2022	Chicken	cluster_11	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR21958963	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22107523	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22179735	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22219039	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR2227324	2015	Swine	singleton_44	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22315241	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22316383	2022	Swine	cluster_17	cluster_17	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22365940	2022	Chicken	cluster_11	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22366406	2022	Chicken	cluster_11	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22397608	2022	Human	singleton_97	singleton_51	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22434686	2022	Human	singleton_42	singleton_14	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22445054	2022	Human	singleton_18	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22489822	2022	Human	cluster_7	cluster_7	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22535090	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22535750	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22565344	2022	Human	singleton_94	singleton_49	singleton_13	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22708489	2022	Human	cluster_6	cluster_6	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22822780	2022	Swine	singleton_43	singleton_15	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR22854073	2022	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23198714	2022	Chicken	cluster_5	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23249701	2022	Swine	singleton_70	cluster_13	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23306068	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23318223	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23362295	2023	Chicken	cluster_5	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23476214	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23512613	2023	Chicken	singleton_33	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23516570	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23517712	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23641303	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23654289	2023	Human	singleton_67	singleton_32	singleton_9	singleton_3	singleton_3	cluster_2	cluster_2
-SRR23802446	2023	Chicken	singleton_87	singleton_46	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23802847	2022	Human	singleton_37	singleton_11	singleton_3	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23851167	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23927103	2022	Human	singleton_38	singleton_12	singleton_4	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23957792	2023	Swine	singleton_21	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23983936	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR23983937	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24061571	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24099514	2023	Human	singleton_10	cluster_2	cluster_2	cluster_1	cluster_1	cluster_1	cluster_1
-SRR24100118	2023	Swine	singleton_40	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24216196	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24216507	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24308451	2023	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24470634	2023	Human	singleton_96	cluster_10	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24604823	2023	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773338	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773339	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773340	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773341	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773342	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773348	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773350	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773351	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773352	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773353	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773355	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773370	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773375	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773376	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773377	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773386	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773387	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773388	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24773390	2023	Other	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24796008	2023	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24895314	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24928280	2023	Bovine	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR24950292	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25074606	2023	Human	singleton_74	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25321788	2023	Human	singleton_4	cluster_2	cluster_2	cluster_1	cluster_1	cluster_1	cluster_1
-SRR25338871	2023	Human	singleton_60	singleton_28	cluster_3	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25382860	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25411849	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25477031	2023	Human	singleton_53	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25507256	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25814690	2023	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25816587	2023	Chicken	cluster_5	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25816592	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR25997406	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26016627	2023	Unspecified Poultry	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26053380	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26121116	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26166230	2023	Chicken	cluster_5	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26190362	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26208867	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26328823	2023	Turkey	singleton_20	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26405715	2023	Human	cluster_19	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26405778	2023	Human	cluster_19	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26411289	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26412485	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26412504	2023	Human	singleton_22	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26412993	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26584129	2023	Chicken	singleton_88	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26623261	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26628132	2023	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26632823	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26666443	2023	Chicken	singleton_103	singleton_54	cluster_10	cluster_3	cluster_2	cluster_2	cluster_2
-SRR26666445	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26804478	2023	Chicken	cluster_5	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26806914	2023	Human	cluster_5	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26862498	2023	Chicken	cluster_5	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26899286	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26903176	2023	Chicken	singleton_39	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26913899	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26960625	2023	Human	singleton_61	singleton_29	singleton_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR26969864	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27167859	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27167885	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27315653	2021	Chicken	cluster_19	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27325885	2021	Chicken	cluster_19	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27326903	2021	Chicken	cluster_19	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27399431	2021	Chicken	cluster_19	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27399441	2021	Chicken	cluster_19	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27474432	2023	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27643849	2021	Chicken	cluster_18	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27643850	2021	Chicken	cluster_18	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27645742	2021	Chicken	cluster_18	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27677563	2024	Human	singleton_100	cluster_19	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27712793	2021	Chicken	cluster_18	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27880194	2024	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR27959481	2024	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR28005608	2024	Human	singleton_101	cluster_19	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR28074039	2024	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR28083728	2024	Chicken	singleton_104	singleton_55	cluster_10	cluster_3	cluster_2	cluster_2	cluster_2
-SRR28151757	2024	Chicken	singleton_63	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR28215382	2024	Turkey	singleton_68	singleton_33	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR28275142	2024	Unspecified Animal	singleton_64	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR28355185	2024	Human	singleton_3	singleton_1	cluster_2	cluster_1	cluster_1	cluster_1	cluster_1
-SRR3713630	Unknown	Human	singleton_78	singleton_37	singleton_11	cluster_2	cluster_2	cluster_2	cluster_2
-SRR3726306	2016	Swine	singleton_77	cluster_17	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR3953328	2016	Swine	singleton_28	singleton_5	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR4434279	2016	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5019529	2016	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5045022	2016	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5195876	2016	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5221913	2016	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5235542	2017	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5238025	1999	Human	singleton_76	singleton_36	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5275044	2016	Human	cluster_13	cluster_12	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5365191	2017	Turkey	singleton_58	singleton_26	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5508255	2015	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5588108	2017	Human	singleton_75	cluster_15	cluster_5	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5664425	Unknown	Human	singleton_69	singleton_34	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5756406	Unknown	Human	singleton_57	singleton_25	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5815869	2017	Swine	cluster_3	cluster_4	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5820361	2017	Human	singleton_55	singleton_23	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5902674	2017	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5902693	2017	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5908425	2016	Human	singleton_93	singleton_48	cluster_3	cluster_2	cluster_2	cluster_2	cluster_2
-SRR5920763	2017	Chicken	singleton_56	singleton_24	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6131649	2017	Swine	singleton_50	cluster_10	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6216164	2017	Human	singleton_91	cluster_18	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6216198	2017	Human	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6249910	2017	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6294676	2017	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6345533	2017	Human	singleton_49	singleton_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6410454	2017	Human	singleton_54	singleton_22	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6514530	2017	Human	singleton_34	singleton_8	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6902867	2017	Human	singleton_59	singleton_27	singleton_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR6916730	2018	Swine	cluster_3	cluster_4	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7030841	2018	Chicken	singleton_62	cluster_11	cluster_10	cluster_3	cluster_2	cluster_2	cluster_2
-SRR7300315	2018	Human	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7419512	2016	Human	cluster_13	cluster_12	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7465647	2018	Chicken	singleton_81	singleton_40	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7515380	2018	Human	singleton_48	singleton_19	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7657544	2018	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7693575	2018	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7810051	2018	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7909693	2018	Human	singleton_83	singleton_42	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR7974104	2018	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR8234000	2018	Chicken	singleton_82	singleton_41	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR8265945	2018	Human	singleton_9	cluster_2	cluster_2	cluster_1	cluster_1	cluster_1	cluster_1
-SRR8298864	2018	Human	singleton_80	singleton_39	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR8499298	2019	Chicken	singleton_98	cluster_11	cluster_10	cluster_3	cluster_2	cluster_2	cluster_2
-SRR8645010	2019	Turkey	singleton_73	cluster_19	cluster_8	cluster_2	cluster_2	cluster_2	cluster_2
-SRR8754566	2019	Swine	singleton_45	singleton_16	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR8926832	2019	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR8995981	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9000444	2019	Turkey	singleton_84	singleton_43	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9029085	Unknown	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9047339	2019	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9071960	Unknown	Unspecified Animal	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9072093	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9105598	2019	Swine	cluster_10	cluster_9	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9137597	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9143007	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9150148	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9257661	2019	Turkey	singleton_36	singleton_10	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9283031	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9335393	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9593530	2019	Human	singleton_16	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9647872	2019	Human	singleton_13	singleton_4	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9658170	2019	Chicken	cluster_16	cluster_16	cluster_6	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9694870	2019	Human	singleton_8	cluster_2	cluster_2	cluster_1	cluster_1	cluster_1	cluster_1
-SRR9717192	2019	Swine	singleton_27	cluster_8	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9860742	Unknown	Human	singleton_35	singleton_9	cluster_7	cluster_2	cluster_2	cluster_2	cluster_2
-SRR9985579	2019	Human	cluster_2	cluster_20	cluster_9	cluster_2	cluster_2	cluster_2	cluster_2
+ID	Year	Source	MST-30
+SRR10093199	2019	Human	cluster_10
+SRR10164108	2019	Swine	cluster_18
+SRR10165163	2019	Chicken	cluster_20
+SRR10229993	2019	Chicken	cluster_20
+SRR10230009	2019	Chicken	cluster_20
+SRR10230209	2019	Human	cluster_4
+SRR10298410	Unknown	Human	cluster_10
+SRR10482334	2019	Human	cluster_20
+SRR10500080	2019	Human	singleton_5
+SRR10500088	2019	Human	singleton_35
+SRR10512735	2019	Human	cluster_5
+SRR10764309	2019	Chicken	cluster_20
+SRR10852215	2019	Chicken	cluster_11
+SRR10873288	2019	Swine	cluster_9
+SRR10965907	2020	Chicken	cluster_15
+SRR11041698	2018	Human	cluster_20
+SRR11075428	2019	Human	cluster_10
+SRR11123419	2020	Swine	cluster_18
+SRR11142325	Unknown	Human	cluster_10
+SRR11214027	2020	Chicken	cluster_15
+SRR11248425	2020	Swine	cluster_18
+SRR11311387	2020	Swine	cluster_18
+SRR11340685	2020	Human	cluster_22
+SRR11430479	2020	Turkey	cluster_7
+SRR11600284	2020	Turkey	cluster_15
+SRR11907343	2020	Human	singleton_18
+SRR11955234	2020	Human	cluster_10
+SRR11966460	2020	Swine	singleton_14
+SRR12143579	2019	Human	singleton_12
+SRR12320322	2020	Human	cluster_10
+SRR12362695	2020	Swine	cluster_9
+SRR12540207	2020	Human	cluster_13
+SRR12682956	2020	Turkey	singleton_27
+SRR12799210	2020	Chicken	cluster_20
+SRR12884604	2020	Chicken	cluster_20
+SRR12982559	2020	Human	cluster_5
+SRR12982612	2020	Human	singleton_4
+SRR12982713	2020	Human	cluster_5
+SRR12993369	2020	Human	cluster_5
+SRR13020457	2020	Swine	cluster_17
+SRR13237205	2020	Human	cluster_13
+SRR13498604	2021	Chicken	cluster_20
+SRR14131134	2021	Chicken	cluster_20
+SRR14182608	2021	Human	singleton_47
+SRR14240519	2021	Human	cluster_10
+SRR14244110	2021	Human	cluster_2
+SRR14244112	2021	Human	cluster_2
+SRR14244114	2021	Human	cluster_2
+SRR14244117	2021	Human	cluster_2
+SRR14269096	2021	Swine	cluster_17
+SRR14351981	2021	Human	cluster_14
+SRR14371214	2021	Chicken	cluster_20
+SRR14480735	2021	Human	cluster_5
+SRR14707956	2021	Human	singleton_46
+SRR14760891	2021	Human	cluster_2
+SRR14792892	2021	Chicken	cluster_20
+SRR15007542	2021	Chicken	cluster_20
+SRR15069239	2021	Chicken	cluster_20
+SRR15178460	2021	Chicken	cluster_20
+SRR15210156	2021	Swine	cluster_7
+SRR15217991	2021	Swine	cluster_22
+SRR15249116	2021	Swine	cluster_22
+SRR15288874	2021	Swine	cluster_22
+SRR15440503	2021	Chicken	cluster_20
+SRR15540891	2021	Human	singleton_39
+SRR15687621	2021	Human	cluster_22
+SRR16134479	2021	Human	cluster_22
+SRR16289836	2021	Human	singleton_21
+SRR16598276	2021	Chicken	cluster_20
+SRR16889907	2021	Chicken	cluster_20
+SRR16892350	2021	Human	cluster_20
+SRR16968795	2021	Chicken	cluster_8
+SRR16976220	2021	Human	singleton_40
+SRR17180084	2021	Human	cluster_5
+SRR17229637	2021	Chicken	cluster_20
+SRR17243382	2021	Human	cluster_6
+SRR1774091	2012	Unspecified Poultry	singleton_33
+SRR17831855	2022	Swine	cluster_18
+SRR18116017	2022	Swine	cluster_22
+SRR18218539	2022	Swine	cluster_22
+SRR18265055	2022	Human	cluster_5
+SRR18333713	2022	Other	cluster_20
+SRR18426055	2022	Bovine	cluster_22
+SRR18432960	2022	Human	cluster_5
+SRR18508387	2022	Chicken	cluster_20
+SRR18687569	2022	Chicken	cluster_20
+SRR19038865	2022	Human	cluster_6
+SRR19070357	2022	Swine	singleton_28
+SRR19100850	2022	Human	singleton_48
+SRR19142930	2022	Chicken	cluster_20
+SRR19363175	2022	Chicken	cluster_20
+SRR19379259	2022	Swine	cluster_22
+SRR19581904	2022	Chicken	cluster_20
+SRR19658583	2022	Chicken	cluster_20
+SRR19664290	2022	Turkey	cluster_20
+SRR19870015	2022	Chicken	cluster_20
+SRR19882143	2022	Chicken	cluster_20
+SRR19897762	2022	Chicken	cluster_20
+SRR20326954	2022	Human	cluster_13
+SRR2067960	2015	Chicken	singleton_32
+SRR20729187	2022	Human	cluster_20
+SRR20781905	2022	Human	cluster_13
+SRR20799065	2022	Chicken	cluster_20
+SRR20966578	2022	Swine	cluster_4
+SRR20995037	2022	Chicken	cluster_20
+SRR21026016	2022	Chicken	cluster_20
+SRR21115585	2022	Chicken	cluster_20
+SRR21165740	2022	Swine	cluster_4
+SRR21166165	2022	Chicken	cluster_20
+SRR21187568	2022	Chicken	cluster_20
+SRR21204044	2022	Chicken	cluster_20
+SRR21346162	2022	Human	singleton_42
+SRR21449790	2022	Human	cluster_13
+SRR21464337	2022	Chicken	cluster_20
+SRR21464338	2022	Chicken	cluster_20
+SRR21607408	2022	Chicken	cluster_20
+SRR21607549	2022	Chicken	cluster_20
+SRR21618224	2022	Chicken	cluster_20
+SRR21640924	2022	Unknown	cluster_20
+SRR21661059	2022	Swine	cluster_7
+SRR21667863	2022	Chicken	cluster_20
+SRR21677952	2022	Human	cluster_10
+SRR21709934	2022	Chicken	cluster_20
+SRR21729538	2022	Chicken	cluster_20
+SRR21742703	2022	Chicken	cluster_20
+SRR21743309	2022	Chicken	cluster_20
+SRR21787917	2022	Chicken	cluster_20
+SRR21791288	2022	Chicken	cluster_20
+SRR21839724	2022	Chicken	cluster_20
+SRR21840129	2022	Chicken	cluster_20
+SRR21851384	2022	Chicken	cluster_20
+SRR21859695	2022	Chicken	cluster_20
+SRR21897073	2022	Human	cluster_5
+SRR21898518	2022	Chicken	cluster_20
+SRR21930400	2022	Chicken	cluster_20
+SRR21932012	2022	Swine	cluster_4
+SRR21937904	2022	Chicken	cluster_20
+SRR21937926	2022	Swine	cluster_22
+SRR21937947	2022	Chicken	cluster_20
+SRR21958963	2022	Chicken	cluster_20
+SRR22107523	2022	Chicken	cluster_20
+SRR22179735	2022	Chicken	cluster_20
+SRR22219039	2022	Chicken	cluster_20
+SRR2227324	2015	Swine	cluster_22
+SRR22315241	2022	Chicken	cluster_20
+SRR22316383	2022	Swine	cluster_4
+SRR22365940	2022	Chicken	cluster_20
+SRR22366406	2022	Chicken	cluster_20
+SRR22397608	2022	Human	singleton_13
+SRR22434686	2022	Human	singleton_3
+SRR22445054	2022	Human	cluster_18
+SRR22489822	2022	Human	cluster_5
+SRR22535090	2022	Chicken	cluster_20
+SRR22535750	2022	Chicken	cluster_20
+SRR22565344	2022	Human	singleton_38
+SRR22708489	2022	Human	cluster_6
+SRR22822780	2022	Swine	singleton_15
+SRR22854073	2022	Chicken	cluster_20
+SRR23198714	2022	Chicken	cluster_20
+SRR23249701	2022	Swine	cluster_7
+SRR23306068	2023	Chicken	cluster_20
+SRR23318223	2023	Chicken	cluster_20
+SRR23362295	2023	Chicken	cluster_20
+SRR23476214	2023	Chicken	cluster_20
+SRR23512613	2023	Chicken	cluster_20
+SRR23516570	2023	Chicken	cluster_20
+SRR23517712	2023	Chicken	cluster_20
+SRR23641303	2023	Chicken	cluster_20
+SRR23654289	2023	Human	singleton_45
+SRR23802446	2023	Chicken	singleton_11
+SRR23802847	2022	Human	singleton_43
+SRR23851167	2023	Chicken	cluster_20
+SRR23927103	2022	Human	singleton_44
+SRR23957792	2023	Swine	cluster_18
+SRR23983936	2023	Chicken	cluster_20
+SRR23983937	2023	Chicken	cluster_20
+SRR24061571	2023	Chicken	cluster_20
+SRR24099514	2023	Human	cluster_16
+SRR24100118	2023	Swine	cluster_22
+SRR24216196	2023	Chicken	cluster_20
+SRR24216507	2023	Chicken	cluster_20
+SRR24308451	2023	Human	cluster_20
+SRR24470634	2023	Human	cluster_12
+SRR24604823	2023	Human	cluster_20
+SRR24773338	2023	Other	cluster_20
+SRR24773339	2023	Other	cluster_20
+SRR24773340	2023	Other	cluster_20
+SRR24773341	2023	Other	cluster_20
+SRR24773342	2023	Other	cluster_20
+SRR24773348	2023	Other	cluster_20
+SRR24773350	2023	Other	cluster_20
+SRR24773351	2023	Other	cluster_20
+SRR24773352	2023	Other	cluster_20
+SRR24773353	2023	Other	cluster_20
+SRR24773355	2023	Other	cluster_20
+SRR24773370	2023	Other	cluster_20
+SRR24773375	2023	Other	cluster_20
+SRR24773376	2023	Other	cluster_20
+SRR24773377	2023	Other	cluster_20
+SRR24773386	2023	Other	cluster_20
+SRR24773387	2023	Other	cluster_20
+SRR24773388	2023	Other	cluster_20
+SRR24773390	2023	Other	cluster_20
+SRR24796008	2023	Human	cluster_20
+SRR24895314	2023	Chicken	cluster_20
+SRR24928280	2023	Bovine	cluster_20
+SRR24950292	2023	Chicken	cluster_20
+SRR25074606	2023	Human	cluster_8
+SRR25321788	2023	Human	cluster_16
+SRR25338871	2023	Human	singleton_9
+SRR25382860	2023	Chicken	cluster_20
+SRR25411849	2023	Chicken	cluster_20
+SRR25477031	2023	Human	cluster_20
+SRR25507256	2023	Chicken	cluster_20
+SRR25814690	2023	Human	cluster_20
+SRR25816587	2023	Chicken	cluster_20
+SRR25816592	2023	Chicken	cluster_20
+SRR25997406	2023	Chicken	cluster_20
+SRR26016627	2023	Unspecified Poultry	cluster_20
+SRR26053380	2023	Chicken	cluster_20
+SRR26121116	2023	Chicken	cluster_20
+SRR26166230	2023	Chicken	cluster_20
+SRR26190362	2023	Chicken	cluster_20
+SRR26208867	2023	Chicken	cluster_20
+SRR26328823	2023	Turkey	cluster_18
+SRR26405715	2023	Human	cluster_8
+SRR26405778	2023	Human	cluster_8
+SRR26411289	2023	Chicken	cluster_20
+SRR26412485	2023	Chicken	cluster_20
+SRR26412504	2023	Human	cluster_18
+SRR26412993	2023	Chicken	cluster_20
+SRR26584129	2023	Chicken	cluster_20
+SRR26623261	2023	Chicken	cluster_20
+SRR26628132	2023	Human	cluster_20
+SRR26632823	2023	Chicken	cluster_20
+SRR26666443	2023	Chicken	cluster_21
+SRR26666445	2023	Chicken	cluster_20
+SRR26804478	2023	Chicken	cluster_20
+SRR26806914	2023	Human	cluster_20
+SRR26862498	2023	Chicken	cluster_20
+SRR26899286	2023	Chicken	cluster_20
+SRR26903176	2023	Chicken	cluster_20
+SRR26913899	2023	Chicken	cluster_20
+SRR26960625	2023	Human	singleton_37
+SRR26969864	2023	Chicken	cluster_20
+SRR27167859	2023	Chicken	cluster_20
+SRR27167885	2023	Chicken	cluster_20
+SRR27315653	2021	Chicken	cluster_8
+SRR27325885	2021	Chicken	cluster_8
+SRR27326903	2021	Chicken	cluster_8
+SRR27399431	2021	Chicken	cluster_8
+SRR27399441	2021	Chicken	cluster_8
+SRR27474432	2023	Chicken	cluster_20
+SRR27643849	2021	Chicken	cluster_8
+SRR27643850	2021	Chicken	cluster_8
+SRR27645742	2021	Chicken	cluster_8
+SRR27677563	2024	Human	cluster_15
+SRR27712793	2021	Chicken	cluster_8
+SRR27880194	2024	Human	cluster_20
+SRR27959481	2024	Chicken	cluster_20
+SRR28005608	2024	Human	cluster_15
+SRR28074039	2024	Chicken	cluster_20
+SRR28083728	2024	Chicken	cluster_21
+SRR28151757	2024	Chicken	cluster_20
+SRR28215382	2024	Turkey	singleton_1
+SRR28275142	2024	Unspecified Animal	cluster_20
+SRR28355185	2024	Human	singleton_30
+SRR3713630	Unknown	Human	singleton_23
+SRR3726306	2016	Swine	cluster_4
+SRR3953328	2016	Swine	singleton_8
+SRR4434279	2016	Swine	cluster_22
+SRR5019529	2016	Swine	cluster_22
+SRR5045022	2016	Swine	cluster_22
+SRR5195876	2016	Chicken	cluster_20
+SRR5221913	2016	Swine	cluster_22
+SRR5235542	2017	Swine	cluster_22
+SRR5238025	1999	Human	singleton_31
+SRR5275044	2016	Human	cluster_1
+SRR5365191	2017	Turkey	singleton_26
+SRR5508255	2015	Human	cluster_10
+SRR5588108	2017	Human	cluster_14
+SRR5664425	Unknown	Human	singleton_24
+SRR5756406	Unknown	Human	cluster_10
+SRR5815869	2017	Swine	cluster_3
+SRR5820361	2017	Human	singleton_20
+SRR5902674	2017	Swine	cluster_22
+SRR5902693	2017	Chicken	cluster_20
+SRR5908425	2016	Human	singleton_10
+SRR5920763	2017	Chicken	singleton_7
+SRR6131649	2017	Swine	cluster_12
+SRR6216164	2017	Human	cluster_8
+SRR6216198	2017	Human	cluster_22
+SRR6249910	2017	Swine	cluster_22
+SRR6294676	2017	Swine	cluster_22
+SRR6345533	2017	Human	singleton_25
+SRR6410454	2017	Human	singleton_19
+SRR6514530	2017	Human	singleton_29
+SRR6902867	2017	Human	singleton_34
+SRR6916730	2018	Swine	cluster_3
+SRR7030841	2018	Chicken	cluster_11
+SRR7300315	2018	Human	cluster_20
+SRR7419512	2016	Human	cluster_1
+SRR7465647	2018	Chicken	singleton_6
+SRR7515380	2018	Human	singleton_17
+SRR7657544	2018	Swine	cluster_22
+SRR7693575	2018	Swine	cluster_22
+SRR7810051	2018	Chicken	cluster_20
+SRR7909693	2018	Human	cluster_19
+SRR7974104	2018	Chicken	cluster_20
+SRR8234000	2018	Chicken	cluster_19
+SRR8265945	2018	Human	cluster_16
+SRR8298864	2018	Human	singleton_22
+SRR8499298	2019	Chicken	cluster_11
+SRR8645010	2019	Turkey	cluster_15
+SRR8754566	2019	Swine	cluster_5
+SRR8926832	2019	Swine	cluster_22
+SRR8995981	2019	Human	cluster_10
+SRR9000444	2019	Turkey	singleton_2
+SRR9029085	Unknown	Human	cluster_10
+SRR9047339	2019	Swine	cluster_22
+SRR9071960	Unknown	Unspecified Animal	cluster_10
+SRR9072093	2019	Human	cluster_10
+SRR9105598	2019	Swine	cluster_22
+SRR9137597	2019	Human	cluster_10
+SRR9143007	2019	Human	cluster_10
+SRR9150148	2019	Human	cluster_10
+SRR9257661	2019	Turkey	singleton_41
+SRR9283031	2019	Human	cluster_10
+SRR9335393	2019	Human	cluster_10
+SRR9593530	2019	Human	cluster_10
+SRR9647872	2019	Human	singleton_16
+SRR9658170	2019	Chicken	cluster_20
+SRR9694870	2019	Human	cluster_16
+SRR9717192	2019	Swine	cluster_18
+SRR9860742	Unknown	Human	singleton_36
+SRR9985579	2019	Human	cluster_10
